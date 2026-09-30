@@ -1,0 +1,14 @@
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+
+# Old hosting files (not used on GitHub Pages)
+.ftpquota
+.htaccess.*
+*.bak
+
+# Local notes
+status.txt
