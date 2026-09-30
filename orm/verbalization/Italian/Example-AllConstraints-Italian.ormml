@@ -1,0 +1,304 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ORMSchema xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:noNamespaceSchemaLocation='http://www.starlab.vub.ac.be/staff/mustafa/ormml.v1.3.xsd' xmlns:dc='http://purl.org/dc/elements/1.1/' OntologyBase="jdbc:microsoft:sqlserver://localhost:1433;DatabaseName=DOGMA/Dogma" Context="Scientific Conference">
+<ORMMeta>
+<Meta Name="DC.Title" Content="Example-AllConstraints-Italian" />
+<Meta Name="DC.Creator" Content="Mustafa Jarrar" />
+<Meta Name="DC.Language" Content="Italian" />
+<import_ORMGS href='C:\Program Files\DOGMA\dm_2005_6_21\Example-AllConstraints-Italian.ormgs'/>
+</ORMMeta>
+<ORMBody>
+<Object xsi:type="NOLOT" Name="Uomo">
+	<Translation Language="Italian" Name="Uomo" Description="" Reference=""/>
+	<Translation Language="German" Name="Uomo" Description="" Reference=""/>
+	<Translation Language="English" Name="Uomo" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Persona">
+	<Translation Language="Italian" Name="Persona" Description="" Reference=""/>
+	<Translation Language="German" Name="Persona" Description="" Reference=""/>
+	<Translation Language="English" Name="Persona" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Donna">
+	<Translation Language="Italian" Name="Donna" Description="" Reference=""/>
+	<Translation Language="German" Name="Donna" Description="" Reference=""/>
+	<Translation Language="English" Name="Donna" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Libro">
+	<Translation Language="Italian" Name="Libro" Description="" Reference=""/>
+	<Translation Language="German" Name="Libro" Description="" Reference=""/>
+	<Translation Language="English" Name="Libro" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Azienda">
+	<Translation Language="Italian" Name="Azienda" Description="" Reference=""/>
+	<Translation Language="German" Name="Azienda" Description="" Reference=""/>
+	<Translation Language="English" Name="Azienda" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Patente">
+	<Translation Language="Italian" Name="Patente" Description="" Reference=""/>
+	<Translation Language="German" Name="Patente" Description="" Reference=""/>
+	<Translation Language="English" Name="Patente" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Conto">
+	<Translation Language="Italian" Name="Conto" Description="" Reference=""/>
+	<Translation Language="German" Name="Conto" Description="" Reference=""/>
+	<Translation Language="English" Name="Conto" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Direttore">
+	<Translation Language="Italian" Name="Direttore" Description="" Reference=""/>
+	<Translation Language="German" Name="Direttore" Description="" Reference=""/>
+	<Translation Language="English" Name="Direttore" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Macchina">
+	<Translation Language="Italian" Name="Macchina" Description="" Reference=""/>
+	<Translation Language="German" Name="Macchina" Description="" Reference=""/>
+	<Translation Language="English" Name="Macchina" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Corso">
+	<Translation Language="Italian" Name="Corso" Description="" Reference=""/>
+	<Translation Language="German" Name="Corso" Description="" Reference=""/>
+	<Translation Language="English" Name="Corso" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Università">
+	<Translation Language="Italian" Name="Università" Description="" Reference=""/>
+	<Translation Language="German" Name="Università" Description="" Reference=""/>
+	<Translation Language="English" Name="Università" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="NoDiPassaporto">
+	<Translation Language="Italian" Name="NoDiPassaporto" Description="" Reference=""/>
+	<Translation Language="German" Name="NoDiPassaporto" Description="" Reference=""/>
+	<Translation Language="English" Name="NoDiPassaporto" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="DataDiNascita">
+	<Translation Language="Italian" Name="DataDiNascita" Description="" Reference=""/>
+	<Translation Language="German" Name="DataDiNascita" Description="" Reference=""/>
+	<Translation Language="English" Name="DataDiNascita" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Nome">
+	<Translation Language="Italian" Name="Nome" Description="" Reference=""/>
+	<Translation Language="German" Name="Nome" Description="" Reference=""/>
+	<Translation Language="English" Name="Nome" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Paese" Datatype="String">
+	<Translation Language="Italian" Name="Paese" Description="" Reference=""/>
+	<Translation Language="German" Name="Paese" Description="" Reference=""/>
+	<Translation Language="English" Name="Paese" Description="" Reference=""/>
+</Object>
+<Subtype>
+	<Parent Object="Persona" Role="types"/>
+	<Child Object="Uomo" Role="isa"/>
+</Subtype>
+<Subtype>
+	<Parent Object="Persona" Role="types"/>
+	<Child Object="Donna" Role="isa"/>
+</Subtype>
+<Subtype>
+	<Parent Object="Persona" Role="types"/>
+	<Child Object="Direttore" Role="isa"/>
+</Subtype>
+<Predicate>
+	<Object_Role ID='Example-AllConstraints-English_ref_217' Object='Donna' Role='EMoglieDi'/>
+	<Object_Role ID='Example-AllConstraints-English_ref_218' Object='Uomo' Role='EMaritoDi'/>
+</Predicate>
+<Predicate>
+	<Object_Role ID='Example-AllConstraints-English_ref_219' Object='Donna' Role='SorellaDi'/>
+	<Object_Role ID='Example-AllConstraints-English_ref_220' Object='Donna' Role=' '/>
+</Predicate>
+<Predicate>
+	<Object_Role ID='Example-AllConstraints-English_ref_221' Object='Persona' Role=' '/>
+	<Object_Role ID='Example-AllConstraints-English_ref_222' Object='Persona' Role='GenitoreDi'/>
+</Predicate>
+<Predicate>
+	<Object_Role ID='Example-AllConstraints-English_ref_223' Object='Persona' Role=' '/>
+	<Object_Role ID='Example-AllConstraints-English_ref_224' Object='Persona' Role='CollegaDi'/>
+</Predicate>
+<Predicate>
+	<Object_Role ID='Example-AllConstraints-English_ref_225' Object='Persona' Role='PrincipaleDi'/>
+	<Object_Role ID='Example-AllConstraints-English_ref_226' Object='Persona' Role=' '/>
+</Predicate>
+<Predicate>
+	<Object_Role ID='Example-AllConstraints-English_ref_227' Object='Persona' Role='Recensisce'/>
+	<Object_Role ID='Example-AllConstraints-English_ref_228' Object='Libro' Role=' '/>
+</Predicate>
+<Predicate>
+	<Object_Role ID='Example-AllConstraints-English_ref_229' Object='Persona' Role='Scrive'/>
+	<Object_Role ID='Example-AllConstraints-English_ref_230' Object='Libro' Role=' '/>
+</Predicate>
+<Predicate>
+	<Object_Role ID='Example-AllConstraints-English_ref_231' Object='Persona' Role='EAffiliataCon'/>
+	<Object_Role ID='Example-AllConstraints-English_ref_232' Object='Azienda' Role=' '/>
+</Predicate>
+<Predicate>
+	<Object_Role ID='Example-AllConstraints-English_ref_233' Object='Persona' Role='LavoraPer'/>
+	<Object_Role ID='Example-AllConstraints-English_ref_234' Object='Azienda' Role=' '/>
+</Predicate>
+<Predicate>
+	<Object_Role ID='Example-AllConstraints-English_ref_235' Object='Persona' Role='Ha'/>
+	<Object_Role ID='Example-AllConstraints-English_ref_236' Object='Patente' Role=' '/>
+</Predicate>
+<Predicate>
+	<Object_Role ID='Example-AllConstraints-English_ref_237' Object='Persona' Role=' '/>
+	<Object_Role ID='Example-AllConstraints-English_ref_238' Object='Conto' Role='PossedutaDa'/>
+</Predicate>
+<Predicate>
+	<Object_Role ID='Example-AllConstraints-English_ref_239' Object='Conto' Role='PossedutaDa'/>
+	<Object_Role ID='Example-AllConstraints-English_ref_240' Object='Azienda' Role=' '/>
+</Predicate>
+<Predicate>
+	<Object_Role ID='Example-AllConstraints-English_ref_241' Object='Direttore' Role='Conduce'/>
+	<Object_Role ID='Example-AllConstraints-English_ref_242' Object='Azienda' Role=' '/>
+</Predicate>
+<Predicate>
+	<Object_Role ID='Example-AllConstraints-English_ref_244' Object='Persona' Role='Guida'/>
+	<Object_Role ID='Example-AllConstraints-English_ref_243' Object='Macchina' Role=' '/>
+</Predicate>
+<Predicate>
+	<Object_Role ID='Example-AllConstraints-English_ref_246' Object='Persona' Role='Insegna'/>
+	<Object_Role ID='Example-AllConstraints-English_ref_245' Object='Corso' Role=' '/>
+</Predicate>
+<Predicate>
+	<Object_Role ID='Example-AllConstraints-English_ref_248' Object='Persona' Role='LavoraPer'/>
+	<Object_Role ID='Example-AllConstraints-English_ref_247' Object='Università' Role=' '/>
+</Predicate>
+<Predicate>
+	<Object_Role ID='Example-AllConstraints-English_ref_249' Object='NoDiPassaporto' Role='FaParteDi'/>
+	<Object_Role ID='Example-AllConstraints-English_ref_250' Object='Persona' Role='Ha'/>
+</Predicate>
+<Predicate>
+	<Object_Role ID='Example-AllConstraints-English_ref_251' Object='DataDiNascita' Role='FaParteDi'/>
+	<Object_Role ID='Example-AllConstraints-English_ref_252' Object='Persona' Role='Ha'/>
+</Predicate>
+<Predicate>
+	<Object_Role ID='Example-AllConstraints-English_ref_253' Object='Nome' Role='FaParteDi'/>
+	<Object_Role ID='Example-AllConstraints-English_ref_254' Object='Persona' Role='Ha'/>
+</Predicate>
+<Predicate>
+	<Object_Role ID='Example-AllConstraints-English_ref_255' Object='Paese' Role='FaParteDi'/>
+	<Object_Role ID='Example-AllConstraints-English_ref_256' Object='Persona' Role='Ha'/>
+</Predicate>
+<Constraint xsi:type="Mandatory">
+	<Object_Role>Example-AllConstraints-English_ref_250</Object_Role>
+</Constraint>
+<Constraint xsi:type="Mandatory">
+	<Object_Role>Example-AllConstraints-English_ref_252</Object_Role>
+</Constraint>
+<Constraint xsi:type="Total">
+	<Supertype>Persona</Supertype>
+	<Subtype>Donna</Subtype>
+	<Subtype>Uomo</Subtype>
+</Constraint>
+<Constraint xsi:type="Exclusive">
+	<Supertype>Persona</Supertype>
+	<Subtype>Donna</Subtype>
+	<Subtype>Uomo</Subtype>
+</Constraint>
+<Constraint xsi:type="acyclic">
+	<Object_Role>Example-AllConstraints-English_ref_225</Object_Role>
+	<Object_Role>Example-AllConstraints-English_ref_226</Object_Role>
+</Constraint>
+<Constraint xsi:type="acyclic">
+	<Object_Role>Example-AllConstraints-English_ref_219</Object_Role>
+	<Object_Role>Example-AllConstraints-English_ref_220</Object_Role>
+</Constraint>
+<Constraint xsi:type="asymmetric">
+	<Object_Role>Example-AllConstraints-English_ref_217</Object_Role>
+	<Object_Role>Example-AllConstraints-English_ref_218</Object_Role>
+</Constraint>
+<Constraint xsi:type="Mandatory">
+	<Object_Role>Example-AllConstraints-English_ref_238</Object_Role>
+	<Object_Role>Example-AllConstraints-English_ref_239</Object_Role>
+</Constraint>
+<Constraint xsi:type="Subset">
+	<Parent>
+		<Object_Role>Example-AllConstraints-English_ref_235</Object_Role>
+	</Parent>
+	<Child>
+		<Object_Role>Example-AllConstraints-English_ref_244</Object_Role>
+	</Child>
+</Constraint>
+<Constraint xsi:type="Equality">
+	<First>
+		<Object_Role>Example-AllConstraints-English_ref_246</Object_Role>
+	</First>
+	<Second>
+		<Object_Role>Example-AllConstraints-English_ref_248</Object_Role>
+	</Second>
+</Constraint>
+<Constraint xsi:type="Subset">
+	<Parent>
+		<Object_Role>Example-AllConstraints-English_ref_233</Object_Role>
+		<Object_Role>Example-AllConstraints-English_ref_234</Object_Role>
+	</Parent>
+	<Child>
+		<Object_Role>Example-AllConstraints-English_ref_241</Object_Role>
+		<Object_Role>Example-AllConstraints-English_ref_242</Object_Role>
+	</Child>
+</Constraint>
+<Constraint xsi:type="Equality">
+	<First>
+		<Object_Role>Example-AllConstraints-English_ref_233</Object_Role>
+		<Object_Role>Example-AllConstraints-English_ref_234</Object_Role>
+	</First>
+	<Second>
+		<Object_Role>Example-AllConstraints-English_ref_231</Object_Role>
+		<Object_Role>Example-AllConstraints-English_ref_232</Object_Role>
+	</Second>
+</Constraint>
+<Constraint xsi:type="Exclusion">
+	<First>
+		<Object_Role>Example-AllConstraints-English_ref_229</Object_Role>
+		<Object_Role>Example-AllConstraints-English_ref_230</Object_Role>
+	</First>
+	<Second>
+		<Object_Role>Example-AllConstraints-English_ref_227</Object_Role>
+		<Object_Role>Example-AllConstraints-English_ref_228</Object_Role>
+	</Second>
+</Constraint>
+<Constraint xsi:type="Exclusion">
+	<First>
+		<Object_Role>Example-AllConstraints-English_ref_239</Object_Role>
+	</First>
+	<Second>
+		<Object_Role>Example-AllConstraints-English_ref_238</Object_Role>
+	</Second>
+</Constraint>
+<Constraint xsi:type="Uniqueness">
+	<Object_Role>Example-AllConstraints-English_ref_251</Object_Role>
+	<Object_Role>Example-AllConstraints-English_ref_253</Object_Role>
+</Constraint>
+<Constraint xsi:type="Uniqueness">
+	<Object_Role>Example-AllConstraints-English_ref_252</Object_Role>
+</Constraint>
+<Constraint xsi:type="Uniqueness">
+	<Object_Role>Example-AllConstraints-English_ref_254</Object_Role>
+</Constraint>
+<Constraint xsi:type="Uniqueness">
+	<Object_Role>Example-AllConstraints-English_ref_250</Object_Role>
+</Constraint>
+<Constraint xsi:type="Uniqueness">
+	<Object_Role>Example-AllConstraints-English_ref_249</Object_Role>
+</Constraint>
+<Constraint xsi:type="Uniqueness">
+	<Object_Role>Example-AllConstraints-English_ref_246</Object_Role>
+	<Object_Role>Example-AllConstraints-English_ref_245</Object_Role>
+</Constraint>
+<Constraint xsi:type="Uniqueness">
+	<Object_Role>Example-AllConstraints-English_ref_227</Object_Role>
+	<Object_Role>Example-AllConstraints-English_ref_228</Object_Role>
+</Constraint>
+<Constraint xsi:type="Uniqueness">
+	<Object_Role>Example-AllConstraints-English_ref_229</Object_Role>
+	<Object_Role>Example-AllConstraints-English_ref_230</Object_Role>
+</Constraint>
+<Constraint xsi:type="Uniqueness">
+	<Object_Role>Example-AllConstraints-English_ref_244</Object_Role>
+	<Object_Role>Example-AllConstraints-English_ref_243</Object_Role>
+</Constraint>
+<Constraint xsi:type="Frequency" Minimum="3" Maximum="6">
+	<Object_Role>Example-AllConstraints-English_ref_246</Object_Role>
+</Constraint>
+<Constraint xsi:type="Value" Object="Paese">
+	<Value Datatype="String">Belgio</Value>
+	<Value Datatype="String">Francia</Value>
+	<Value Datatype="String">Germania</Value>
+</Constraint>
+</ORMBody>
+</ORMSchema>

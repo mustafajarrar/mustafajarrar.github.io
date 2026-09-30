@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+
+<html ng-app="app" lang="en"  id="ng-app">
+
+<head>   
+   <title>Data Engineering Course</title> 
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+   <meta property="header" content="Data Engineering" />
+   <meta property="og:url" content="http://www.jarrar.info/courses/DataEngineering/index.htm" />
+   <meta property="og:title" content="Data Engineering Course" />
+   <meta property="title" content="Data Engineering Course" />
+   <meta property="og:image" content="http://www.jarrar.info/courses/DataEngineering/DataEng.jpg" />
+   <meta name="author" content="Mustafa Jarrar">
+		
+  <meta name="description" content="by Mustafa Jarrar: conceptual modeling, business rules, Semantic Web technologies, ontology engineering, modern knowledge-based web applications, and data governance, مصطفى جرار، هندسة المعرفة، تقنيات اللوب الدلالي، الانطولوجيا، حوكمة البيانات"> 
+
+ <meta name="keywords" content="Mustafa Jarrar, مصطفى جرار, Artificial Intelligence, Arabic NLP, Natural Language Processing, Computational Linguistics, Ontology Engineering, Semantic Web, Graph Databases, Arabic Ontology, SinaTools, Wojood NER, SinaLab, Hamad Bin Khalifa University, Birzeit University, Arabic Dialect Processing, Lexical Semantics, Digital Humanities, Knowledge Engineering, eGovernment">
+
+
+   <!-- <base href="http://www.jarrar.info">  -->
+   <link rel="stylesheet" type="text/css" href="../../main.css">    
+   <link rel="icon" href="favicon.png">  
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-NHGQ7491PC"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-NHGQ7491PC');
+</script>
+
+
+<style>
+.LectureTitle{
+	font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
+	font-size: 17px;
+	font-style: normal;
+	font-variant: normal;
+	line-height: 30px;
+	vertical-align: 5px;
+}
+		
+.VedioIcon{ 
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 10px;
+    width: 25px;
+  }
+		
+.NormalText{
+	font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
+	font-size: 17px;
+	font-style: normal;
+	font-variant: normal;
+	line-height: 20px;
+}
+
+</style>
+
+</head> 
+
+<body>
+<div style="min-width: 335px; padding-right:0px;">
+
+<div style="overflow: hidden; border:1px solid #dedede;  background:#f5f5f5;">
+
+  <div style="text-align: right; float: right;  padding-top:7px;">
+    <a href="https://scholar.google.com/citations?user=HiUpTkcAAAAJ&amp;hl=en"><img src="http://www.jarrar.info/images/GoogleScholar.png" style="padding-right:8px;" height="20" width="20" alt="My Google Scholar"></a>
+    <a href="https://www.researchgate.net/profile/Mustafa_Jarrar"><img src="http://www.jarrar.info/images/RG.jpg" style="padding-right:8px;" height="20" width="20" alt="My Research Gate"></a>
+    <a href="http://www.facebook.com/profile.php?id=100000636218726"><img src="http://www.jarrar.info/images/face.png" style="padding-right:8px;" height="20" width="20" alt="My  Faceboo profile"></a>
+    <a href="http://www.linkedin.com/in/jarrar"><img src="http://www.jarrar.info/images/lin.png"  style="padding-right:8px;" height="20" width="20" alt="My LinkedIn profile"></a>
+    <a href="https://twitter.com/#%21/mjarrar"><img src="http://www.jarrar.info/images/twit.png" style="padding-right:8px;" height="20" width="20" alt="My Twitter profile"></a>
+    <a href="http://www.slideshare.net/jarrar02/presentations"><img src="http://www.jarrar.info/images/slideshare.png"  style="padding-right:8px;" height="20" width="20" alt="My Slideshare profile"></a>
+    <a href="https://www.youtube.com/user/JarrarChannel/featured"><img src="http://www.jarrar.info/images/youtube.png"  style="padding-right:8px;" height="20" width="20" alt="My Youtube profile"></a>
+    <a href="https://orcid.org/0000-0003-4351-4207"><img src="http://www.jarrar.info/images/orcid.png" height="14"  alt="orcid"></a>
+   </div> 
+  <BR> 
+ 
+ <div class="topsection">
+
+ <img src="http://www.jarrar.info/Photos/photo.jpg" alt="MustafaPhotoe" style=" float:left;  height: 110px; width: 110px; border-radius: 50%; padding: 17px 7px 10px 3px"/>
+
+  
+  <div style="float:left;   text-align: left;"> 
+   <div style=" padding-top: 25px; font-size: 160%; font-weight: bold;"> Mustafa Jarrar </div>
+   <div style="padding-top: 10px;font-style: italic;">Full Professor</div>
+   <div style="padding-top: 3px;">Computer Science, Birzeit University</div>
+   <div style="padding-top: 15px; padding-bottom: 15px;">mjarrar(a)birzeit.edu</div>
+  </div>
+  
+ </div>
+
+</div>
+
+
+<div id="navigation" >
+  <a href="http://www.jarrar.info/" style="">CV</a>
+  <a href="http://www.jarrar.info/publications/" style="">Publications</a>
+  <a href="http://www.jarrar.info/Talks/" style="">Talks</a>
+  <a href="http://www.jarrar.info/courses/" class="active">Courses</a>
+</div>
+
+   
+<div style="background-color: white;   min-width: 700px; box-shadow: 0px 0px 1px #888888; padding: 5px; border-left-style:  solid; border-left-width:10px; border-left-color:#D8D8D8; border-radius: 3px; ">
+
+
+<table>
+<tr>
+<td width="30"></td>
+<td valign="top">
+  <iframe width="300" height="200" src="https://www.youtube.com/embed/videoseries?si=FF-0zwnEY5DG6Wqj&amp;list=PLSu_tNkEO5Y0Md13Vs0l1tpfQbgBPfhar" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+</td>
+<td valign="top">
+<div style="font-size: 20px; font-weight: bold; margin-left: 10px;">Data Engineering</div>
+<span style="font-size:17px">
+<div class="NormalText" style="margin-left: 10px;">
+
+<BR>
+The main topics are: (i) Graph data models and semantics: RDF, OWL, SPARQL, and others; (iii) System and Data Integration: Data in service-oriented architectures, schema-based integration, data fusion, web data mashup services, data identity management, Data Web, Linked Data, RDFa, Data Analytics, Language Engineering,  and Modern search engines. 
+<BR>
+</span>
+ 
+  <BR/>
+ <!-- <a href="Jarrar.LectureNotes.KnowledgeEngineering.Outline.pdf" target="_blank">
+Course Outline </a> -->
+ <BR/>
+ <div class="fb-share-button" data-href="http://www.jarrar.info/courses/KnowledgeEngineering/" data-layout="button_count" data-size="small" data-mobile-iframe="true">
+ <a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.jarrar.info%2Fcourses%2FKnowledgeEngineering%2F&amp;src=sdkpreparse">Share</a>
+ </div>
+ 
+ 
+</td>
+</tr></table>
+<BR/><BR/>
+
+<div>
+  <img src="../../courses/vedio1.png" class="VedioIcon" alt="Vedio lecture"/>
+  <span class="LectureTitle">
+    <a href="https://www.youtube.com/watch?v=mrbvjAdhSHM&t=5s&list=PLSu_tNkEO5Y1Jqt3xcke3Jj7oEt3YXJA2&index=1">
+     RDF Graph Data Model</a>
+   (<a href="http://www.jarrar.info/courses/KnowledgeEngineering/Jarrar.LectureNotes.RDF.pdf" target="_blank">Slides</a>) 
+  </span>
+</div>
+
+<div >
+<img src="../../courses/vedio1.png" class="VedioIcon" alt="Vedio lecture"/>
+<span class="LectureTitle">
+ <a href="https://www.youtube.com/watch?v=-vSFKHKx2ms&list=PLSu_tNkEO5Y0bIR91J_w6sCIV8TI-UwoM">
+  RDFs - RDF Schema</a>
+  (<a href="http://www.jarrar.info/courses/KnowledgeEngineering/Jarrar.LectureNotes.RDFS.pdf" target="_blank">Slides</a>) 
+ </span>
+</div>
+
+<div>
+<img src="../../courses/vedio1.png" class="VedioIcon" alt="Vedio lecture"/>
+<span class="LectureTitle">
+<a href="https://www.youtube.com/watch?v=5Kr4JzqDO_w&list=PLSu_tNkEO5Y34TcUj-4EWs5AtTGUdBZT9">
+  OWL - Ontology Web Language </a>
+(<a href="http://www.jarrar.info/courses/KnowledgeEngineering/Jarrar.LectureNotes.OWL.pdf" target="_blank">Slides</a>)
+</span>
+</div>
+
+<div>
+<img src="../../courses/vedio1.png" class="VedioIcon" alt="Vedio lecture"/>
+<span class="LectureTitle">
+<a href="https://www.youtube.com/watch?v=KJUrNjMATuA&list=PLSu_tNkEO5Y1i6FqJPSNHqFoYDGWQfpVu">
+  SPARQL - RDF Query languages </a>
+  (<a href="http://www.jarrar.info/courses/WebData/Jarrar.LectureNotes.SPARQL.pdf" target="_blank">Slides</a>) 
+</span>
+</div>
+
+<div>
+<img src="../../courses/vedio1.png" class="VedioIcon" alt="Vedio lecture"/>
+<span class="LectureTitle">
+<a href="https://www.youtube.com/watch?v=chYftg1bJCg&list=PLSu_tNkEO5Y38iJ9nvlzaNf1Aeb7EgzsA">
+  RDF Stores and Graph Databases </a>
+  (<a href="http://www.jarrar.info/courses/WebData/Jarrar.LectureNotes.RDFStores.pdf" target="_blank">Slides</a>) 
+</span>
+</div>
+
+<div>
+<img src="../../courses/vedio1.png" class="VedioIcon" alt="Vedio lecture"/>
+<span class="LectureTitle">
+<a href="https://www.youtube.com/watch?v=SFbGTzhPy1A">
+  Linked Open Data </a>
+  (<a href="http://www.jarrar.info/courses/WebData/Jarrar.LectureNotes.LinkedOpenData.pdf" target="_blank">Slides</a>) 
+</span> 
+</div>
+
+<div>
+<img src="../../courses/vedio1.png" class="VedioIcon" alt="Vedio lecture"/>
+  <span class="LectureTitle">
+<a href="https://www.youtube.com/watch?v=TEgHq2J1OMo&list=PLSu_tNkEO5Y1CJV-Uu6vr6YoAIZFN9RTe">
+ Data Integration </a>
+ (<a href="http://www.jarrar.info/courses/WebData/Jarrar.LectureNotes.DataIntegration.pdf" target="_blank">Slides</a>) 
+ </span> 
+</div>
+
+<div>
+<img src="../../courses/vedio1.png" class="VedioIcon" alt="Vedio lecture"/>
+<span class="LectureTitle">
+<a href="https://www.youtube.com/watch?v=1BMmpV4yU10&list=PLSu_tNkEO5Y2SmeY5Fd-OzGeyiQWQRvTY">
+  Architectural Solutions for Data Integration </a>
+  (<a href="http://www.jarrar.info/courses/WebData/Jarrar.LectureNotes.ArchitecturalDataIntegration.pdf" target="_blank">Slides</a>) 
+</div>
+
+<div>
+<img src="../../courses/vedio1.png" class="VedioIcon" alt="Vedio lecture"/>
+<span class="LectureTitle">
+<a href="https://www.youtube.com/watch?v=VJtF_7ptln4&list=PLSu_tNkEO5Y3vt0BoNqmD_jzGz9cJ0IUQ">
+  Schema Integration </a>
+  (<a href="http://www.jarrar.info/courses/WebData/Jarrar.LectureNotes.SchemaIntegration.pdf" target="_blank">Slides</a>) 
+</span> 
+</div>
+
+<div>
+<img src="../../courses/vedio1.png" class="VedioIcon" alt="Vedio lecture"/>
+<span class="LectureTitle">
+<a href="https://www.youtube.com/watch?v=rH9mksypcNw&list=PLSu_tNkEO5Y2Z5svNHeWoMSsNYflUBgqx">
+  Data Fusion using RDF </a>
+  (<a href="http://www.jarrar.info/courses/WebData/Jarrar.LectureNotes.DataFusion.pdf" target="_blank">Slides</a>) 
+</span> 
+</div>
+
+<div>
+<img src="../../courses/vedio1.png" class="VedioIcon" alt="Vedio lecture"/>
+<span class="LectureTitle">
+<a href="https://www.youtube.com/watch?v=-PgiURRcSQk&list=PLSu_tNkEO5Y1Srdpzkcm1U_8P50AleWtV">
+  Zinnar: The Palestinian e-Government Interoperability Framework </a>
+(<a href="http://www.jarrar.info/courses/Jarrar.LectureNotes.Zinnar.pdf" target="_blank">Slides</a>)
+</span> 
+</div>
+
+<div>
+<img src="../../courses/vedio1.png" class="VedioIcon" alt="Vedio lecture"/>
+  <span class="LectureTitle">
+<a href="https://www.youtube.com/watch?v=rrMnJo3m6EE&list=PLSu_tNkEO5Y295vV9Tyvec62dyKnGulqw">
+ RDFa  </a>
+ (<a href="http://www.jarrar.info/courses/WebData/Jarrar.LectureNotes.RDFa.pdf" target="_blank">Slides</a>) 
+ </span> 
+</div>
+
+<div>
+<img src="../../courses/vedio1.png" class="VedioIcon" alt="Vedio lecture"/>
+  <span class="LectureTitle">
+<a href="https://www.youtube.com/watch?v=TGbinBzsITw">
+ The Semantic Web Vision </a>
+ (<a href="http://www.jarrar.info/courses/WebData/Jarrar.LectureNotes.SemanticWebVision.pdf" target="_blank">Slides</a>) 
+ </span>
+</div>
+
+<div>
+<img src="../../courses/vedio1.png" class="VedioIcon" alt="Vedio lecture"/>
+  <span class="LectureTitle">
+<a href="https://www.youtube.com/watch?v=nvGcmBplQ7M&list=PLSu_tNkEO5Y1ysEULgbPO1Cc50p-6I2Qq">
+ Web 2.0 Data Mashups </a>
+ (<a href="http://www.jarrar.info/courses/WebData/Jarrar.LectureNotes.Web2.0DataMashups.pdf" target="_blank">Slides</a>) 
+ </span> 
+</div>
+
+<div>
+<img src="../../courses/vedio1.png" class="VedioIcon" alt="Vedio lecture"/>
+<span class="LectureTitle">
+  Data Analytics
+  (<a href="http://www.jarrar.info/courses/AI/Jarrar.LectureNotes.AI.IntoMachineLearning.pdf" target="_blank">Slides</a>) 
+</span> 
+</div>
+
+
+<div>
+<img src="../../courses/vedio1.png" class="VedioIcon" alt="Vedio lecture"/>
+<span class="LectureTitle">
+  Data Classification
+  (<a href="http://www.jarrar.info/courses/AI/Jarrar.LectureNotes.AI.DecisionTrees.pdf" target="_blank">Slides</a>) 
+</span> 
+</div>
+
+<div>
+<img src="../../courses/vedio1.png" class="VedioIcon" alt="Vedio lecture"/>
+<span class="LectureTitle">
+  Regression
+  (<a href="http://www.jarrar.info/courses/AI/Jarrar.LectureNotes.AI.LinearRegression.pdf" target="_blank">Slides</a>) 
+</span> 
+</div>
+
+<BR/><BR/>
+<div class="CourseTitle" style="margin-left: 0px;"> <B> Synthesis Paper </B> </div> <BR/>
+
+Each student is expected to write a synthesis paper and deliver a presentation about one 
+of the listed topics. The paper should address a data engineering issue. Students are 
+expected to read and cite (at least 5 refereed papers) to support their viewpoints. 
+Citing websites and Wikis is allowed but should be limited; the extreme majority of the 
+references should be recent research papers. Again, the paper should NOT be a summary of 
+others’ papers, but rather, it should also represent your (own) opinion -and your opinion 
+should reflect the state-of-art in research and possible applications related to the 
+selected topic. The highest mark will be given to students who (i) cite the most important 
+research and applications related to the topic, (ii) give better criticism and comparison 
+on these paper, and present innovative ideas and solutions, and (iii) his/her English and 
+writing style is perfect. The paper should be written in this template: 
+<BR/><a href ="SynthesisPaper_Template.doc">SynthesisPaper_Template.doc</a>
+
+<BR/>Students are expected to give a seminar presentation in the class (10 minutes only) about their paper.
+
+<BR/><B>Deadlines:</B><BR/>
+20/4/2019 First draft of the presentations should be delivered in PowerPoint format – so to get general comments.<BR/>
+1/5/2019 First draft of the Synthesis Paper will be presented in the class – so to get general comments.<BR/>
+15/5/2019 Final PowerPoint Presentation: Each student will be given 10 minutes only to present her/his topic in the class.<BR/>
+1/6/2019 Final Synthesis Paper in PDF format. 
+<BR/>
+<BR/><B>Proposed Topics:</B><BR/>
+<ul>
+<li>Big Data and Hadoop, HDFS, MapReduce</li>
+<li>Spark framework</li>
+<li>No-SQL databases</li>
+<li>Data integration complexities at Palestinian ministries</li>
+<li>Health data integration </li>
+<li>Linguistic data integration</li>
+<li>GIS databases and queries </li>
+<li>Data streaming</li>
+<li>Query Formulation for Graph Data</li>
+<li>Structured Data for Search Engine Optimization</li>
+<li>Knowledge Graphs (DBPedia, Arabic DBPedia, Yago, etc.)</li>
+<li>Entity resolution</li>
+<li>Software Localization and Arabization</li>
+
+</ul>
+
+<div>
+<BR><BR>
+<BR><BR>
+Old <a href="http://jarrar-courses.blogspot.com/2011/09/knowledgeengineering-fall2011.html"> webpage<a/>
+
+<BR><BR>
+</div>
+
+
+
+</div>
+
+
+</body>
+ </html>
+ 

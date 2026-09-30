@@ -1,0 +1,167 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ORMSchema xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:noNamespaceSchemaLocation='http://starlab.vub.ac.be/ORMML/ormml.xsd' xmlns:dc='http://purl.org/dc/elements/1.1/'>
+<ORMBody>
+<Object Name='Homme' x='631' y='669' width='97' height='52' ColorRGB='-1'/>
+<Object Name='Personne' x='564' y='286' width='231' height='171' ColorRGB='-1'/>
+<Object Name='Femme' x='295' y='670' width='85' height='50' ColorRGB='-1'/>
+<Object Name='Libre' x='1185' y='317' width='117' height='56' ColorRGB='-1'/>
+<Object Name='Compagnie' x='1186' y='615' width='117' height='60' ColorRGB='-1'/>
+<Object Name='PermisDeConduire' x='1179' y='423' width='191' height='47' ColorRGB='-1'/>
+<Object Name='Compte' x='992' y='804' width='105' height='48' ColorRGB='-1'/>
+<Object Name='Directeur' x='775' y='667' width='90' height='69' ColorRGB='-1'/>
+<Object Name='Voiture' x='1185' y='494' width='137' height='44' ColorRGB='-1'/>
+<Object Name='Cours' x='1186' y='218' width='117' height='51' ColorRGB='-1'/>
+<Object Name='Universite' x='1186' y='151' width='117' height='46' ColorRGB='-1'/>
+<Object Name='NoPasseport' x='113' y='406' width='150' height='35' ColorRGB='-1'/>
+<Object Name='DateDeNaissance' x='89' y='346' width='172' height='35' ColorRGB='-1'/>
+<Object Name='Nom' x='150' y='274' width='105' height='35' ColorRGB='-1'/>
+<Object Name='Pays' x='155' y='463' width='105' height='35' ColorRGB='-1'/>
+<Predicate FirstObjectRoleID='Example-AllConstraints-English:217' SecondObjectRoleID='Example-AllConstraints-English:218' x='401' y='678' width='213' height='35' ColorRGB='-1'/>
+<Predicate FirstObjectRoleID='Example-AllConstraints-English:219' SecondObjectRoleID='Example-AllConstraints-English:220' x='228' y='791' width='227' height='35' ColorRGB='-1'/>
+<Predicate FirstObjectRoleID='Example-AllConstraints-English:221' SecondObjectRoleID='Example-AllConstraints-English:222' x='361' y='178' width='168' height='35' ColorRGB='-1'/>
+<Predicate FirstObjectRoleID='Example-AllConstraints-English:223' SecondObjectRoleID='Example-AllConstraints-English:224' x='708' y='112' width='201' height='35' ColorRGB='-1'/>
+<Predicate FirstObjectRoleID='Example-AllConstraints-English:225' SecondObjectRoleID='Example-AllConstraints-English:226' x='451' y='112' width='245' height='35' ColorRGB='-1'/>
+<Predicate FirstObjectRoleID='Example-AllConstraints-English:227' SecondObjectRoleID='Example-AllConstraints-English:228' x='913' y='291' width='235' height='35' ColorRGB='-1'/>
+<Predicate FirstObjectRoleID='Example-AllConstraints-English:229' SecondObjectRoleID='Example-AllConstraints-English:230' x='913' y='371' width='235' height='35' ColorRGB='-1'/>
+<Predicate FirstObjectRoleID='Example-AllConstraints-English:231' SecondObjectRoleID='Example-AllConstraints-English:232' x='918' y='563' width='232' height='35' ColorRGB='-1'/>
+<Predicate FirstObjectRoleID='Example-AllConstraints-English:233' SecondObjectRoleID='Example-AllConstraints-English:234' x='919' y='628' width='229' height='35' ColorRGB='-1'/>
+<Predicate FirstObjectRoleID='Example-AllConstraints-English:235' SecondObjectRoleID='Example-AllConstraints-English:236' x='915' y='430' width='230' height='35' ColorRGB='-1'/>
+<Predicate FirstObjectRoleID='Example-AllConstraints-English:237' SecondObjectRoleID='Example-AllConstraints-English:238' x='693' y='811' width='239' height='35' ColorRGB='-1'/>
+<Predicate FirstObjectRoleID='Example-AllConstraints-English:239' SecondObjectRoleID='Example-AllConstraints-English:240' x='1028' y='737' width='238' height='35' ColorRGB='-1'/>
+<Predicate FirstObjectRoleID='Example-AllConstraints-English:241' SecondObjectRoleID='Example-AllConstraints-English:242' x='917' y='685' width='235' height='35' ColorRGB='-1'/>
+<Predicate FirstObjectRoleID='Example-AllConstraints-English:244' SecondObjectRoleID='Example-AllConstraints-English:243' x='915' y='499' width='233' height='35' ColorRGB='-1'/>
+<Predicate FirstObjectRoleID='Example-AllConstraints-English:246' SecondObjectRoleID='Example-AllConstraints-English:245' x='913' y='227' width='235' height='35' ColorRGB='-1'/>
+<Predicate FirstObjectRoleID='Example-AllConstraints-English:248' SecondObjectRoleID='Example-AllConstraints-English:247' x='913' y='157' width='235' height='35' ColorRGB='-1'/>
+<Predicate FirstObjectRoleID='Example-AllConstraints-English:249' SecondObjectRoleID='Example-AllConstraints-English:250' x='281' y='407' width='226' height='35' ColorRGB='-1'/>
+<Predicate FirstObjectRoleID='Example-AllConstraints-English:251' SecondObjectRoleID='Example-AllConstraints-English:252' x='281' y='347' width='226' height='35' ColorRGB='-1'/>
+<Predicate FirstObjectRoleID='Example-AllConstraints-English:253' SecondObjectRoleID='Example-AllConstraints-English:254' x='275' y='275' width='226' height='35' ColorRGB='-1'/>
+<Predicate FirstObjectRoleID='Example-AllConstraints-English:255' SecondObjectRoleID='Example-AllConstraints-English:256' x='281' y='464' width='226' height='35' ColorRGB='-1'/>
+<ORConnector ObjectName='Homme' Object_RoleID='Example-AllConstraints-English:218' PortType='Middleright' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Femme' Object_RoleID='Example-AllConstraints-English:217' PortType='Middleleft' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Femme' Object_RoleID='Example-AllConstraints-English:220' PortType='Topright' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Femme' Object_RoleID='Example-AllConstraints-English:219' PortType='Topleft' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Personne' Object_RoleID='Example-AllConstraints-English:222' PortType='Middleright' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Personne' Object_RoleID='Example-AllConstraints-English:221' PortType='Bottomleft' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Personne' Object_RoleID='Example-AllConstraints-English:224' PortType='Bottomright' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Personne' Object_RoleID='Example-AllConstraints-English:223' PortType='Bottomleft' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Personne' Object_RoleID='Example-AllConstraints-English:226' PortType='Bottomright' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Personne' Object_RoleID='Example-AllConstraints-English:225' PortType='Bottomleft' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Libre' Object_RoleID='Example-AllConstraints-English:228' PortType='Middleright' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Personne' Object_RoleID='Example-AllConstraints-English:227' PortType='Middleleft' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Libre' Object_RoleID='Example-AllConstraints-English:230' PortType='Middleright' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Personne' Object_RoleID='Example-AllConstraints-English:229' PortType='Middleleft' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Compagnie' Object_RoleID='Example-AllConstraints-English:232' PortType='Middleright' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Personne' Object_RoleID='Example-AllConstraints-English:231' PortType='Middleleft' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Compagnie' Object_RoleID='Example-AllConstraints-English:234' PortType='Middleright' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Personne' Object_RoleID='Example-AllConstraints-English:233' PortType='Middleleft' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='PermisDeConduire' Object_RoleID='Example-AllConstraints-English:236' PortType='Middleright' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Personne' Object_RoleID='Example-AllConstraints-English:235' PortType='Middleleft' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Compte' Object_RoleID='Example-AllConstraints-English:238' PortType='Middleright' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Personne' Object_RoleID='Example-AllConstraints-English:237' PortType='Topleft' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Compagnie' Object_RoleID='Example-AllConstraints-English:240' PortType='Topright' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Compte' Object_RoleID='Example-AllConstraints-English:239' PortType='Bottomleft' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Compagnie' Object_RoleID='Example-AllConstraints-English:242' PortType='Middleright' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Directeur' Object_RoleID='Example-AllConstraints-English:241' PortType='Middleleft' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Voiture' Object_RoleID='Example-AllConstraints-English:243' PortType='Middleright' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Personne' Object_RoleID='Example-AllConstraints-English:244' PortType='Middleleft' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Cours' Object_RoleID='Example-AllConstraints-English:245' PortType='Middleright' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Personne' Object_RoleID='Example-AllConstraints-English:246' PortType='Middleleft' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Universite' Object_RoleID='Example-AllConstraints-English:247' PortType='Middleright' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Personne' Object_RoleID='Example-AllConstraints-English:248' PortType='Middleleft' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Personne' Object_RoleID='Example-AllConstraints-English:250' PortType='Middleright' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='NoPasseport' Object_RoleID='Example-AllConstraints-English:249' PortType='Middleleft' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Personne' Object_RoleID='Example-AllConstraints-English:252' PortType='Middleright' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='DateDeNaissance' Object_RoleID='Example-AllConstraints-English:251' PortType='Middleleft' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Personne' Object_RoleID='Example-AllConstraints-English:254' PortType='Middleright' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Nom' Object_RoleID='Example-AllConstraints-English:253' PortType='Middleleft' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Personne' Object_RoleID='Example-AllConstraints-English:256' PortType='Middleright' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Pays' Object_RoleID='Example-AllConstraints-English:255' PortType='Middleleft' ObjectCleoneID='-1'/>
+<Subtype SourceObjectName='Homme' TargetObjectName='Personne' SourceObjectCloneID='-1' TargetObjectCloneID='-1'/>
+<Subtype SourceObjectName='Femme' TargetObjectName='Personne' SourceObjectCloneID='-1' TargetObjectCloneID='-1'/>
+<Subtype SourceObjectName='Directeur' TargetObjectName='Personne' SourceObjectCloneID='-1' TargetObjectCloneID='-1'/>
+<ExMandatory x='985' y='780'>
+	<Object_Role ID='Example-AllConstraints-English:238' PortType='Middleright'/>
+	<Object_Role ID='Example-AllConstraints-English:239' PortType='Bottomleft'/>
+</ExMandatory>
+
+<ExUniqueness x='233' y='312'>
+	<Object_Role ID='Example-AllConstraints-English:253' PortType='Middleleft'/>
+	<Object_Role ID='Example-AllConstraints-English:251' PortType='Middleleft'/>
+</ExUniqueness>
+
+<Exclusion x='1023' y='337'>
+	<First>
+		<Object_Role ID='Example-AllConstraints-English:227' PortType='Bottommiddle'/>
+		<Object_Role ID='Example-AllConstraints-English:228' PortType='Bottommiddle'/>
+	</First>
+	<Second>
+		<Object_Role ID='Example-AllConstraints-English:229' PortType='Topmiddle'/>
+		<Object_Role ID='Example-AllConstraints-English:230' PortType='Topmiddle'/>
+	</Second>
+</Exclusion>
+
+<Exclusion x='902' y='729'>
+	<First>
+		<Object_Role ID='Example-AllConstraints-English:239' PortType='Topleft'/>
+	</First>
+	<Second>
+		<Object_Role ID='Example-AllConstraints-English:238' PortType='Topright'/>
+	</Second>
+</Exclusion>
+
+<Equality>
+	<First>
+		<Object_Role ID='Example-AllConstraints-English:246' PortType='Topleft'/>
+	</First>
+	<Second>
+		<Object_Role ID='Example-AllConstraints-English:248' PortType='Bottomleft'/>
+	</Second>
+</Equality>
+
+<Equality>
+	<First>
+		<Object_Role ID='Example-AllConstraints-English:233' PortType='Topmiddle'/>
+		<Object_Role ID='Example-AllConstraints-English:234' PortType='Topmiddle'/>
+	</First>
+	<Second>
+		<Object_Role ID='Example-AllConstraints-English:231' PortType='Bottommiddle'/>
+		<Object_Role ID='Example-AllConstraints-English:232' PortType='Bottommiddle'/>
+	</Second>
+</Equality>
+
+<Subset>
+	<Parent>
+		<Object_Role ID='Example-AllConstraints-English:235' PortType='Bottomleft'/>
+	</Parent>
+	<Child>
+		<Object_Role ID='Example-AllConstraints-English:244' PortType='Topleft'/>
+	</Child>
+</Subset>
+
+<Subset>
+	<Parent>
+		<Object_Role ID='Example-AllConstraints-English:233' PortType='Bottommiddle'/>
+		<Object_Role ID='Example-AllConstraints-English:234' PortType='Bottommiddle'/>
+	</Parent>
+	<Child>
+		<Object_Role ID='Example-AllConstraints-English:241' PortType='Topmiddle'/>
+		<Object_Role ID='Example-AllConstraints-English:242' PortType='Topmiddle'/>
+	</Child>
+</Subset>
+
+<Total x='582' y='516'>
+	<Supertype>Personne</Supertype>
+	<Subtype>Homme</Subtype>
+	<Subtype>Femme</Subtype>
+</Total>
+
+<Exclusive x='588' y='486'>
+	<Supertype>Personne</Supertype>
+	<Subtype>Homme</Subtype>
+	<Subtype>Femme</Subtype>
+</Exclusive>
+
+<Frequency x='861' y='201' RoleID='Example-AllConstraints-English:246' PortType='Middleleft'/>
+
+</ORMBody>
+</ORMSchema>

@@ -1,0 +1,283 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ORMSchema xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:noNamespaceSchemaLocation='http://www.starlab.vub.ac.be/staff/mustafa/orm/verbalization/'>
+
+<ORMNLMeta>
+ <Meta name="DC.Title" content="English verbalization template (Ver0.2)"/>
+ <Meta name="DC.Version" content="0.3"/>
+ <Meta name="DC.Creator" content="Mustafa Jarrar"/>
+ <Meta name="DC.Language" content="English"/>
+ </ORMNLMeta>
+
+<ORMNLBody>
+
+<FactType xsi:type="FactType" > 
+<Text></Text> 
+<Object index="0" /> 
+<Role index="0" /> 
+<Text>/</Text> 
+<Role index="1" /> 
+<Text></Text> 
+<Object index="1" /> 
+</FactType> 
+
+<Constraint xsi:type="Mandatory">
+ <Text> -[Mandatory]  Each</Text>
+ <Object index="0"/>
+ <Text>must</Text>
+ <Role index="0"/>
+ <Text>at least one</Text>
+ <Object index="1"/>
+</Constraint>
+
+<Constraint xsi:type="Backward Mandatory">
+ <Text> -[M]  For each</Text>
+ <Object index="0"/>
+ <Text>there is at least one</Text>
+ <Object index="1"/>
+ <Text>that</Text>
+ <Role index="1"/>
+ <Text>this</Text>
+ <Object index="0"/>
+</Constraint>
+
+<Constraint xsi:type="Disjunctive Mandatory">
+ <Text> -[Mandatory]  Each</Text>
+ <Object index="0"/>
+ <Text>should be</Text>
+ <Role index="0"/>
+ <Object index="1"/>
+ <Loop index="1" >
+  <Text>or</Text>
+  <Role index="n"/>
+  <Object index="n"/>
+ </Loop>
+</Constraint>
+
+<Constraint xsi:type="Uniqueness">
+ <Text> -[Uniqueness]  Each</Text>
+ <Object index="0"/>
+ <Text>must</Text>
+ <Role index="0"/>
+ <Text>at most one</Text>
+ <Object index="1"/>
+</Constraint>
+
+<Constraint xsi:type="Backward Uniqueness">
+ <Text> -[Uniqueness]  For each</Text>
+ <Object index="0"/>
+ <Text>there must be at most one</Text>
+ <Object index="1"/>
+ <Text>that</Text>
+ <Role index="1"/>
+ <Text>this</Text>
+ <Object index="0"/>
+</Constraint> 
+
+<Constraint xsi:type="Many Uniqueness">
+ <Text> -[Uniqueness]  It is possible that </Text>
+ <Object index="0"/>
+<Role index="0"></Role>
+ <Text>more than one</Text>
+ <Object index="1"/>
+ <Text>, and vice versa</Text>
+</Constraint>
+
+<Constraint xsi:type="External Uniqueness">
+ <Text> -[Uniqueness]  The combination of {</Text>
+ <Object index="1"/>
+ <Loop index="1">
+  <Text>and</Text>
+  <Object index="n"/>
+ </Loop>
+ <Text>} must refer to at most one</Text>
+ <Object index="0"/>
+</Constraint>
+
+<Constraint xsi:type="Subtype">
+ <Text> -[Subtype]  Each instance</Text>
+ <Object index="child"/>
+ <Text>is also an instance of</Text>
+ <Object index="parent"/>
+</Constraint>
+
+<Constraint xsi:type="Value">
+ <Text> -[Value]  The possible instances of </Text>
+ <Object index="0"/>
+ <Text> are :{</Text>
+ <Value index="0"/>
+ <Loop index="1">
+  <Text>,</Text>
+  <Value index="n"/>
+ </Loop>
+ <Text> }</Text>
+ </Constraint>
+
+<Constraint xsi:type="Exclusive">
+<Text> -[Exclusive]  Each</Text>
+<Object index="0"/>
+<Text>should be either</Text>
+<Object index="1"/>
+<Loop index="1">
+  <Text>or</Text>
+  <Object index="n"/>
+</Loop>
+</Constraint>
+
+<Constraint xsi:type="Total">
+ <Text> -[Totality]  Each</Text>
+ <Object index="0"/>
+ <Text>must be, at least, </Text>
+ <Object index="1"/>
+ <Loop index="1">
+  <Text>or</Text>
+  <Object index="n"/>
+ </Loop>
+</Constraint>
+
+<Constraint xsi:type="Partition">
+ <Text> -[Partition]  Each</Text>
+ <Object index="0"/>
+ <Text>is at least one of</Text>
+ <Object index="1"/>
+ <Loop index="1">
+  <Text>or</Text>
+  <Object index="n"/>
+ </Loop>
+ <Text>but not all</Text>
+</Constraint>
+
+<Constraint xsi:type="Subset">
+ <Text> -[Subset]  If</Text>
+ <Object index="0"/>
+ <Role index="child"/>
+ <Object index="child"/>
+ <Text>then this</Text>
+ <Object index="0"/>
+ <Role index="parent"/>
+ <Object index="parent"/>
+</Constraint>
+
+<Constraint xsi:type="Subset FactType">
+ <Text> -[Subset]  If</Text>
+ <Object index="0"/>
+ <Role index="child"/>
+ <Object index="child"/>
+ <Text>then this</Text>
+ <Object index="1"  />
+ <Role index="parent"/>
+ <Text>that</Text>
+ <Object index="parent"/>
+</Constraint>
+
+<Constraint xsi:type="Equality">
+ <Text> -[Equality]  </Text>
+ <Object index="0"/>
+ <Role index="first"/>
+ <Object index="first"/>
+ <Text>if and only if</Text>
+ <Text>this </Text>
+ <Object index="0"/>
+ <Role index="second"/>
+ <Object index="second"/>
+</Constraint>
+
+<Constraint xsi:type="Equality FactType">
+ <Text> -[Equality]  </Text>
+ <Object index="0"/>
+ <Role index="First"/>
+ <Object index="First"/>
+ <Text>if and only if</Text>
+ <Text>this</Text>
+ <Object index="1"/>
+ <Role index="Second"/>
+ <Text>that</Text>
+ <Object index="Second"/>
+</Constraint>
+
+<Constraint xsi:type="Exclusion">
+ <Text> -[Exclusion]  No</Text>
+ <Object index="0"/>
+ <Role index="first"/>
+ <Object index="first"/>
+ <Text>and also</Text>
+ <Role index="second"/>
+ <Object index="second"/>
+</Constraint>
+
+<Constraint xsi:type="Exclusion FactType">
+ <Text> -[Exclusion]  No</Text>
+ <Object index="0"/>
+ <Role index="first"/>
+ <Object index="first"/>
+ <Text>and also</Text>
+ <Role index="second"/>
+ <Text>that</Text>
+ <Object index="second"/>
+</Constraint>
+
+<Constraint xsi:type="Frequency">
+ <Text> -[Frequency] If </Text>
+ <Object index="0"/>
+ <Role index="0"/>
+ <Object index="1"/>
+ <Role index="0"/>
+ <Text>, then this </Text>
+ <Object index="0"/>
+ <Role index="0"/>
+ <Text>at least </Text>
+ <Minimum/>
+ <Text> and most most </Text>
+ <Maximum/>
+ <Role index="0"/>
+ <Text>(s)</Text>
+</Constraint>
+
+<Constraint xsi:type="Irreflexive">
+ <Text> -[Irreflexive]  No</Text>
+ <Object index="0"/>
+ <Role index="0"/>
+ <Text> it/him self</Text>
+</Constraint>
+
+<Constraint xsi:type="Symmetric">
+ <Text> -[Symmetric]  If</Text>
+ <Object index="0"/>
+ <Text>X</Text>
+ <Role index="0"/>
+ <Object index="0"/>
+ <Text>Y</Text>
+ <Text>, it must be vice versa</Text>
+</Constraint>
+
+<Constraint xsi:type="Asymmetric">
+ <Text> -[Asymmetric]  If</Text>
+ <Object index="0"/>
+ <Text>X</Text>
+ <Role index="0"/>
+ <Object index="0"/>
+<Text> Y, it cannot be be vice versa</Text>
+</Constraint>
+
+<Constraint xsi:type="Acyclic">
+ <Text> -[Acyclic]  </Text>
+ <Object index="0"/>
+ <Text> cannot be directly (or indirectly through a chain)</Text>
+ <Role index="0"/>
+ <Text> it/him self</Text>
+</Constraint>
+
+<Constraint xsi:type="Transitve">
+ <Text> -[Intransitve]  If</Text>
+ <Object index="0"/>
+ <Text>X</Text>
+ <Role index="0"/>
+ <Object index="0"/>
+ <Text>Y, and Y</Text>
+ <Role index="0"/>
+ <Text> Z, then it cannot be that X</Text>
+ <Role index="0"/>
+ <Text>Z</Text>
+</Constraint>
+
+</ORMNLBody>
+</ORMSchema>

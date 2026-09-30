@@ -1,0 +1,295 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ORMSchema xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:noNamespaceSchemaLocation='http://www.starlab.vub.ac.be/staff/alisovoy/ormml.xsd' xmlns:dc='http://purl.org/dc/elements/1.1/' OntologyBase="jdbc:microsoft:sqlserver://localhost:1433;DatabaseName=DOGMA/Dogma" Context="Scientific Conference">
+<ORMMeta>
+<Meta name="DC.Creator" content="Mustafa Jarrar" />
+<Meta name="DC.Title" content="Example-AllConstraints-Arabic" />
+<Meta name="DC.Language" content="Arabic" />
+<import_ORMGS href='C:\wwwroot\DogmaModeler\Ontologies\Examples\Example-AllConstraints-Arabic.ormgs'/>
+</ORMMeta>
+<ORMBody>
+<Object xsi:type='NOLOT' Name='رجل' Description='' Datatype='' ULO=''>
+	<Translation Language="Arabic" Name="رجل" Description="" Reference=""/>
+	<Translation Language="English" Name="رجل" Description="" Reference=""/>
+</Object>
+<Object xsi:type='NOLOT' Name='إِنْسان' Description='' Datatype='' ULO=''>
+	<Translation Language="Arabic" Name="إِنْسان" Description="" Reference=""/>
+	<Translation Language="English" Name="إِنْسان" Description="" Reference=""/>
+</Object>
+<Object xsi:type='NOLOT' Name='اِمْرَأَة' Description='' Datatype='' ULO=''>
+	<Translation Language="Arabic" Name="اِمْرَأَة" Description="" Reference=""/>
+	<Translation Language="English" Name="اِمْرَأَة" Description="" Reference=""/>
+</Object>
+<Object xsi:type='NOLOT' Name='كِتاب' Description='' Datatype='' ULO=''>
+	<Translation Language="Arabic" Name="كِتاب" Description="" Reference=""/>
+	<Translation Language="English" Name="كِتاب" Description="" Reference=""/>
+</Object>
+<Object xsi:type='NOLOT' Name='شِرْكَة' Description='' Datatype='' ULO=''>
+	<Translation Language="Arabic" Name="شِرْكَة" Description="" Reference=""/>
+	<Translation Language="English" Name="شِرْكَة" Description="" Reference=""/>
+</Object>
+<Object xsi:type='NOLOT' Name='رخصة قِيَادَة' Description='' Datatype='' ULO=''>
+	<Translation Language="Arabic" Name="رخصة قِيَادَة" Description="" Reference=""/>
+	<Translation Language="English" Name="رخصة قِيَادَة" Description="" Reference=""/>
+</Object>
+<Object xsi:type='NOLOT' Name='حساب' Description='' Datatype='' ULO=''>
+	<Translation Language="Arabic" Name="حساب" Description="" Reference=""/>
+	<Translation Language="English" Name="حساب" Description="" Reference=""/>
+</Object>
+<Object xsi:type='NOLOT' Name='مُدِير' Description='' Datatype='' ULO=''>
+	<Translation Language="Arabic" Name="مُدِير" Description="" Reference=""/>
+	<Translation Language="English" Name="مُدِير" Description="" Reference=""/>
+</Object>
+<Object xsi:type='NOLOT' Name='سَيَّارَة' Description='' Datatype='' ULO=''>
+	<Translation Language="Arabic" Name="سَيَّارَة" Description="" Reference=""/>
+	<Translation Language="English" Name="سَيَّارَة" Description="" Reference=""/>
+</Object>
+<Object xsi:type='NOLOT' Name='مادَّة' Description='' Datatype='' ULO=''>
+	<Translation Language="Arabic" Name="مادَّة" Description="" Reference=""/>
+	<Translation Language="English" Name="مادَّة" Description="" Reference=""/>
+</Object>
+<Object xsi:type='NOLOT' Name='جامِعَة' Description='' Datatype='' ULO=''>
+	<Translation Language="Arabic" Name="جامِعَة" Description="" Reference=""/>
+	<Translation Language="English" Name="جامِعَة" Description="" Reference=""/>
+</Object>
+<Object xsi:type='NOLOT' Name=' رَقْم جَوَازُ سَفَر' Description='' Datatype='' ULO=''>
+	<Translation Language="Arabic" Name=" رَقْم جَوَازُ سَفَر" Description="" Reference=""/>
+	<Translation Language="English" Name=" رَقْم جَوَازُ سَفَر" Description="" Reference=""/>
+</Object>
+<Object xsi:type='NOLOT' Name='تارخ مِيلاد' Description='' Datatype='' ULO=''>
+	<Translation Language="Arabic" Name="تارخ مِيلاد" Description="" Reference=""/>
+	<Translation Language="English" Name="تارخ مِيلاد" Description="" Reference=""/>
+</Object>
+<Object xsi:type='NOLOT' Name='اِسْم' Description='' Datatype='' ULO=''>
+	<Translation Language="Arabic" Name="اِسْم" Description="" Reference=""/>
+	<Translation Language="English" Name="اِسْم" Description="" Reference=""/>
+</Object>
+<Object xsi:type='NOLOT' Name='دَوْلَة' Description='' Datatype='String' ULO=''>
+	<Value>Belgium</Value>
+	<Value>France</Value>
+	<Value>Germany</Value>
+	<Translation Language="Arabic" Name="دَوْلَة" Description="" Reference=""/>
+	<Translation Language="English" Name="دَوْلَة" Description="" Reference=""/>
+</Object>
+<Subtype>
+	<Parent Object="إِنْسان" Role="types"/>
+	<Child Object="رجل" Role="isa"/>
+</Subtype>
+<Subtype>
+	<Parent Object="إِنْسان" Role="types"/>
+	<Child Object="اِمْرَأَة" Role="isa"/>
+</Subtype>
+<Subtype>
+	<Parent Object="إِنْسان" Role="types"/>
+	<Child Object="مُدِير" Role="isa"/>
+</Subtype>
+<Predicate>
+	<Object_Role ID='Example-AllConstraints-English:217' Object='اِمْرَأَة' Role='زَوْجَة ل'/>
+	<Object_Role ID='Example-AllConstraints-English:218' Object='رجل' Role='زَوْج ل'/>
+</Predicate>
+<Predicate>
+	<Object_Role ID='Example-AllConstraints-English:219' Object='اِمْرَأَة' Role='ل أُخْت'/>
+	<Object_Role ID='Example-AllConstraints-English:220' Object='اِمْرَأَة' Role=' '/>
+</Predicate>
+<Predicate>
+	<Object_Role ID='Example-AllConstraints-English:221' Object='إِنْسان' Role=' '/>
+	<Object_Role ID='Example-AllConstraints-English:222' Object='إِنْسان' Role='أبٌ أو أمّ ل'/>
+</Predicate>
+<Predicate>
+	<Object_Role ID='Example-AllConstraints-English:223' Object='إِنْسان' Role=' '/>
+	<Object_Role ID='Example-AllConstraints-English:224' Object='إِنْسان' Role='زميل ل'/>
+</Predicate>
+<Predicate>
+	<Object_Role ID='Example-AllConstraints-English:225' Object='إِنْسان' Role='يرأس'/>
+	<Object_Role ID='Example-AllConstraints-English:226' Object='إِنْسان' Role=' '/>
+</Predicate>
+<Predicate>
+	<Object_Role ID='Example-AllConstraints-English:227' Object='إِنْسان' Role='يعَلَّقَ على'/>
+	<Object_Role ID='Example-AllConstraints-English:228' Object='كِتاب' Role=' '/>
+</Predicate>
+<Predicate>
+	<Object_Role ID='Example-AllConstraints-English:229' Object='إِنْسان' Role='يؤلف'/>
+	<Object_Role ID='Example-AllConstraints-English:230' Object='كِتاب' Role=' '/>
+</Predicate>
+<Predicate>
+	<Object_Role ID='Example-AllConstraints-English:231' Object='إِنْسان' Role='ينتسب إلى'/>
+	<Object_Role ID='Example-AllConstraints-English:232' Object='شِرْكَة' Role=' '/>
+</Predicate>
+<Predicate>
+	<Object_Role ID='Example-AllConstraints-English:233' Object='إِنْسان' Role='يعمل في'/>
+	<Object_Role ID='Example-AllConstraints-English:234' Object='شِرْكَة' Role=' '/>
+</Predicate>
+<Predicate>
+	<Object_Role ID='Example-AllConstraints-English:235' Object='إِنْسان' Role='ب مُخَوَّل'/>
+	<Object_Role ID='Example-AllConstraints-English:236' Object='رخصة قِيَادَة' Role=' '/>
+</Predicate>
+<Predicate>
+	<Object_Role ID='Example-AllConstraints-English:237' Object='إِنْسان' Role=' '/>
+	<Object_Role ID='Example-AllConstraints-English:238' Object='حساب' Role='ل مَمْلُوك'/>
+</Predicate>
+<Predicate>
+	<Object_Role ID='Example-AllConstraints-English:239' Object='حساب' Role='ل مَمْلُوك'/>
+	<Object_Role ID='Example-AllConstraints-English:240' Object='شِرْكَة' Role=' '/>
+</Predicate>
+<Predicate>
+	<Object_Role ID='Example-AllConstraints-English:241' Object='مُدِير' Role='يدير'/>
+	<Object_Role ID='Example-AllConstraints-English:242' Object='شِرْكَة' Role=' '/>
+</Predicate>
+<Predicate>
+	<Object_Role ID='Example-AllConstraints-English:244' Object='إِنْسان' Role='يقود'/>
+	<Object_Role ID='Example-AllConstraints-English:243' Object='سَيَّارَة' Role=' '/>
+</Predicate>
+<Predicate>
+	<Object_Role ID='Example-AllConstraints-English:246' Object='إِنْسان' Role='يدرس'/>
+	<Object_Role ID='Example-AllConstraints-English:245' Object='مادَّة' Role=' '/>
+</Predicate>
+<Predicate>
+	<Object_Role ID='Example-AllConstraints-English:248' Object='إِنْسان' Role='يعمل في'/>
+	<Object_Role ID='Example-AllConstraints-English:247' Object='جامِعَة' Role=' '/>
+</Predicate>
+<Predicate>
+	<Object_Role ID='Example-AllConstraints-English:249' Object=' رَقْم جَوَازُ سَفَر' Role='ل'/>
+	<Object_Role ID='Example-AllConstraints-English:250' Object='إِنْسان' Role='له'/>
+</Predicate>
+<Predicate>
+	<Object_Role ID='Example-AllConstraints-English:251' Object='تارخ مِيلاد' Role='ل'/>
+	<Object_Role ID='Example-AllConstraints-English:252' Object='إِنْسان' Role='له'/>
+</Predicate>
+<Predicate>
+	<Object_Role ID='Example-AllConstraints-English:253' Object='اِسْم' Role='ل'/>
+	<Object_Role ID='Example-AllConstraints-English:254' Object='إِنْسان' Role='له'/>
+</Predicate>
+<Predicate>
+	<Object_Role ID='Example-AllConstraints-English:255' Object='دَوْلَة' Role='ل'/>
+	<Object_Role ID='Example-AllConstraints-English:256' Object='إِنْسان' Role='له'/>
+</Predicate>
+<Constraint xsi:type='Mandatory'>
+	<Object_Role>Example-AllConstraints-English:250</Object_Role>
+</Constraint>
+<Constraint xsi:type='Mandatory'>
+	<Object_Role>Example-AllConstraints-English:252</Object_Role>
+</Constraint>
+<Constraint xsi:type='Total'>
+	<Supertype>إِنْسان</Supertype>
+	<Subtype>اِمْرَأَة</Subtype>
+	<Subtype>رجل</Subtype>
+</Constraint>
+<Constraint xsi:type='Exclusive'>
+	<Supertype>إِنْسان</Supertype>
+	<Subtype>اِمْرَأَة</Subtype>
+	<Subtype>رجل</Subtype>
+</Constraint>
+<Constraint xsi:type='acyclic'>
+	<Object_Role>Example-AllConstraints-English:225</Object_Role>
+	<Object_Role>Example-AllConstraints-English:226</Object_Role>
+</Constraint>
+<Constraint xsi:type='irreflexive  + symmetric'>
+	<Object_Role>Example-AllConstraints-English:223</Object_Role>
+	<Object_Role>Example-AllConstraints-English:224</Object_Role>
+</Constraint>
+<Constraint xsi:type='acyclic + intransitive'>
+	<Object_Role>Example-AllConstraints-English:221</Object_Role>
+	<Object_Role>Example-AllConstraints-English:222</Object_Role>
+</Constraint>
+<Constraint xsi:type='acyclic'>
+	<Object_Role>Example-AllConstraints-English:219</Object_Role>
+	<Object_Role>Example-AllConstraints-English:220</Object_Role>
+</Constraint>
+<Constraint xsi:type='asymmetric'>
+	<Object_Role>Example-AllConstraints-English:217</Object_Role>
+	<Object_Role>Example-AllConstraints-English:218</Object_Role>
+</Constraint>
+<Constraint xsi:type='Mandatory'>
+	<Object_Role>Example-AllConstraints-English:238</Object_Role>
+	<Object_Role>Example-AllConstraints-English:239</Object_Role>
+</Constraint>
+<Constraint xsi:type='Subset'>
+	<Parent>
+		<Object_Role>Example-AllConstraints-English:235</Object_Role>
+	</Parent>
+	<Child>
+		<Object_Role>Example-AllConstraints-English:244</Object_Role>
+	</Child>
+</Constraint>
+<Constraint xsi:type='Equality'>
+	<First>
+		<Object_Role>Example-AllConstraints-English:246</Object_Role>
+	</First>
+	<Second>
+		<Object_Role>Example-AllConstraints-English:248</Object_Role>
+	</Second>
+</Constraint>
+<Constraint xsi:type='Subset'>
+	<Parent>
+		<Object_Role>Example-AllConstraints-English:233</Object_Role>
+		<Object_Role>Example-AllConstraints-English:234</Object_Role>
+	</Parent>
+	<Child>
+		<Object_Role>Example-AllConstraints-English:241</Object_Role>
+		<Object_Role>Example-AllConstraints-English:242</Object_Role>
+	</Child>
+</Constraint>
+<Constraint xsi:type='Equality'>
+	<First>
+		<Object_Role>Example-AllConstraints-English:233</Object_Role>
+		<Object_Role>Example-AllConstraints-English:234</Object_Role>
+	</First>
+	<Second>
+		<Object_Role>Example-AllConstraints-English:231</Object_Role>
+		<Object_Role>Example-AllConstraints-English:232</Object_Role>
+	</Second>
+</Constraint>
+<Constraint xsi:type='Exclusion'>
+	<First>
+		<Object_Role>Example-AllConstraints-English:227</Object_Role>
+		<Object_Role>Example-AllConstraints-English:228</Object_Role>
+	</First>
+	<Second>
+		<Object_Role>Example-AllConstraints-English:229</Object_Role>
+		<Object_Role>Example-AllConstraints-English:230</Object_Role>
+	</Second>
+</Constraint>
+<Constraint xsi:type='Exclusion'>
+	<First>
+		<Object_Role>Example-AllConstraints-English:238</Object_Role>
+	</First>
+	<Second>
+		<Object_Role>Example-AllConstraints-English:239</Object_Role>
+	</Second>
+</Constraint>
+<Constraint xsi:type='Uniqueness'>
+	<Object_Role>Example-AllConstraints-English:251</Object_Role>
+	<Object_Role>Example-AllConstraints-English:253</Object_Role>
+</Constraint>
+<Constraint xsi:type='Uniqueness'>
+	<Object_Role>Example-AllConstraints-English:252</Object_Role>
+</Constraint>
+<Constraint xsi:type='Uniqueness'>
+	<Object_Role>Example-AllConstraints-English:254</Object_Role>
+</Constraint>
+<Constraint xsi:type='Uniqueness'>
+	<Object_Role>Example-AllConstraints-English:250</Object_Role>
+</Constraint>
+<Constraint xsi:type='Uniqueness'>
+	<Object_Role>Example-AllConstraints-English:249</Object_Role>
+</Constraint>
+<Constraint xsi:type='Uniqueness'>
+	<Object_Role>Example-AllConstraints-English:246</Object_Role>
+	<Object_Role>Example-AllConstraints-English:245</Object_Role>
+</Constraint>
+<Constraint xsi:type='Uniqueness'>
+	<Object_Role>Example-AllConstraints-English:227</Object_Role>
+	<Object_Role>Example-AllConstraints-English:228</Object_Role>
+</Constraint>
+<Constraint xsi:type='Uniqueness'>
+	<Object_Role>Example-AllConstraints-English:229</Object_Role>
+	<Object_Role>Example-AllConstraints-English:230</Object_Role>
+</Constraint>
+<Constraint xsi:type='Uniqueness'>
+	<Object_Role>Example-AllConstraints-English:244</Object_Role>
+	<Object_Role>Example-AllConstraints-English:243</Object_Role>
+</Constraint>
+<Constraint xsi:type='Frequency' Minimum='3' Maximum='6'>
+	<Object_Role>Example-AllConstraints-English:246</Object_Role>
+</Constraint>
+</ORMBody>
+</ORMSchema>

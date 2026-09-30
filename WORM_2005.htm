@@ -1,0 +1,727 @@
+<!DOCTYPE HTML SYSTEM>
+
+<html>
+
+<head>
+
+<title>WORM'05: Workshop on  Regulatory Ontologies</title>
+
+<meta name="description" content="WORM 2005: The Second International Workshop on Regulatory ontologies">
+
+ <meta name="keywords" content="WORM, WORM CoRe, CoRe, WORM 2003, WORM 2005, WORM 2004,CoRe 2003, WORM CoRe 2003, Regulatory ontologies, Regulatory ontology, Modeling Complaint,complaint regulations, business regulations, legal ontology, ADR Ontology, ODR ontology, LeXML Ontology, LegalXML ontology, ARD, ODR, LeXML, Legal XML, Contact, Ontology modularization, multilingual Ontology, multilingual representation of ontology, Sensitivity, harmonization, cross-border business, complaints, complaint resolutions, complainants, evidences, Policy RuleML, Regulatory metadata standards, modularization, layering, reusability, maintainability and extensibility, Jarrar, ORMML, ORM-ML, Dogma, DogmaModeler,  CCForm, complaint management, complaint form, complaint handling,  Scalability, Reusability, Knowledge Management, Knowledge Engineering, ORM, Object Role Modeling, Entity relationship, UML, EER, NIAM,  STARLab, Palestine, Engineer, Generic Task, ontological Commitment, knowledge representation, knowledge level, enterprise integration,  electronic commerce, e-business, Internet commerce, digital commerce, digital business, supply chain, value chain, web automation, e-services, XML, DTD, schema, ontology, commercenet, xml.org, ontology.org, VUB, STARLab, Belgium, Brussels, Brussel, Vrije, VUB STARLab, HPCL, Cyprus, university, Pipes, Semantic Pipes, Mashups, Semantic mashups, data mashups, remixe, SPARQL, MashQL, query by daigram, query, data web, deep web">
+
+ <meta name="author" content="Mustafa Jarrar">
+
+
+ <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-NHGQ7491PC"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-NHGQ7491PC');
+</script>
+
+
+</head>
+
+
+
+<body bgcolor="#DBE6E8">
+
+<div align="right"><img src="images/LNCS-log.JPG"> </div>
+
+<table border="0" cellpadding="0" cellspacing="0" width="99%">
+
+<tr>
+
+	<td width="99%" height="290">
+
+<h1 style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px" align="center"><font face="Trebuchet MS" size="4" color="#660000">The 
+
+        3rd International Workshop on </font></h1>
+
+      <h1 style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px" align="center"> <font face="Trebuchet MS" size="5" color="#800000">Regulatory 
+
+        Ontologies</font></h1> 
+
+      <p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px" align="center">&nbsp;</p>
+
+      <p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px" align="center"> <font size="3" face="Comic Sans MS" color="#800000">&nbsp;- 
+
+        </font> <font size="3" face="Comic Sans MS" color="#CC3300">WORM 2005</font><font size="3" face="Comic Sans MS" color="#800000"> 
+
+        -</font></p>
+
+    <p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px" align="center">&nbsp;</p>
+
+      <div align="center"> 
+
+        <font size="3">Part 
+
+          of the <font face="Trebuchet MS"><a href="http://www.cs.rmit.edu.au/fedconf/" target="_blank">International 
+
+          Federated Conferences (OTM '05)</a></font></font><br>
+
+      </div>
+
+      <div align="center">
+
+<p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px" align="center"><font face="Trebuchet MS"> 
+
+          </font></div>
+
+      <div align="center"> </div>
+
+      
+
+  
+
+      <p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px" align="center"><font size="3" face="Trebuchet MS"><img src="Photos/cyprus2.JPG" width="475" height="91" alt="Workhop Location,Cyprus"></font></p>
+
+      <p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px" align="center"><font face="Trebuchet MS">31 
+
+        Oct - 4 Nov 2005 , </font><font face="Trebuchet MS" size="3">Larnaca, 
+
+        Cyprus</font></p>
+
+      </td>
+
+	  <td width="1%"><div align="center"> <strong><em><font size="3" face="Trebuchet MS"><strong><em></em></strong></font></em></strong> 
+
+      </div></td>
+
+	  </tr>
+
+</table>
+
+<table dir="ltr" border="0" cellpadding="0" cellspacing="0" width="100%">
+
+  <tr>
+
+    <td height="1748" valign="top"> <table border="0" cellpadding="0" cellspacing="0" width="99%" >
+
+        <tr> 
+
+              
+
+          <td width="10%" height="1588" valign="top"> 
+
+            <table width="184">
+
+			  <tr><td width="1250">
+
+			  <p style="MARGIN: 3px 0px; LINE-HEIGHT: 100%">&nbsp;</p>
+
+            <p style="line-height: 100%; margin: 3px 0px"><strong> <font face="Trebuchet MS" size="2">[<a href="http://www.jarrar.info/WORM_2005.htm">Home</a>]</font></strong></p>
+
+            <p style="MARGIN: 3px 0px; LINE-HEIGHT: 100%"><strong> <font face="Trebuchet MS" size="2">[<a href="#Important dates">Important 
+
+              Dates</a>]</font></strong></p>
+
+            <p style="MARGIN: 3px 0px; LINE-HEIGHT: 100%"><strong> <font face="Trebuchet MS" size="2">[<a href="#Submissions">Submissions</a>]</font></strong></p>
+
+            <p style="MARGIN: 3px 0px; LINE-HEIGHT: 100%"> <font face="Trebuchet MS" size="3"><b>[</b></font><font size="2" face="Trebuchet MS"><strong><a href="#Organizers">Organizers</a>]</strong></font></p>
+
+                <p style="MARGIN: 3px 0px; LINE-HEIGHT: 100%"> <font face="Trebuchet MS" size="3"><b>[</b></font><font size="2" face="Trebuchet MS"><strong><a href="#Program Committee">Program 
+
+                  Committee</a>]</strong></font></p>
+
+                
+
+                  <p style="MARGIN: 3px 0px; LINE-HEIGHT: 100%"><font face="Trebuchet MS" size="3"><b>[</b></font><font size="2" face="Trebuchet MS"><strong>Accepted
+
+                    Papers]</strong></font></p>
+
+                  <p style="MARGIN: 3px 0px; LINE-HEIGHT: 100%"><font face="Trebuchet MS" size="3"><b>[</b></font><font size="2" face="Trebuchet MS"><strong><a href="#Invited Speaker">Invited 
+
+                    Speaker</a>]</strong></font></p>
+
+                  <p style="MARGIN: 3px 0px; LINE-HEIGHT: 100%"><font size="2" face="Trebuchet MS"> 
+
+              <strong>[Program]</strong></font></p>
+
+                  <p style="MARGIN: 3px 0px; LINE-HEIGHT: 100%"><font face="Trebuchet MS" size="3"><strong>[</strong></font><strong><font size="2" face="Trebuchet MS"><font color="#FF0033">P<font color="#660066">h</font><font color="#339933">o</font><font color="#FF00FF">t</font><font color="#0000FF">o</font>s</font>]</font></strong></p>
+
+				  
+
+            <br>
+
+             <strong><font size="2" face="Trebuchet MS">Sponsored 
+
+              By </font></strong>
+
+            <br>
+
+              <a href="http://www.cordis.lu/ist/" target="_blank"> <img src="images/is.jpg" border=0 width=60 height=50 alt="cordis.lu/ist"> 
+
+              </a> <br>
+
+              <a href="http://knowledgeweb.semanticweb.org/" target="_blank"> 
+
+              <img src="images/kwebLogo.JPG" border=0 width=70 height=50 alt="Knowledge Web"> </a>
+
+            </td>
+
+			  </tr>
+
+			  </table>
+
+			  
+
+            
+
+          <td width="79%"> <font face="Trebuchet MS" color="#004284" size="5"><b>Call 
+
+            for Papers</b></font> <font color="#000066" size="2" face="Trebuchet MS"><img src="images/New.gif" width="40" height="18" alt="News"></font>	
+
+            <p align="justify"><font size="2" face="Trebuchet MS">In many application 
+
+              areas (such as e-commerce, e-government, content standardization, 
+
+              legal information systems etc.), the modeling of regulatory and 
+
+              legal knowledge is critical. Modeling and deploying regulatory 
+
+              knowledge has some specifics that differentiate it out from other 
+
+              kinds of knowledge modeling: reasoning methods and application scenarios, 
+
+              the legal weight (/order) of regulations, parsing legal texts require special semantic patterns, the sensitivity in cross-border regulations, 
+
+              etc. This workshop aims at bringing together academics, researchers, 
+
+              professionals and industrial practitioners to discuss issues involved 
+
+              in modeling regulatory ontologies. Regulatory ontologies typically 
+
+              involve the description of rules and regulations within the social 
+
+              world. In particular, we seek original contributions on (but not limited to) the following issues of interest:</font></p>
+
+            <ul>
+
+              <li><font size="2"><font face="Trebuchet MS">Engineering 
+
+                of regulatory ontologies: conceptual analysis, representation, 
+
+                modularization and layering, reusability, evolution and dynamics, 
+
+                etc; </font></font></li>
+
+              <li><font size="2"><font face="Trebuchet MS">Multilingual 
+
+                and terminological aspects of regulatory ontologies; </font></font></li>
+
+              <li><font size="2"><font face="Trebuchet MS">Models 
+
+                of legal reasoning (from ontological viewpoint): regulatory compliance, 
+
+                case-based reasoning, reasoning with uncertainty, etc.</font></font></li>
+
+              <li><font size="2"><font face="Trebuchet MS">Sensitivity 
+
+                on and harmonization of regulations; </font></font></li>
+
+              <li><font size="2"><font face="Trebuchet MS">Regulatory 
+
+                metadata and content standardization (e.g. legal-XML/LeXML, ADR/ODR-XML,...); 
+
+                </font></font></li>
+
+              <li><font size="2"><font face="Trebuchet MS">Regulatory ontologies 
+
+                of: property rights, persons and organizations, legal procedures, 
+
+                contracts, legal causality, etc; </font></font></li>
+
+              <li><font size="2" face="Trebuchet MS">Task models 
+
+                for socially regulated activities;</font></li>
+
+              <li><font size="2"><font face="Trebuchet MS">Experiences 
+
+                with projects and applications involving regulatory ontologies 
+
+                in legal knowledge based systems, legal information retrieval, 
+
+                e-governments, e-commerce;</font></font></li>
+
+              <li><font face="Trebuchet MS" size="2">Automated 
+
+                extraction of Information from regulatory documents.</font></li>
+
+            </ul>
+
+            <b> 
+
+            <a name="Submissions"><font color="#004284" size="4" face="Trebuchet MS">Submissions</font></a>
+
+            </b>
+
+
+
+            <p align="justify"><font face="Trebuchet MS" size="2">We invite papers 
+
+              of no more than 14 pages length (<a href="http://www.springeronline.com/sgw/cda/frontpage/0,10735,5-164-2-72376-0,00.html">Springer 
+
+              style format</a>) describing original completed work, work in progress, 
+
+              interesting problems or use cases, or trends in this research area. 
+
+              Submitted papers will be fully refereed based on the originality 
+
+              and significance of the ideas presented as well as on technical 
+
+              aspects. <a href="http://www.springeronline.com/sgw/cda/frontpage/0,10735,5-40209-0-0-0,00.html"><strong>Accepted 
+
+              papers will be published by Springer-Verlag</strong> </a> as a part 
+
+              of Proceedings of the &#8220;On The Move Federated Conferences 2005&#8221;. 
+
+              Authors can submit their abstracts and papers via the following 
+
+              link: <a href="  http://www.cs.rmit.edu.au/fedconf/worm/2005/papers"> 
+
+              WORM Submit-Page</a>. </font></p>
+
+             
+
+              
+
+            <b><a name="Important dates"><font color="#004284" size="4" face="Trebuchet MS">Important 
+
+            dates</font></a></b> <ul>
+
+              <li><font size="2" face="Trebuchet MS">July 1, 2005 : Abstract 
+
+                Submission Deadline</font></li>
+
+              <li><font size="2" face="Trebuchet MS">July 1, 2005 : Paper Submission 
+
+                Deadline</font></li>
+
+              <li><font size="2" face="Trebuchet MS"> July 29, 2005 : Acceptance 
+
+                Notification</font></li>
+
+              <li><font size="2" face="Trebuchet MS"> August 20, 2005 : Final 
+
+                Version Due</font></li>
+
+              <li><font size="2" face="Trebuchet MS"> October 31 - November 4, 
+
+                2005: Workshop </font></li>
+
+            </ul>
+
+            <b><a name="Organizers"><font color="#004284" size="4" face="Trebuchet MS">Organizers 
+
+            and program chairs</font></a> </b> 
+
+            <ul>
+
+              <li> 
+
+                 <font size="2" face="Trebuchet MS"><a href="http://www.jarrar.info" target="_blank"><b>Mustafa 
+
+                  Jarrar</b></a>, STARLAb, Vrije 
+
+                  Universiteit Brussel, Belgium</font><br>
+
+              </li>
+
+              <li><font size="2" face="Trebuchet MS"><b><a href="http://www.loa-cnr.it/gangemi.html" target="_blank">Aldo 
+
+                Gangemi</a></b>, </font><font size="2" face="Trebuchet MS">Laboratory 
+
+                for Applied Ontology, ISTC-CNR, Rome</font></li>
+
+<li><font size="2" face="Trebuchet MS"><b><a href="http://www.lri.jur.uva.nl/~breuker/" target="_blank">Joost Breuker</a></b> , </font><font size="2" face="Trebuchet MS"> Leibniz Center for Law, Netherlands</font></li>
+
+<li><font size="2" face="Trebuchet MS"><b><a href="http://www.loa-cnr.it/lehmann.html" target="_blank">Jos Lehmann</a></b>, </font><font size="2" face="Trebuchet MS">Laboratory 
+
+                for Applied Ontology, ISTC-CNR, Rome</font></li>
+
+<li><font size="2" face="Trebuchet MS"><b><a href="http://www.ksventures.com" target="_blank">Andr� Valente</a></b>, </font><font size="2" face="Trebuchet MS"> Knowledge Systems Ventures, USA</font></li>
+
+            </ul>
+
+            
+
+			<b><a name="Program Committee"><font color="#004284" size="4" face="Trebuchet MS">Program 
+
+            Committee</font></a> (To be confirmed)</b> 
+
+            <ul>
+
+              <li>
+
+                <p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px"><font size="2" face="Trebuchet MS">Aldo Gangemi, Laboratory for Applied Ontology, ISTC-CNR, Rome, Italy</font></p>
+
+              </li>
+
+              <li> 
+
+                <p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px"><font size="2" face="Trebuchet MS"> 
+
+                  Andr&eacute; Valente, Knowledge Systems Ventures, USA</font></p>
+
+              </li>
+
+              <li> 
+
+                <p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px"><font size="2" face="Trebuchet MS"> 
+
+                  Andrew Stranieri, JUSTSYS, Ballarat, Australia</font></p>
+
+              </li>
+
+              <li> 
+
+                <p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px"><font size="2" face="Trebuchet MS"> 
+
+                  Bart Verheij, Universiteit Maastricht, The Netherlands</font></p>
+
+              </li>
+
+              <li> 
+
+                <p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px"><font size="2" face="Trebuchet MS">Cecilia 
+
+                  Magnusson Sjoberg, Stockholm University, Sweden</font></p>
+
+              </li>
+
+              <li> 
+
+                <p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px"><font size="2" face="Trebuchet MS">Enrico Franconi, Free University of Bozen-Bolzano, Italy</font></p>
+
+              </li>
+
+
+
+              <li> 
+
+                <p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px"><font size="2" face="Trebuchet MS">Carole 
+
+                  Hafner, Northeastern University, USA</font></p>
+
+              </li>
+
+              <li> 
+
+                <p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px"><font size="2" face="Trebuchet MS"> 
+
+                  Giancarlo Guizzardi, University of Twente, The Netherlands</font></p>
+
+              </li>
+
+              <li> 
+
+                <p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px"><font size="2" face="Trebuchet MS"> 
+
+                  Guiraude Lame, Ecole Nationale Superieure des Mines de Paris, 
+
+                  France</font></p>
+
+              </li>
+
+              <li><font size="2" face="Trebuchet MS">Jaime Delgado, Universitat 
+
+                Pompeu Fabra, Barcelona, Spain</font></li>
+
+
+
+              <li> 
+
+                <p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px"><font size="2" face="Trebuchet MS"> 
+
+                  Joost Breuker, Leibniz Center for Law, Netherlands</font></p>
+
+              </li>
+
+
+
+              <li> 
+
+                <p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px"><font size="2" face="Trebuchet MS"> 
+
+                  Jos Lehmann, Laboratory for Applied Ontology, ISTC-CNR, Rome Italy</font></p>
+
+              </li>
+
+
+
+            <li> 
+
+                <p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px"><font size="2" face="Trebuchet MS"> 
+
+                  Layman Allen, University of Michigan, USA</font></p>
+
+              </li>
+
+              <li> 
+
+                <p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px"><font size="2" face="Trebuchet MS"> 
+
+                  Leonardo Lesmo, Universita' di Torino, Italy</font></p>
+
+              </li>
+
+              <li><font size="2" face="Trebuchet MS">Marc Wilikens, EU Joint Research 
+
+                Centre (JRC), Ispra, Italy</font></li>
+
+              <li> 
+
+                <p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px"><font size="2" face="Trebuchet MS"> 
+
+                  Mariano Fernandez Lopez, Universidad Politecnica de Madrid, 
+
+                  Spain</font></p>
+
+              </li>
+
+              <li> 
+
+                <p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px"><font size="2" face="Trebuchet MS"> 
+
+                  Mustafa Jarrar, STARLab, Vrije Universiteit Brussel, Belgium</font></p>
+
+              </li>
+
+              <li> 
+
+                <p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px"><font size="2" face="Trebuchet MS"> 
+
+                  Radboud Winkels, Leibniz Center for Law, Netherlands</font></p>
+
+              </li>
+
+              <li> 
+
+                <p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px"><font size="2" face="Trebuchet MS"> 
+
+                  Robert Tolksdorf, Free university of Berlin, Germany</font></p>
+
+              </li>
+
+  
+
+              <li> 
+
+                <p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px"><font size="2" face="Trebuchet MS"> 
+
+                  Richard Benjamins, ISOCO, Spain</font></p>
+
+              </li>
+
+              <li><p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px"><font size="2" face="Trebuchet MS">Rita Temmerman, Erasmushogeschool Brussels, Belgium</font></li>
+
+   
+
+                <li><p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px"><font size="2" face="Trebuchet MS"> 
+
+                  Said Tabet, The RuleML Initiative, Boston, USA</font></p>
+
+              </li>
+
+              <li> 
+
+                <p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px"><font size="2" face="Trebuchet MS"> 
+
+                  Tom van Engers, Leibniz Center for Law, Netherlands</font></p>
+
+              </li>
+
+              <li> 
+
+                <p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px"><font size="2" face="Trebuchet MS"> 
+
+                  Trevor Bench-Capon, University of Liverpool, UK</font></p>
+
+              </li>
+
+              <li> 
+
+                <p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px"><font size="2" face="Trebuchet MS"> 
+
+                  Valentina Tamma, University of Liverpool, UK</font></p>
+
+              </li>
+
+
+
+              <li> 
+
+                <p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px"><font size="2" face="Trebuchet MS"> 
+
+                  Youssef Amghar, Laboratoire d'InfoRmatique en Image et Systemes 
+
+                  d'Information, INSA de Lyon, France</font><font size="3" face="Trebuchet MS"> 
+
+                  </font></p>
+
+                <font face="Trebuchet MS" size="3"><font face="Trebuchet MS" size="3"> 
+
+                </font></font></li>
+
+            </ul>
+
+           
+
+            <p style="MARGIN-TOP: 0px"><b><a name="Invited Speaker"><font color="#004284" size="4" face="Trebuchet MS">Invited 
+
+              Speaker</font></a></b> 
+
+            <blockquote> <font size="2" face="Trebuchet MS"> </font><font color="#666666">&lt;To 
+
+              be announced&gt;</font></blockquote>
+
+           
+
+
+
+            <p style="MARGIN-TOP: 0px"><b><a name="Program"><font color="#004284" size="4" face="Trebuchet MS">Workshop 
+
+              Program</font></a></b> 
+
+            <p style="MARGIN-TOP: 0px"><font color="#666666">&lt;To be announced&gt;</font></td>
+
+			
+
+          <td width="11%" height="1588" valign="top"> <div align="left"> 
+
+              <table width="209">
+
+		  <tr>
+
+		  <td width="0"></td>
+
+		          <td width="197" > <br> 
+
+                    <table width="194" border="1">
+
+                      <tr> 
+
+                        <td width="184" bgcolor="#CCCCFF"><p style="MARGIN: 3px 0px; LINE-HEIGHT: 100%"><font color="#000066" size="2" face="Trebuchet MS"> 
+
+                            Invited Speaker:</font></td>
+
+                      </tr>
+
+                      <tr> 
+
+                        <td height="45" bgcolor="#ddddff"> <p align="center" style="MARGIN: 3px 0px; LINE-HEIGHT: 100%"><font color="#999999" size="1">To 
+
+                            be announced</font><br>
+
+                        </td>
+
+                      </tr>
+
+                    </table>
+
+                    <br><table width="199" border="1">
+
+                    <tr> 
+
+                      <td width="181" bgcolor="#CCCCFF"><p style="MARGIN: 3px 0px; LINE-HEIGHT: 100%"><font color="#000066" size="2" face="Trebuchet MS">Important 
+
+                          Dates</font></td>
+
+                    </tr>
+
+                    <tr> 
+
+                        <td height="73" bgcolor="#ddddff"> <p style="MARGIN: 3px 0px; LINE-HEIGHT: 100%"> 
+
+                            <font size="1" face="Trebuchet MS"> - 1/7/05: Abstracts<br>
+
+                            - 29/6/05: Papers<br>
+
+                            - 29/7/05: Notification<br>
+
+                            - 20/8/05: Camera Ready</font> </td>
+
+                    </tr>
+
+                  </table>
+
+                    <font color="#000066" size="2" face="Trebuchet MS">&nbsp;</font><font color="#000066" size="2" face="Trebuchet MS">&nbsp;
+
+                    </font><br>
+
+                    <table border="1">
+
+                      <tr> 
+
+                        <td width="185" bgcolor="#CCCCFF"><p style="MARGIN: 3px 0px; LINE-HEIGHT: 100%"><font color="#000066" size="2" face="Trebuchet MS"><strong>Previous 
+
+                            Events:</strong></font></td>
+
+                      </tr>
+
+                      <tr> 
+
+                        <td height="54" bgcolor="#ddddff"> <p style="MARGIN: 3px 0px; LINE-HEIGHT: 100%"> 
+
+                            <strong style="MARGIN: 3px 0px; LINE-HEIGHT: 100%"><font size="1" face="Trebuchet MS"> 
+
+                            &nbsp; -<a href="http://www.jarrar.info/WORM_2004.htm" target="_blank"> 
+
+                            WORM'04</a>,<a href="http://www.jarrar.info/WORM_2004.htm" target="_blank"><font color="#FF0033">P<font color="#660066">h</font><font color="#339933">o</font><font color="#FF00FF">t</font><font color="#0000FF">o</font>s</font></a></font></strong> 
+
+                            <br>
+
+                            <strong style="MARGIN: 3px 0px; LINE-HEIGHT: 100%"><font size="1" face="Trebuchet MS">&nbsp; 
+
+                            -<a href="http://www.jarrar.info/WORM_CoRE_2003.htm" target="_blank"> 
+
+                            WORM'03</a>,<a href="http://www.jarrar.info/WORM03_Photos.htm" target="_blank"><font color="#FF0033">P<font color="#660066">h</font><font color="#339933">o</font><font color="#FF00FF">t</font><font color="#0000FF">o</font>s</font></a></font></strong></td>
+
+                      </tr>
+
+                    </table>
+
+                    <p align="center"><font size="2"><a href="mailto:RegulatoryOntologies-subscribe@yahoogroups.com? subject=subscribe"> 
+
+                      <strong><font size="2">Join Our Mailing List</font></strong></a>, 
+
+                      to receive announcements and updates about future events.</font></p>
+
+                    </tr>
+
+		  </table>
+
+           
+
+            </div></td>
+
+        </tr>
+
+      </table>
+
+      <hr> 
+
+      <p><span style="FONT-SIZE: 10pt; FONT-FAMILY: Verdana">Questions &amp; comments 
+
+        on this Web page to </span><font size="2" color="#0000FF"> <span style="font-family: Verdana; text-decoration: underline"><i> 
+
+        mjarrar(at)vub.ac.be</i></span></font><font size="2"><span style="font-family: Verdana"> 
+
+        ,</span></font> 
+        </td>
+
+  </tr>
+
+</table>
+
+
+
+ 
+</body>
+
+</html>

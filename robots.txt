@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.jarrar.info/sitemap.xml
+Sitemap: https://www.jarrar.info/sitemapActivities.xml
+Sitemap: https://www.jarrar.info/sitemapCourses.xml
+Sitemap: https://www.jarrar.info/sitemapPublications.xml
+Sitemap: https://www.jarrar.info/sitemapTalks.xml

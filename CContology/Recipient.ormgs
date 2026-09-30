@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ORMSchema xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:noNamespaceSchemaLocation='http://starlab.vub.ac.be/ORMML/ormml.xsd' xmlns:dc='http://purl.org/dc/elements/1.1/'>
+<ORMBody>
+<Object Name='Complaint Recipient' x='2243' y='1486' width='234' height='75' ColorRGB='-1'/>
+<Object Name='Contact Details' x='1641' y='1466' width='181' height='51' ColorRGB='-1'/>
+<Object Name='Legal Person' x='2498' y='1408' width='190' height='62' ColorRGB='-1'/>
+<Object Name='CCform Registration' x='1664' y='1553' width='188' height='45' ColorRGB='-1'/>
+<Predicate FirstObjectRoleID='Recipient:466' SecondObjectRoleID='Recipient:467' x='1908' y='1559' width='194' height='35' ColorRGB='-1'/>
+<Predicate FirstObjectRoleID='Recipient:468' SecondObjectRoleID='Recipient:469' x='1905' y='1474' width='199' height='35' ColorRGB='-1'/>
+<ORConnector ObjectName='Complaint Recipient' Object_RoleID='Recipient:467' PortType='Middleright' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='CCform Registration' Object_RoleID='Recipient:466' PortType='Middleleft' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Complaint Recipient' Object_RoleID='Recipient:469' PortType='Middleright' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Contact Details' Object_RoleID='Recipient:468' PortType='Middleleft' ObjectCleoneID='-1'/>
+<Subtype SourceObjectName='Complaint Recipient' TargetObjectName='Legal Person' SourceObjectCloneID='-1' TargetObjectCloneID='-1'/>
+<Text Content='Type Text Here' x='4672' y='3266' width='205' height='55'/>
+<Text Content='Type Text Here' x='2603' y='3248' width='205' height='55'/>
+<ExMandatory x='2063' y='1528'>
+	<Object_Role ID='Recipient:467' PortType='Topright'/>
+	<Object_Role ID='Recipient:469' PortType='Bottomright'/>
+</ExMandatory>
+
+</ORMBody>
+</ORMSchema>

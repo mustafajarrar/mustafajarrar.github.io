@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                xmlns:o="http://www.ontology.com/"
+                xmlns:bzu="http://www.birzeit.edu/">
+
+  <rdf:Description rdf:about="http://www.birzeit.edu">
+    <o:title>Birzeit University</o:title>
+    <rdf:type rdf:resource="o:university"/>
+    <o:country>
+      <o:country rdf:about="http://www.palestine.ps">
+        <o:name>Palestine</o:name>
+      </o:country>
+    </o:country>
+
+  </rdf:Description>
+
+  <o:Professor rdf:about="bzu:FarisAhmad">
+    <o:affiliation rdf:resource="http://www.birzeit.edu"/>
+    <o:name xml:lang="en">Faris Ahmad</o:name>
+    <o:name xml:lang="ar">فارس احمد</o:name>
+  </o:Professor>
+
+  <o:Student rdf:about="bzu:AmjadKarim">
+    <o:name xml:lang="en">Amjad Karim</o:name>
+    <o:name xml:lang="ar">أمجد كريم</o:name>
+    <o:affiliation rdf:resource="http://www.birzeit.edu"/>
+  </o:Student>
+
+
+
+  <o:article rdf:about="ieee:article1">
+    <o:author rdf:resource="ieee:p1"/>
+    <o:author rdf:resource="ieee:p2"/>
+    <o:journal rdf:resource="ieee:J1"/>
+    <o:publisher rdf:resource="ieee:pub1"/>
+
+    <o:title>Towards Creating Arabic Knowledge Graph</o:title>
+    <o:year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2019</o:year>
+  </o:article>
+     <o:person rdf:about="ieee:p1">
+        <o:name>F. Ahmad</o:name>
+      </o:person> 
+          <o:person rdf:about="ieee:p2">
+        <o:name>A. Karim</o:name>
+      </o:person> 
+      
+      <o:journal rdf:about="ieee:J1">
+        <o:title>Journal of Semantic Web</o:title>
+      </o:journal>
+
+      <o:publisher rdf:about="ieee:pub1">
+        <o:title>IEEE Publisher</o:title>
+      </o:publisher>
+</rdf:RDF>

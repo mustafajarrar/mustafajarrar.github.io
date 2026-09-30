@@ -1,0 +1,58 @@
+********* Deadline extended: Abstract (30/4/2010) Submission (15/5/2010) ********
+**** Special Issue WWW Journal, Springer US
+**** <<<<<Querying the Data Web>>>>>
+**** (Novel techniques for querying structured data on the web)
+**** Gust Editors: Paolo Ceravolo, Chengfei Liu, Mustafa Jarrar, Kai-Uwe Sattler
+**** http://www.jarrar.info/wwwj/
+
+The rapid growth of structured data on the Web has created a high demand for making this content more reusable and consumable. Companies are competing not only on gathering structured content and making it public, but also on encouraging people to reuse and profit from this content. Many companies have made their content publicly accessible not only through APIs but also started to widely adopt web metadata standards such as XML, RDF, RDFa, and microformats.
+
+This trend of structured data on the Web (Data Web) is shifting the focus of Web technologies towards new paradigms of structured-data retrieval. Traditional search engines cannot serve such data as the results of a keyword-based query will not be precise or clean, because the query itself is still ambiguous although the underlying data is structured. On the other side, traditional structured querying languages cannot be used directly as data on the Data Web is heterogeneous, large, distributed, schema-free, and not intuitive for web users. To expose the massive amount of structured data on the Web to its full potential, people should be able to query and combine this data easily and effectively.
+
+This special issue of the WWW Journal seeks original articles describing theoretical and practical methods and techniques for fostering, querying, and consuming the Data Web. 
+Topics relevant to this special issue include, but are not limited to, the following:
+  ** Keyword based search over structured data
+  ** User interfaces for querying
+  ** Novel approaches for Querying and filtering structured data on the Web
+  ** Semantic enrichment and reasoning
+  ** Ranking, measures, and benchmarks
+  ** Distributed and federated query processing
+  ** Continuous querying
+  ** Temporal and spatial aware queries
+  ** Preferences and Context
+  ** Data mashups
+  ** Presentation of results
+  ** Crawling and indexing
+  ** Entity Resolution
+ 
+REVIEWING and ACCEPTANCE
+========================
+All manuscripts must be submitted in English. Submitted manuscripts that do not conform to the World Wide Web Journal will be returned to authors. 
+Manuscripts submitted for publication are reviewed by three peer reviewers, according to the usual policies of the WWW Journal.
+
+PAPER SUBMISSION
+=================
+Authors are encouraged to submit high-quality, original work that has neither appeared in, nor is under consideration by, other journals. Springer offers authors, editors and reviewers of World Wide Web a web-enabled online manuscript submission and review system. Our online system offers authors the ability to track the review process of their manuscript.
+Manuscripts should be submitted to: http://WWWJ.edmgr.com. Authors should choose article type: XXX when submitting their paper. This online system offers easy and straightforward log-in and submission procedures, and supports a wide range of submission file formats. 
+
+GUEST EDITORS
+==============
+  * Paolo Ceravolo, Università degli Studi di Milano, Italy, http://ra.crema.unimi.it/ceravolo 
+  * Chengfei Liu, Swinburne University, Australia, http://www.ict.swin.edu.au/personal/cliu/ 
+  * Mustafa Jarrar, Birzeit University, Palestine  http://www.jarrar.info  
+  * Kai-Uwe Sattler, Ilmenau University of Technology, Germany,  http://www.tu-ilmenau.de/dbis 
+
+IMPORTANT DATES
+================
+  * Abstract deadline: 23-April-2010
+  * Paper submission deadline: 15-May-2010
+  * First round notification: 30-June-2010
+  * Revised version due: 30-July-2010
+  * Camera ready papers: 30-Sep-2010
+  * Publication: in early 2011
+
+
+World Wide Web Internet and Web Information Systems (WWWJ)
+Editors-in-Chief: M. Rusinkiewicz; Y. Zhang
+ISSN: 1386-145X (print version) ISSN: 1573-1413 (electronic version)
+Journal no. 11280,

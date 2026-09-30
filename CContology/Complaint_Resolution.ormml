@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ORMSchema xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:noNamespaceSchemaLocation='http://www.starlab.vub.ac.be/staff/mustafa/ormml.v1.3.xsd' xmlns:dc='http://purl.org/dc/elements/1.1/' OntologyBase="Dogma" Context="Customer Complaint">
+<ORMMeta>
+<Meta Name="DC.Title" Content="Resolution" />
+<Meta Name="DC.Language" Content="English" />
+<import_ORMGS href='C:\Documents and Settings\mjarrar\My Documents\[Research]\DogmaModeler\Ontologies\CContology\Complaint_Resolution.ormgs'/>
+</ORMMeta>
+<ORMBody>
+<Object xsi:type="NOLOT" Name="Resolution">
+	<Translation Language="English" Name="Resolution" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Information Correction Request">
+	<Translation Language="English" Name="Information Correction Request" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Economic Request">
+	<Translation Language="English" Name="Economic Request" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Action Request">
+	<Translation Language="English" Name="Action Request" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Payment Request">
+	<Translation Language="English" Name="Payment Request" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Symbolic Request">
+	<Translation Language="English" Name="Symbolic Request" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Privacy Request">
+	<Translation Language="English" Name="Privacy Request" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Apologize">
+	<Translation Language="English" Name="Apologize" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Stop Processing and transmission of privite data">
+	<Translation Language="English" Name="Stop Processing and transmission of privite data" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Provide the necessary privacy information">
+	<Translation Language="English" Name="Provide the necessary privacy information" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Provide access to the data">
+	<Translation Language="English" Name="Provide access to the data" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Delete the unnecessary data">
+	<Translation Language="English" Name="Delete the unnecessary data" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Delivery Request">
+	<Translation Language="English" Name="Delivery Request" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Sales and contract Request">
+	<Translation Language="English" Name="Sales and contract Request" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Billing Request">
+	<Translation Language="English" Name="Billing Request" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Money Request">
+	<Translation Language="English" Name="Money Request" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Damage Assessment">
+	<Translation Language="English" Name="Damage Assessment" Description="" Reference=""/>
+</Object>
+<Subtype>
+	<Parent Object="Resolution" Role=""/>
+	<Child Object="Information Correction Request" Role="SubtypeOf"/>
+</Subtype>
+<Subtype>
+	<Parent Object="Resolution" Role=""/>
+	<Child Object="Economic Request" Role="SubtypeOf"/>
+</Subtype>
+<Subtype>
+	<Parent Object="Economic Request" Role=""/>
+	<Child Object="Action Request" Role="SubtypeOf"/>
+</Subtype>
+<Subtype>
+	<Parent Object="Economic Request" Role=""/>
+	<Child Object="Payment Request" Role="SubtypeOf"/>
+</Subtype>
+<Subtype>
+	<Parent Object="Resolution" Role=""/>
+	<Child Object="Symbolic Request" Role="SubtypeOf"/>
+</Subtype>
+<Subtype>
+	<Parent Object="Symbolic Request" Role=""/>
+	<Child Object="Privacy Request" Role="SubtypeOf"/>
+</Subtype>
+<Subtype>
+	<Parent Object="Symbolic Request" Role=""/>
+	<Child Object="Apologize" Role="SubtypeOf"/>
+</Subtype>
+<Subtype>
+	<Parent Object="Privacy Request" Role="Types"/>
+	<Child Object="Stop Processing and transmission of privite data" Role="SubtypeOf"/>
+</Subtype>
+<Subtype>
+	<Parent Object="Privacy Request" Role="Types"/>
+	<Child Object="Provide the necessary privacy information" Role="SubtypeOf"/>
+</Subtype>
+<Subtype>
+	<Parent Object="Privacy Request" Role="Types"/>
+	<Child Object="Provide access to the data" Role="SubtypeOf"/>
+</Subtype>
+<Subtype>
+	<Parent Object="Privacy Request" Role="Types"/>
+	<Child Object="Delete the unnecessary data" Role="SubtypeOf"/>
+</Subtype>
+<Subtype>
+	<Parent Object="Payment Request" Role="Types"/>
+	<Child Object="Delivery Request" Role="SubtypeOf"/>
+</Subtype>
+<Subtype>
+	<Parent Object="Payment Request" Role="Types"/>
+	<Child Object="Sales and contract Request" Role="SubtypeOf"/>
+</Subtype>
+<Subtype>
+	<Parent Object="Action Request" Role="Types"/>
+	<Child Object="Billing Request" Role="SubtypeOf"/>
+</Subtype>
+<Subtype>
+	<Parent Object="Action Request" Role="Types"/>
+	<Child Object="Money Request" Role="SubtypeOf"/>
+</Subtype>
+<Subtype>
+	<Parent Object="Action Request" Role="Types"/>
+	<Child Object="Damage Assessment" Role="SubtypeOf"/>
+</Subtype>
+</ORMBody>
+</ORMSchema>

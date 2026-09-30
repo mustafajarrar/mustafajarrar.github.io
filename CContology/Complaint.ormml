@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ORMSchema xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:noNamespaceSchemaLocation='http://www.starlab.vub.ac.be/staff/mustafa/ormml.v1.3.xsd' xmlns:dc='http://purl.org/dc/elements/1.1/' OntologyBase="Dogma" Context="Customer Complaint">
+<ORMMeta>
+<Meta Name="DC.Title" Content="Complaint" />
+<Meta Name="DC.Language" Content="English" />
+<import_ORMGS href='C:\Documents and Settings\mjarrar\My Documents\[Research]\DogmaModeler\Ontologies\CContology\Complaint.ormgs'/>
+</ORMMeta>
+<ORMBody>
+<Object xsi:type="NOLOT" Name="Complainant">
+	<Translation Language="English" Name="Complainant" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Complaint" Datatype="String">
+	<Translation Language="English" Name="Complaint" Description="" Reference=""/>
+</Object>
+<Object xsi:type="LOT" Name="Complaint Date" Datatype="auto-generated">
+	<Translation Language="English" Name="Complaint Date" Description="" Reference=""/>
+</Object>
+<Object xsi:type="LOT" Name="Complaint Number" Datatype="auto-generated">
+	<Translation Language="English" Name="Complaint Number" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Problem" Datatype="String">
+	<Translation Language="English" Name="Problem" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Resolution">
+	<Translation Language="English" Name="Resolution" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Complaint Recipient">
+	<Translation Language="English" Name="Complaint Recipient" Description="" Reference=""/>
+</Object>
+<Predicate>
+	<Object_Role ID='Complaint_ref_116' Object='Complainant' Role='registers'/>
+	<Object_Role ID='Complaint_ref_117' Object='Complaint' Role='is_made_by'/>
+</Predicate>
+<Predicate>
+	<Object_Role ID='Complaint_ref_118' Object='Complaint Date' Role='is_of'/>
+	<Object_Role ID='Complaint_ref_119' Object='Complaint' Role='has'/>
+</Predicate>
+<Predicate>
+	<Object_Role ID='Complaint_ref_120' Object='Complaint' Role='describes'/>
+	<Object_Role ID='Complaint_ref_121' Object='Problem' Role='described_by'/>
+</Predicate>
+<Predicate>
+	<Object_Role ID='Complaint_ref_122' Object='Complaint Number' Role='is_of'/>
+	<Object_Role ID='Complaint_ref_123' Object='Complaint' Role='has'/>
+</Predicate>
+<Predicate>
+	<Object_Role ID='Complaint_ref_124' Object='Complaint' Role='requests'/>
+	<Object_Role ID='Complaint_ref_125' Object='Resolution' Role='requested_by'/>
+</Predicate>
+<Predicate>
+	<Object_Role ID='Complaint_ref_126' Object='Complaint Recipient' Role='receives'/>
+	<Object_Role ID='Complaint_ref_127' Object='Complaint' Role='against'/>
+</Predicate>
+<Constraint xsi:type="Mandatory">
+	<Object_Role>Complaint_ref_117</Object_Role>
+</Constraint>
+<Constraint xsi:type="Mandatory">
+	<Object_Role>Complaint_ref_119</Object_Role>
+</Constraint>
+<Constraint xsi:type="Mandatory">
+	<Object_Role>Complaint_ref_120</Object_Role>
+</Constraint>
+<Constraint xsi:type="Mandatory">
+	<Object_Role>Complaint_ref_123</Object_Role>
+</Constraint>
+<Constraint xsi:type="Mandatory">
+	<Object_Role>Complaint_ref_125</Object_Role>
+</Constraint>
+<Constraint xsi:type="Mandatory">
+	<Object_Role>Complaint_ref_127</Object_Role>
+</Constraint>
+<Constraint xsi:type="Uniqueness">
+	<Object_Role>Complaint_ref_119</Object_Role>
+</Constraint>
+<Constraint xsi:type="Uniqueness">
+	<Object_Role>Complaint_ref_117</Object_Role>
+</Constraint>
+<Constraint xsi:type="Uniqueness">
+	<Object_Role>Complaint_ref_120</Object_Role>
+	<Object_Role>Complaint_ref_121</Object_Role>
+</Constraint>
+<Constraint xsi:type="Uniqueness">
+	<Object_Role>Complaint_ref_123</Object_Role>
+</Constraint>
+<Constraint xsi:type="Uniqueness">
+	<Object_Role>Complaint_ref_122</Object_Role>
+</Constraint>
+<Constraint xsi:type="Uniqueness">
+	<Object_Role>Complaint_ref_124</Object_Role>
+	<Object_Role>Complaint_ref_125</Object_Role>
+</Constraint>
+<Constraint xsi:type="Uniqueness">
+	<Object_Role>Complaint_ref_127</Object_Role>
+</Constraint>
+</ORMBody>
+</ORMSchema>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+       "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+<head>
+  
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+  <title>Address</title>
+  
+<link type="text/css" rel="stylesheet" href="CCstyle.css" />
+  <meta http-equiv="Content-Type" content="text/html; charset=us-ascii" />
+  
+<meta name="generator" content="amaya 9.2.2, see http://www.w3.org/Amaya/" />
+  <style type="text/css">
+/*<![CDATA[*/
+.listing {border:1px solid black; padding:0px;}
+/*optimize printing format*/
+ h1{page-break-after: avoid}
+ h2{page-break-after: avoid}
+ h3{page-break-after: avoid}
+ h4{page-break-after: avoid}
+ h2{page-break-before: always}
+ h2.nobreak{page-break-before: avoid}
+ .tocpart{font-size: large; page-break-after: avoid}
+
+@media print {
+  a:link { color: black; background: transparent }
+  a:visited { color: black; background: transparent }
+  a:active { color: black; background: transparent }
+  .screenversion{display: none}
+  body {orphans: 2; widows: 2}
+  hr{display: none}
+  .img{width:100%}
+  .listing{width:100%}
+  .imgmof{width:80%}
+  .imgwsmo{width:50%}
+  }
+
+ @media screen {
+.printversion{display: none}
+.listing{width:100%}
+ }
+
+/*]]>
+
+
+*/</style>
+</head>
+
+<body xml:lang="en" lang="en">
+<table>
+  <tr> 
+    <td align="right" valign="top" bgcolor="#003366" width="15%"> <div align="center">
+        <p>&nbsp;</p>
+        <p><img src="Images/CCFORM-logo.JPG" alt="CCFORM Logo" /> </p>
+      </div>
+      <p align="right" class="MsoNormal">&nbsp;</p>
+      <p align="right" class="MsoNormal">&nbsp;</p>
+       
+      <a href="index.htm"><img src="Images/home.JPG" alt="Home"/></a> <a href="index.htm#Design"><img src="Images/design.JPG" alt="Ontology Design"/></a> 
+      <a href="index.htm#Downloads"><img src="Images/download.JPG" alt="Downlaod"/></a> 
+      <a href="index.htm#Documentation"><img src="Images/Documentation.JPG" alt="Documentation"/></a> 
+      <a href="index.htm#Contact"><img src="Images/Contact.JPG" alt="Contact Person"/></a> 
+      <p align="right" class="MsoNormal">&nbsp;</p>
+      <p align="center" class="MsoNormal"><a href="http://validator.w3.org/check?uri=referer"><img
+src="http://www.w3.org/Icons/valid-xhtml11" alt="Valid XHTML 1.1!" /></a></p>
+      </td>
+    <td valign="bottom" width="4%"> </td>
+    <td> <h1 align="center" class="nobreak">Customer Complaint Ontology</h1>
+      <h1 class="nobreak">The &quot;Address&quot; module</h1>
+      <h4 class="nobreak"> Final Draft 21 May 2005</h4>
+      <hr /> <div align="justify"> 
+        <p>The <a href="#Diagram">diagram</a> below shows the Address module. 
+          The concept &#8216;Contact Details&#8217;, which is a channel of communication, 
+          is attributed by both &#8216;Name&#8217; and &#8216;Address&#8217;. 
+          An &#8216;Address&#8217; must be either an &#8216;Electronic Address&#8217; 
+          or a &#8216;Mailing Address&#8217;. An &#8216;electronic Address&#8217; 
+          can be either a &#8216;Web Site&#8217;, &#8216;Telephone&#8217;, &#8216;eMail&#8217;, 
+          or &#8216;Fax&#8217;. A &#8216;Mailing Address&#8217; can have all the 
+          traditional information of postal addresses in the European Union. </p>
+        <p>For the definition of each vocabulary in this diagram please see the 
+          <a href="CCglossary.htm">CC-Glossary</a>. Notice that according to our 
+          <a href="index.htm#Design">ontology design</a>, each relation in this 
+          diagram is a lexon in the <a href="CClexons.htm">CC-Lexons</a>; this 
+          methodological principle is called <a href="http://www.starlab.vub.ac.be/staff/mustafa/phd-thesis/index.htm#ch3">Ontology 
+          double-articulation</a>.</p>
+        <p>This module is represented using the <a href="http://www.orm.net">ORM</a> 
+          graphical notation. The <a href="#Verbalization">verbalization</a> (i.e. 
+          the pseudo-natural-language reading) of the rules in this diagram, and 
+          the <a href="#ORMML">ORM markup </a>(i.e. the XML-based serialization) 
+          of this diagram can be found below.</p>
+        <p><em>Remark: The notion of &#8216;Address&#8217; can be specified in 
+          many different ways , especially since each country has its own postal 
+          information structure. Hence, this &#8220;Address&#8221; module is considered 
+          an &#8220;unsteady&#8221; module, and should be replaced by a more sophisticated 
+          module &#8211; one that does, for example, consider the compatibility 
+          with online national, European, or international address servers, such 
+          as <a href="http://www.afd.co.uk/tryit/">AFD</a>, <a href=" http://www.postdirekt.de">Post 
+          Direkt</a>, or <a href="http://www.usps.com">UPS</a>.</em></p>
+      </div>
+      <h2><a id="Diagram" name="Diagram">Diagram</a>:</h2>
+      <img src="Images/Address.JPG" alt="ORM representation"/> <h2><a id="Verbalization" name="Verbalization">Verbalization</a>:</h2>
+      <p><img src="Images/mandatory.gif" width="26" height="26" /><font color="#000099">Each 
+        <em><strong>Contact Details</strong></em> must <strong><em>comprises</em></strong> 
+        at least one <strong><em>Address</em></strong></font>. (Mandatory)<br>
+        <img src="Images/mandatory.gif" width="26" height="26" /><font color="#000099">Each 
+        <em><strong>Mailing Address</strong></em> must <strong><em>has</em></strong> 
+        at least one <strong><em>Country</em></strong></font>. (Mandatory)<br>
+        <img src="Images/uniqueness.gif" width="26" height="26" /><font color="#000099">Each 
+        <strong>Mailing Address</strong> must has at most one <strong>Country</strong>.</font> 
+        (Uniqueness)<br>
+        <img src="Images/exclusion.gif" width="26" height="26" /> <font color="#000099">Each 
+        <em> <strong>Electronic Address</strong></em> should be either <em><strong>Fax</strong></em> 
+        or <em><strong>Web Site</strong></em> or <em><strong>eMail</strong></em> 
+        or <em><strong>Telephone</strong></em>.</font> (Exclusive)<br />
+        <img src="Images/exclusion.gif" width="26" height="26" /><font color="#000099"> 
+        Each <em><strong>Address</strong></em> should be either <em><strong>Electronic 
+        Address</strong></em> or <em><strong>Mailing Address</strong></em>. </font>(Exclusive)<br>
+        <img src="Images/exmandatory.gif" width="26" height="26" /> <font color="#000099">Each 
+        <em> <strong>Address</strong></em> must be at least <em><strong>Mailing 
+        Address</strong></em> or <em><strong>Electronic Address</strong></em>. 
+        </font>(Totality)</p>
+      <h2><a id="ORMML" name="ORMML">ORM Markup</a>:</h2>
+      <ul>
+        <li><img src="Images/DM-logo.JPG" width="15" height="15" /><a href="Address.ormgs">Address.ormgs</a> 
+          file</li>
+        <li><img src="Images/DM-logo.JPG" width="15" height="15" /><a href="Address.ormml">Address.ormml</a> 
+          file</li>
+      </ul>
+      <h2>&nbsp;</h2></td>
+    <td valign="bottom" width="3%"> </td>
+</tr>
+</table>
+</body>
+</html>

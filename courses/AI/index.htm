@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+
+<html ng-app="app" lang="en"  id="ng-app">
+
+<head>   
+
+   <title>Artificial Intelligence Online Course</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+   <meta property="header" content="Artificial Intelligence" />
+   <meta property="og:url" content="http://www.jarrar.info/courses/AI/ai.htm" />
+   <meta property="og:title" content=" Artificial Intelligence Online Course" />
+   <meta property="title" content=" Artificial Intelligence Online Course" />
+   <meta property="og:image" content="http://www.jarrar.info/courses/AI2.jpeg" />
+   <meta name="author" content="Mustafa Jarrar">
+		
+   
+   <meta name="description" content="Games, Search Strategies, Machine Learning, Information Retrieval, Knowledge Representation and Reasoning, Lexical Semantics, and Computational Linguistics. مساق الذكاء الصناعي. محاضرات مسجلة. جامعة بيرزيت. فلسطين"> 
+ 
+    <meta name="keywords" content="Mustafa Jarrar, مصطفى جرار, Artificial Intelligence, Arabic NLP, Natural Language Processing, Computational Linguistics, Ontology Engineering, Semantic Web, Graph Databases, Arabic Ontology, SinaTools, Wojood NER, SinaLab, Hamad Bin Khalifa University, Birzeit University, Arabic Dialect Processing, Lexical Semantics, Digital Humanities, Knowledge Engineering, eGovernment">
+
+    
+   <!-- <base href="http://www.jarrar.info">  -->
+   <link rel="stylesheet" type="text/css" href="../../main.css">    
+   <link rel="icon" href="favicon.ico">  
+   <!-- /* Google tag (gtag.js) */ -->
+   <script async src="https://www.googletagmanager.com/gtag/js?id=G-NHGQ7491PC"></script>
+   <script>
+     window.dataLayer = window.dataLayer || [];
+     function gtag(){ dataLayer.push(arguments); }
+     gtag('js', new Date());
+   
+     gtag('config', 'G-NHGQ7491PC');
+   </script>
+   
+<style>
+
+
+.CourseTitle{
+	font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
+	font-size: 17px;
+	font-style: normal;
+	font-variant: normal;
+	line-height: 35px;
+}
+		
+      
+.NormalText{
+	font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
+	font-size: 17px;
+	font-style: normal;
+	font-variant: normal;
+	line-height: 20px;
+}
+
+
+#ban {
+    table-layout:fixed;
+    min-width: 1000px;
+    
+}
+#ban1 {
+    table-layout:fixed;
+    min-width: 1000px;
+}
+
+#headertext{margin-top: 0px; margin-bottom: 10px;max-height: 56px;overflow: hidden;}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+#headertext{max-height: 53px;}
+ }
+
+@media screen and (max-width: 1000px) {
+  #ban {
+  /* background:red; */
+  }
+}
+    </style>
+</head> 
+<body> 
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+<div style="min-width: 335px; padding-right:0px;">
+
+<div style="overflow: hidden; border:1px solid #dedede;  background:#f5f5f5;">
+
+  <div style="text-align: right; float: right;  padding-top:7px;">
+    <a href="https://scholar.google.com/citations?user=HiUpTkcAAAAJ&amp;hl=en"><img src="http://www.jarrar.info/images/GoogleScholar.png" style="padding-right:8px;" height="20" width="20" alt="My Google Scholar"></a>
+    <a href="https://www.researchgate.net/profile/Mustafa_Jarrar"><img src="http://www.jarrar.info/images/RG.jpg" style="padding-right:8px;" height="20" width="20" alt="My Research Gate"></a>
+    <a href="http://www.facebook.com/profile.php?id=100000636218726"><img src="http://www.jarrar.info/images/face.png" style="padding-right:8px;" height="20" width="20" alt="My  Faceboo profile"></a>
+    <a href="http://www.linkedin.com/in/jarrar"><img src="http://www.jarrar.info/images/lin.png"  style="padding-right:8px;" height="20" width="20" alt="My LinkedIn profile"></a>
+    <a href="https://twitter.com/#%21/mjarrar"><img src="http://www.jarrar.info/images/twit.png" style="padding-right:8px;" height="20" width="20" alt="My Twitter profile"></a>
+    <a href="http://www.slideshare.net/jarrar02/presentations"><img src="http://www.jarrar.info/images/slideshare.png"  style="padding-right:8px;" height="20" width="20" alt="My Slideshare profile"></a>
+    <a href="https://www.youtube.com/user/JarrarChannel/featured"><img src="http://www.jarrar.info/images/youtube.png"  style="padding-right:8px;" height="20" width="20" alt="My Youtube profile"></a>
+    <a href="https://orcid.org/0000-0003-4351-4207"><img src="http://www.jarrar.info/images/orcid.png" height="14"  alt="orcid"></a>
+   </div> 
+  <BR> 
+ 
+ <div class="topsection">
+
+ <img src="http://www.jarrar.info/Photos/photo.jpg" alt="MustafaPhotoe" style=" float:left;  height: 110px; width: 110px; border-radius: 50%; padding: 17px 7px 10px 3px"/>
+
+  
+  <div style="float:left;   text-align: left;"> 
+   <div style=" padding-top: 25px; font-size: 160%; font-weight: bold;"> Mustafa Jarrar </div>
+   <div style="padding-top: 10px;font-style: italic;">Full Professor</div>
+   <div style="padding-top: 3px;">Computer Science, Birzeit University</div>
+   <div style="padding-top: 15px; padding-bottom: 15px;">mjarrar(a)birzeit.edu</div>
+  </div>
+  
+ </div>
+
+</div>
+
+
+<div id="navigation" >
+  <a href="http://www.jarrar.info/" style="">CV</a>
+  <a href="http://www.jarrar.info/publications/" style="">Publications</a>
+  <a href="http://www.jarrar.info/Talks/" style="">Talks</a>
+  <a href="http://www.jarrar.info/courses/" class="active">Courses</a>
+</div>
+
+
+   
+<div style="background-color: white;   min-width: 700px; box-shadow: 0px 0px 1px #888888; padding: 5px; border-left-style:  solid; border-left-width:10px; border-left-color:#D8D8D8; border-radius: 3px; ">
+
+
+<table>
+<tr>
+<td width="30"></td>
+<td valign="top">
+  <iframe width="300" height="200" src="https://www.youtube.com/embed/HVu6sDBMC9o?si=ps3sgEMDyfrJmb52" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</td>
+<td valign="top">
+<div style="font-size: 20px; font-weight: bold; margin-left: 10px;"> Artificial Intelligence</div>
+<span style="font-size:17px">
+<div class="NormalText" style="margin-left: 10px;">
+  <br>
+This course aims to expose students to concepts and techniques that enable them to build smart 
+applications including search strategies, agents, machine learning, planning, knowledge 
+representation reasoning, lexical semantics and linguistic resources, information retrieval,
+natural language processing and computational linguistics.
+
+ <BR/>
+ <br>
+ <a href="Jarrar.LectureNotes.Ch1.Introduction.pdf" target="_blank">
+Course Outline </a>
+ <BR/>
+ <div class="fb-share-button" data-href="http://www.jarrar.info/courses/AI/ai.htm" data-layout="button" data-size="small" data-mobile-iframe="true">
+<a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.jarrar.info%2Fcourses%2FAI%2Fai.htm&amp;src=sdkpreparse">
+Share</a>
+</div>
+
+
+ </div>
+</td>
+</tr></table>
+
+<div class="CourseTitle" style="margin-left: 40px;">
+______________________________
+<BR/>
+</div>
+
+<div class="CourseTitle" style="margin-left: 20px;"> <B>Part I: Problem Solving by Search</B></div>
+
+
+<div class="CourseTitle" style="margin-left: 40px;">
+<a href="https://www.youtube.com/watch?v=HVu6sDBMC9o&list=PLCC05105BA39E9BC0&index=1" target="_blank">
+<img src="../../courses/vedio1.png" hight="25" width="25" style="margin-right: 10px;" alt="Watch lecture"/>
+Introduction to Artificial Intelligence </a>  
+(<a href="Jarrar.LectureNotes.Ch1.Introduction.pdf">slides</a>)
+<BR/>
+</div>
+
+<div class="CourseTitle" style="margin-left: 40px;">
+<a href="https://www.youtube.com/watch?v=WeLUjbXZSNo">
+  <img src="../../courses/vedio1.png" height="25" width="25" style="margin-right: 10px;" alt="Watch lecture">
+
+
+  Intelligent Agents </a>
+  (<a href="Jarrar.LectureNotes.Ch2.IntelligentAgents.pdf">slides</a>)
+<BR/>
+</div>
+
+<div class="CourseTitle" style="margin-left: 40px;">
+<a href="https://www.youtube.com/watch?v=GwxGZHduc-M&list=PLSu_tNkEO5Y30XPxTinGiLY1qfIyuMbMU">
+  <img src="../../courses/vedio1.png" height="25" width="25" style="margin-right: 10px;" alt="Watch lecture"/>
+
+
+Uninformed Search Algorithms</a>
+(<a href="Jarrar.LectureNotes.Ch3.UninformedSearch.pdf">slides</a>)
+<BR/>
+</div>
+
+<div class="CourseTitle" style="margin-left: 40px;">
+<a href="https://www.youtube.com/watch?time_continue=5671&v=WElctUrCkSE">
+<img src="../../courses/vedio1.png" height="25" width="25" style="margin-right: 10px;" alt="Watch lecture"/>
+Informed Heuristic  Search Algorithms</a>
+(<a href="Jarrar.LectureNotes.Ch3.InformedSearch.pdf">slides</a>)
+<BR/>
+</div>
+
+<div class="CourseTitle" style="margin-left: 40px;">
+<a href="https://www.youtube.com/watch?v=IocPllr7o3I&list=PLSu_tNkEO5Y3D42udIOdpEZmfWnFa4oqX">
+<img src="../../courses/vedio1.png" height="25" width="25" style="margin-right: 10px;" alt="Watch lecture"/>
+
+
+Local Search Algorithms</a>
+(<a href="Jarrar.LectureNotes.Ch4.LocalSearch.pdf">slides</a>)
+<BR/>
+</div>
+
+<div class="CourseTitle" style="margin-left: 40px;">
+<a href="https://www.youtube.com/watch?v=4B60JsBOJ2s">
+<img src="../../courses/vedio1.png" height="25" width="25" style="margin-right: 10px;" alt="Watch lecture"/>
+
+
+Games and Adversarial Search </a>
+(<a href="Jarrar.LectureNotes.Ch5.Games.pdf">slides</a>)
+
+<BR/>
+</div>
+
+<BR/>
+<div class="CourseTitle" style="margin-left: 20px;"> <B>Part II : Machine Learning </B></div>
+
+
+<div class="CourseTitle" style="margin-left: 40px;">
+
+<a href="https://www.youtube.com/watch?v=JUKjrGvqo3M&list=PLSu_tNkEO5Y1BxKDq5qQAfG4tddTdloVv">
+<img src="../../courses/vedio1.png" height="25" width="25" style="margin-right: 10px;" alt="Watch lecture"/>
+
+  Introduction to Machine Learning  </a>
+  (<a href="Jarrar.LectureNotes.AI.IntoMachineLearning.pdf">slides</a>)
+<BR/>
+</div>
+
+<div class="CourseTitle" style="margin-left: 40px;">
+<a href="https://www.youtube.com/watch?v=Jw_gbaq9FFE&list=PLSu_tNkEO5Y3JHhPoIDUVXVD8gChRSzFF">
+<img src="../../courses/vedio1.png" height="25" width="25" style="margin-right: 10px;" alt="Watch lecture"/>
+
+  Decision Trees Classification  </a>
+  (<a href="Jarrar.LectureNotes.AI.DecisionTrees.pdf">slides</a>)
+<BR/>
+</div>
+
+<div class="CourseTitle" style="margin-left: 40px;">
+<a href="https://www.youtube.com/watch?v=-64Z5FXdWX4&list=PLSu_tNkEO5Y30qizYgKH7GeEdwQlYdrCe">
+<img src="../../courses/vedio1.png" height="25" width="25" style="margin-right: 10px;" alt="Watch lecture"/>
+
+  Linear Regression  </a>
+  (<a href="Jarrar.LectureNotes.AI.LinearRegression.pdf">slides</a>)
+<BR/>
+</div>
+
+<div class="CourseTitle" style="margin-left: 40px;">
+<a href="https://www.youtube.com/watch?v=J3kyR-oah1o">
+<img src="../../courses/vedio1.png" height="25" width="25" style="margin-right: 10px;" alt="Watch lecture"/>
+
+  Artificial Neural Networks </a>
+    (<a href="Jarrar.LectureNotes.AI.NeuralNetorks.pdf">slides</a>)
+<BR/>
+</div>
+
+
+<BR/>
+<div class="CourseTitle" style="margin-left: 20px;"> <B>Part III : Natural Language Processing </B></div>
+
+
+<div class="CourseTitle" style="margin-left: 40px;">
+<a href="https://www.youtube.com/watch?v=_0s5gdLdTVE&t=1178s&list=PLSu_tNkEO5Y31s7AEq_VArvYEQ4z7F-jn&index=2">
+<img src="../../courses/vedio1.png" height="25" width="25" style="margin-right: 10px;" alt="Watch lecture"/>
+
+  Introduction to Natural Language Processing
+  (<a href="Jarrar.LectureNotes.NLP_P1_Introduction.pdf">slides</a>)
+  </a>
+<BR/>
+</div>
+
+<div class="CourseTitle" style="margin-left: 40px;">
+  <a href="https://www.youtube.com/watch?v=tywmRCtzpuQ&list=PLSu_tNkEO5Y3NaV-NwVnsrUbSZqZ7quhD&index=1&t=1s">
+  <img src="../../courses/vedio1.png" height="25" width="25" style="margin-right: 10px;" alt="Watch lecture"/>
+
+    Morphology
+    (<a href="https://www.jarrar.info/courses/nlp/morphology.pdf">slides</a>)
+    </a>
+  <BR/>
+  </div>
+
+<div class="CourseTitle" style="margin-left: 40px;">
+<a href="https://www.youtube.com/watch?v=aL4HieBodM0&list=PLSu_tNkEO5Y31s7AEq_VArvYEQ4z7F-jn&index=2">
+<img src="../../courses/vedio1.png" height="25" width="25" style="margin-right: 10px;" alt="Watch lecture"/>
+
+     Probabilistic Language Modeling - N-grams
+  </a>
+    (<a href="Jarrar.LectureNotes.NLP_P2_ProbabilisticLanguageModeling.pdf">slides</a>)
+<BR/>
+</div>
+
+<div class="CourseTitle" style="margin-left: 40px;">
+<a href="https://www.youtube.com/watch?v=Q5q4u0750DI&index=3&list=PLSu_tNkEO5Y31s7AEq_VArvYEQ4z7F-jn">
+<img src="../../courses/vedio1.png" height="25" width="25" style="margin-right: 10px;" alt="Watch lecture"/>
+
+  Information Retrieval  </a>
+    (<a href="Jarrar.LectureNotes.NLP_P3_InformationRetrieval.pdf">slides</a>)
+<BR/>
+</div>
+
+<div class="CourseTitle" style="margin-left: 40px;">
+<a href="https://www.youtube.com/watch?v=CsRfeALtM2c&list=PLSu_tNkEO5Y0-n77ZZGwQ5Xzxi1Ax3BZE&index=1&t=4s">
+<img src="../../courses/vedio1.png" height="25" width="25" style="margin-right: 10px;" alt="Watch lecture"/>
+
+  Lexical Semantics and Multilingualism </a>
+    (<a href="https://www.jarrar.info/courses/nlp/lexical_semantics.pdf">slides</a>)
+<BR/>
+</div>
+
+
+<div class="CourseTitle" style="margin-left: 40px;">
+<a href="https://www.youtube.com/watch?v=pgmQUMVAcAo&list=PLSu_tNkEO5Y3kBCj-GzA2EJabAxGkWwhj&index=1&t=1s">
+<img src="../../courses/vedio1.png" height="25" width="25" style="margin-right: 10px;" alt="Watch lecture"/>
+
+   Wordnet Basics</a>
+    (<a href="https://www.jarrar.info/courses/nlp/wordnets.pdf">slides</a>)
+<BR/>
+</div>
+
+<div class="CourseTitle" style="margin-left: 40px;">
+<a href="https://www.youtube.com/watch?v=PmquKrr49_4&list=PLSu_tNkEO5Y0y2Fd7j6cd3Sqw3fVnx108&index=1">
+<img src="../../courses/vedio1.png" height="25" width="25" style="margin-right: 10px;" alt="Watch lecture"/>
+
+  Arabic Ontology </a>
+  (<a href="https://www.jarrar.info/courses/nlp/arabic_ontology.pdf">slides</a>)
+  
+<BR/>
+</div>
+
+<BR/>
+<div class="CourseTitle" style="margin-left: 20px;"> <B>Part VI : Knowledge and Reasoning </B></div>
+
+
+
+
+<div class="CourseTitle" style="margin-left: 40px;">
+  <a href="https://www.youtube.com/watch?v=Fv9CUw3VqvA&t=1s">
+  <img src="../../courses/vedio1.png" height="25" width="25" style="margin-right: 10px;" alt="Watch lecture"/>
+
+  Introduction to Logic </a>
+    (<a href="../AI/Jarrar.LectureNotes.Ch7.LogicAndLogicAgents.pdf">slides</a>)
+  <BR/>
+</div>
+
+<div class="CourseTitle" style="margin-left: 40px;">
+<a href="https://www.youtube.com/watch?v=wjn_xPaxmsQ&t=1s">
+<img src="../../courses/vedio1.png" height="25" width="25" style="margin-right: 10px;" alt="Watch lecture"/>
+
+  Introduction to First Order Logic  </a>
+  (<a href="../AI/Jarrar.LectureNotes.Ch8.FOL_SyntaxAndSemantics.pdf">slides</a>)
+<BR/>
+</div>
+
+<div class="CourseTitle" style="margin-left: 40px;">
+<a href="https://www.youtube.com/watch?v=pavarzK3kwI">
+<img src="../../courses/vedio1.png" height="25" width="25" style="margin-right: 10px;" alt="Watch lecture"/>
+
+ Inference Methods in First Order Logic </a>
+(<a href="../AI/Jarrar.LectureNotes.Ch9.FOL_InferenceMethods.pdf">slides</a>)
+<BR/>
+</div>
+
+<div class="CourseTitle" style="margin-left: 40px;">
+<a href="https://www.youtube.com/watch?v=YRV-v3iee0s">
+<img src="../../courses/vedio1.png" height="25" width="25" style="margin-right: 10px;" alt="Watch lecture"/>
+
+    Inference Methods in Propositional Logic </a>
+    (<a href="../AI/Jarrar.LectureNotes.Ch7.PLogic_InferenceMethods.pdf">slides</a>)
+<BR/>
+</div>
+
+
+<div class="CourseTitle" style="margin-left: 40px;">
+<a href="https://www.youtube.com/watch?v=gSDxee9Ahr0">
+<img src="../../courses/vedio1.png" height="25" width="25" style="margin-right: 10px;" alt="Watch lecture"/>
+
+  Description Logic </a>
+  (<a href="../AI/Jarrar.LectureNotes.DescriptionLogic.pdf">slides</a>)
+
+<BR/>
+</div>
+
+<div class="CourseTitle" style="margin-left: 40px;">
+<a href="https://www.youtube.com/watch?v=T-yywnqxD34">
+<img src="../../courses/vedio1.png" height="25" width="25" style="margin-right: 10px;" alt="Watch lecture"/>
+
+  Introduction to Ontology </a>
+  (<a href="../AI/Jarrar.LectureNotes.OntologyIntroduction.pdf">slides</a>)
+<BR/>
+</div>
+
+<BR/>
+<div class="CourseTitle" style="margin-left: 40px;">
+
+<B><a href="http://jarrar-courses.blogspot.com/2014/03/jarrar-research-seminar.html">
+<img src="../../courses/vedio1.png" height="25" width="25" style="margin-right: 10px;" alt="Watch lecture"/>
+
+
+  Seminars</a> </B>   </div>
+  
+<div class="NormalText" style="margin-left: 40px;">
+Topics: {Planning, Fuzzy logic and Probabilistic Reasoning, Decision Making, Constraint Satisfaction, NLP topics, History of Logic}. 
+Every three students will select one of these topics and will be given 25 minutes to present it in front of all students.
+Students will be evaluated based on: (i) their understanding of the topic and (ii) how much other students understood them.
+</div>
+
+<BR/>
+
+<div class="CourseTitle" style="margin-left: 40px;">
+<B> <a id=" "> Synthesis Paper </a> </B>
+</div>
+
+<div class="NormalText" style="margin-left: 40px;">
+Every three student should write a synthesis paper (6-10 pages) about a research topic that will be assigned 
+to them. Students are expected to read at least three recent articles related to the course topics; 
+and summarize and criticize them. Discussion and guidance will be provided during the course.
+</div>
+
+
+<BR/><BR/>
+<div class="CourseTitle" style="margin-left: 20px;"> <B>Invited Lectures</B></div> <BR/>
+
+<div class="CourseTitle" style="margin-left: 40px;">
+
+<a href="https://www.youtube.com/watch?v=v92oPUYxCQQ">
+
+<img src="../../courses/vedio1.png" height="25" width="25" style="margin-right: 10px;" alt="Watch lecture"/>
+
+  Language and Intelligence, by Adnan Yahya </a>
+  (<a href="../AI/https://www.jarrar.info/courses/AAI/LanguageandIntelligence.pdf">slides</a>)
+<BR/>
+</div>
+
+<div class="CourseTitle" style="margin-left: 40px;">
+
+<a href="https://www.youtube.com/watch?v=RgLnyp8XXFs&list=PL44443F36733EF123&index=49">
+<img src="../../courses/vedio1.png" height="25" width="25" style="margin-right: 10px;" alt="Watch lecture"/>
+
+
+  Arabic Language Processing by Adnan Yahya</a>
+  (<a href="https://www.jarrar.info/courses/AAI/ArabicLanguageProcessing.pdf" target="_blank">Slides</a>) 
+<BR/>
+</div>
+
+<div class="CourseTitle" style="margin-left: 40px;">
+
+<a href="https://www.youtube.com/watch?v=VKdFUtDxNoU">
+<img src="../../courses/vedio1.png" height="25" width="25" style="margin-right: 10px;" alt="Watch lecture"/>
+
+
+  Introduction to Machine Learning, by Sami Ghawi </a>
+<BR/>
+</div>
+
+<div class="CourseTitle" style="margin-left: 40px;">
+
+<a href="https://www.youtube.com/watch?v=J3kyR-oah1o">
+<img src="../../courses/vedio1.png" height="25" width="25" style="margin-right: 10px;" alt="Watch lecture"/>
+
+
+  Artificial Neural Networks, by Sami Ghawi </a>
+<BR/>
+</div>
+
+<div class="CourseTitle" style="margin-left: 40px;">
+
+<a href="https://www.youtube.com/watch?v=xoPpZ9VJN90">
+<img src="../../courses/vedio1.png" height="25" width="25" style="margin-right: 10px;" alt="Watch lecture"/>
+
+
+  Part Of Speech tagging, by  Nada Ghneim  </a>
+<BR/>
+</div>
+<div class="CourseTitle" style="margin-left: 40px;">
+
+<a href="https://www.youtube.com/watch?v=CLGMk7h76rQ">
+<img src="../../courses/vedio1.png" height="25" width="25" style="margin-right: 10px;" alt="Watch lecture"/>
+
+
+  Diacritization, by  Nada Ghneim  </a>
+<BR/>
+</div>
+
+<div class="CourseTitle" style="margin-left: 40px;">
+
+<a href="https://www.youtube.com/watch?v=KZz_9D_wl2o">
+<img src="../../courses/vedio1.png" height="25" width="25" style="margin-right: 10px;" alt="Watch lecture"/>
+
+
+اللسانيات الحاسوبية، مهدي عرار </a>
+<BR/>
+</div>
+
+<div class="CourseTitle" style="margin-left: 40px;">
+
+<a href="https://www.youtube.com/watch?v=QA0JEn43-QM">
+<img src="../../courses/vedio1.png" height="25" width="25" style="margin-right: 10px;" alt="Watch lecture"/>
+
+
+  أثر اللبس على الترجمة الآلية،  مهدي عرار
+ </a>
+<BR/>
+</div>
+
+<div class="CourseTitle" style="margin-left: 40px;">
+
+<a href="https://www.youtube.com/watch?v=AUyFNfte_YM">
+<img src="../../courses/vedio1.png" height="25" width="25" style="margin-right: 10px;" alt="Watch lecture"/>
+
+
+   Entity Relational Extraction, by Fadi Zaraket </a>
+<BR/>
+</div>
+
+
+<div class="CourseTitle" style="margin-left: 40px;">
+
+<a href="https://www.youtube.com/watch?v=AUyFNfte_YM">
+<img src="../../courses/vedio1.png" height="25" width="25" style="margin-right: 10px;" alt="Watch lecture"/>
+
+
+  Invited Lecture by Karim Bouzoubaa  </a>
+<BR/>
+</div>
+
+<div class="CourseTitle" style="margin-left: 40px;">
+
+<a href="">
+<img src="../../courses/vedio1.png" height="25" width="25" style="margin-right: 10px;" alt="Watch lecture"/>
+
+
+  Statistical Content Extraction and its Applications in Arabic, by Imad Zitouni </a>
+<BR/>
+</div>
+
+<div class="CourseTitle" style="margin-left: 40px;">
+
+<a href="https://www.youtube.com/watch?v=rTyQAJh3enE&list=PL44443F36733EF123&index=71">
+<img src="../../courses/vedio1.png" height="25" width="25" style="margin-right: 10px;" alt="Watch lecture"/>
+
+
+  ANLP: From text segmentation to summarization, by Lamia Belguith </a>
+<BR/>
+
+</div>
+
+<BR/><BR/><BR/>
+
+<div class="CourseTitle" style="margin-left: 40px;">
+<B>Textbook </B> <BR/> Stuart Russell and Peter Norvig:<a href="http://aima.cs.berkeley.edu/"> Artificial Intelligence: A Modern Approach </a>. Prentice Hall, 3rd Edition
+
+</div>
+<BR/>
+
+<BR/><BR/><BR/>
+</div>
+<BR/><BR/>
+</body>
+ </html>
+ 

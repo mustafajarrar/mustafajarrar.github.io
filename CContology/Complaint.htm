@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+       "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+<head>
+  
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+  <title>Complaint</title>
+  
+<link type="text/css" rel="stylesheet" href="CCstyle.css" />
+  <meta http-equiv="Content-Type" content="text/html; charset=us-ascii" />
+  
+<meta name="generator" content="amaya 9.2.2, see http://www.w3.org/Amaya/" />
+  <style type="text/css">
+/*<![CDATA[*/
+.listing {border:1px solid black; padding:0px;}
+/*optimize printing format*/
+ h1{page-break-after: avoid}
+ h2{page-break-after: avoid}
+ h3{page-break-after: avoid}
+ h4{page-break-after: avoid}
+ h2{page-break-before: always}
+ h2.nobreak{page-break-before: avoid}
+ .tocpart{font-size: large; page-break-after: avoid}
+
+@media print {
+  a:link { color: black; background: transparent }
+  a:visited { color: black; background: transparent }
+  a:active { color: black; background: transparent }
+  .screenversion{display: none}
+  body {orphans: 2; widows: 2}
+  hr{display: none}
+  .img{width:100%}
+  .listing{width:100%}
+  .imgmof{width:80%}
+  .imgwsmo{width:50%}
+  }
+
+ @media screen {
+.printversion{display: none}
+.listing{width:100%}
+ }
+
+/*]]>
+
+
+*/</style>
+</head>
+
+<body xml:lang="en" lang="en">
+<table>
+  <tr> 
+    <td align="right" valign="top" bgcolor="#003366" width="15%"> <div align="center">
+        <p>&nbsp;</p>
+        <p><img src="Images/CCFORM-logo.JPG" alt="CCFORM Logo" /> </p>
+      </div>
+      <p align="right" class="MsoNormal">&nbsp;</p>
+      <p align="right" class="MsoNormal">&nbsp;</p>
+       
+      <a href="index.htm"><img src="Images/home.JPG" alt="Home"/></a> <a href="index.htm#Design"><img src="Images/design.JPG" alt="Ontology Design"/></a> 
+      <a href="index.htm#Downloads"><img src="Images/download.JPG" alt="Downlaod"/></a> 
+      <a href="index.htm#Documentation"><img src="Images/Documentation.JPG" alt="Documentation"/></a> 
+      <a href="index.htm#Contact"><img src="Images/Contact.JPG" alt="Contact Person"/></a> 
+      <p align="right" class="MsoNormal">&nbsp;</p>
+      <p align="center" class="MsoNormal"><a href="http://validator.w3.org/check?uri=referer"><img
+src="http://www.w3.org/Icons/valid-xhtml11" alt="Valid XHTML 1.1!" /></a></p>
+      </td>
+    <td valign="bottom" width="4%"> </td>
+    <td> <h1 align="center" class="nobreak">Customer Complaint Ontology</h1>
+      <h1 class="nobreak">The &quot;Complaint&quot; module</h1>
+      <h4 class="nobreak"> Final Draft 21 May 2005</h4>
+      <hr /> 
+      <div align="justify"> 
+        <p>The <a href="#Diagram">diagram</a> below shows the Complaint module, 
+          which specifies the main concepts that can be associated with the concept 
+          &#8216;Complaint&#8217;. A &#8216;Complaint&#8217; is defined in the 
+          <a href="CCglossary.htm">CC-Glossary</a> as &#8220;An expression of 
+          grievance or resentment issued by a complainant against a compliant-recipient, 
+          describing a problem(s) that needs to be resolved&#8221;. A &#8216;Complaint&#8217; 
+          must be issued by a &#8216;Complainant&#8217; against a &#8216;Complaint-Recipient&#8217;, 
+          on a certain &#8216;Date&#8217;. It must describe at least one &#8216;Problem&#8217;, 
+          and may request one or more &#8216;Complaint Resolutions&#8217;. A &#8216;Complaint&#8217; 
+          might be identified by a &#8216;Complaint Number&#8217;, which is typically 
+          used as a unique reference in a court or a complaint system.<br />
+        </p>
+        <p>For the definition of each vocabulary in this diagram please see the 
+          <a href="CCglossary.htm">CC-Glossary</a>. Notice that according to our 
+          <a href="index.htm#Design">ontology design</a>, each relation in this 
+          diagram is a lexon in the <a href="CClexons.htm">CC-Lexons</a>; this 
+          methodological principle is called <a href="http://www.starlab.vub.ac.be/staff/mustafa/phd-thesis/index.htm#ch3">Ontology 
+          double-articulation</a>.</p>
+        <p>This module is represented using the <a href="http://www.orm.net">ORM</a> 
+          graphical notation. The <a href="#Verbalization">verbalization</a> (i.e. 
+          the pseudo-natural-language reading) of the rules in this diagram, and 
+          the <a href="#ORMML">ORM markup </a>(i.e. the XML-based serialization) 
+          of this diagram can be found below.</p></div>
+        
+      <h2><a id="Diagram" name="Diagram">Diagram</a>:</h2>
+      <img src="Images/Complaint.JPG" alt="ORM representation"/>
+	  <h2><a id="Verbalization" name="Verbalization">Verbalization</a>:</h2>
+      <img src="Images/mandatory.gif" width="26" height="26" /><font color="#000099">Each 
+      <em> <strong>Complaint</strong></em> must be <em><strong>has</strong></em> 
+      at least one <em><strong>Complaint Date</strong></em></font>. (Mandatory)<br>
+      <img src="Images/mandatory.gif" width="26" height="26" /><font color="#000099">Each 
+      <em> <strong>Complaint</strong></em> must be <em><strong>issued_by</strong></em> 
+      at least one <em><strong>Complainant</strong></em></font>. (Mandatory)<br>
+      <img src="Images/mandatory.gif" width="26" height="26" /><font color="#000099">Each 
+      <em> <strong>Complaint</strong></em> must <em><strong>describes</strong></em> 
+      at least one <em><strong>Problem</strong></em></font>. (Mandatory)<br>
+      <img src="Images/mandatory.gif" width="26" height="26" /><font color="#000099">Each 
+      <em> <strong>Complaint</strong></em> must be <em><strong>against</strong></em> 
+      at least one <em><strong>Complaint Recipient</strong></em></font>. (Mandatory)<br>
+      <img src="Images/uniqueness.gif" width="26" height="26" /><font color="#000099">Each 
+      <em> <strong>Complaint</strong></em> must <em><strong>has</strong></em> 
+      at most one <em><strong>Complaint Date</strong></em>.</font> (Uniqueness)<br>
+      <img src="Images/uniqueness.gif" width="26" height="26" /><font color="#000099">Each 
+      <em> <strong>Complaint</strong></em> must be<em><strong> issued_by</strong></em> 
+      at most one <em><strong>Complainant</strong></em>.</font> (Uniqueness)<br>
+      <img src="Images/uniqueness.gif" width="26" height="26" /><font color="#000099">Each 
+      <em> <strong>Complaint</strong></em> must <em><strong>has</strong></em> 
+      at most one <em><strong>Complaint Number</strong></em>.</font> (Uniqueness)<br>
+      <img src="Images/uniqueness.gif" width="26" height="26" /><font color="#000099">Each 
+      <em> <strong>Complaint Number</strong></em> must <em><strong>is_of</strong></em> 
+      at most one <em><strong>Complaint</strong></em>.</font> (Uniqueness)<br>
+      <img src="Images/uniqueness.gif" width="26" height="26" /><font color="#000099">Each 
+      <em> <strong>Complaint</strong></em> must be <em><strong>against</strong></em> 
+      at most one <em><strong>Complaint Recipient</strong></em>.</font> (Uniqueness)<br>
+      <img src="Images/uniqueness.gif" width="26" height="26" /><font color="#000099">It 
+      is possible that a <em><strong>Complaint</strong></em> <em><strong>describes</strong></em> 
+      more than one <em><strong>Problem</strong></em> , and vice versa.</font> 
+      (Uniqueness)<br>
+      <img src="Images/uniqueness.gif" width="26" height="26" /><font color="#000099">It 
+      is possible that a <em><strong>Complaint</strong></em> <em><strong>requests</strong></em> 
+      more than one <strong><em>Resolution</em></strong> , and vice versa.</font> 
+      (Uniqueness)<br>
+      <br>
+
+      <h2><a id="ORMML" name="ORMML">ORM Markup</a>:</h2>
+      <ul>
+        <li><img src="Images/DM-logo.JPG" width="15" height="15" /> <a href="Complaint.ormgs">Complaint.ormgs</a> 
+          file</li>
+        <li><img src="Images/DM-logo.JPG" width="15" height="15" /> <a href="Complaint.ormml">Complaint.ormml</a> 
+          file</li>
+      </ul>
+      <h2>&nbsp;</h2>
+      </td>
+    <td valign="bottom" width="3%"> </td>
+</tr>
+</table>
+</body>
+</html>

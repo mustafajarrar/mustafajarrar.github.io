@@ -1,0 +1,301 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ORMSchema xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:noNamespaceSchemaLocation='http://www.starlab.vub.ac.be'>
+<ORMNLBody>
+
+<Constraint xsi:type="Lexical"  >
+<Text>Лексическими концепциями являются :{</Text>
+ <Object index="0"  />
+<Loop index="1">
+<Text>,</Text>
+ <Object index="n"  />
+</Loop>
+ <Text> }</Text>
+ </Constraint>
+
+<Constraint xsi:type="Value"  >
+<Object index="0"  />
+<Text> может быть представлен как :{</Text>
+<Value index="0"  />
+<Loop index="1">
+<Text>,</Text>
+ <Value index="n"  />
+</Loop>
+ <Text> }</Text>
+ </Constraint>
+
+
+<Constraint xsi:type="Mandatory"  >
+ <Text>Kаждый</Text>
+ <Object index="0"  />
+ <Role index="0"  />
+ <Text> по краней мере один</Text>
+ <Object index="1"  />
+ 
+</Constraint>
+
+<Constraint xsi:type="Backward Mandatory"  >
+ <Text>Для каждого</Text>
+ <Object index="0"  />
+<Text> существует по крайней мере один </Text>
+<Object index="1"  />
+ <Text> который </Text>
+<Role index="1"  />
+ <Text> этот</Text>
+ <Object index="0"  />
+</Constraint>
+
+
+
+<Constraint xsi:type="Backward Uniqueness"  >
+<Text>Для каждого </Text>
+<Object index="0" />
+<Text> существует по максимум один </Text>
+<Object index="1"  />
+<Text> который </Text>
+<Role index="1"  />
+<Text> этот</Text>
+<Object index="0"  />
+
+</Constraint>
+
+
+
+
+<Constraint xsi:type="External Uniqueness" >
+<Text>Каждая комбинация </Text>
+<Object index="1"  />
+<Loop index="1">
+<Text>и</Text>
+<Object index="n"  />
+</Loop>
+<Text> относится только к одному </Text>
+<Object index="0"   />
+</Constraint>
+
+
+
+
+<Constraint xsi:type="Subtype" >
+<Text>Kаждый</Text>
+<Object index="child" />
+<Text> также является </Text>
+<Object index="parent"  />
+</Constraint>
+
+
+<Constraint xsi:type="Exclusive" >
+<Text>Kаждый</Text>
+<Object index="0"/>
+<Text> может быть  </Text>
+<Object index="1"/>
+<Loop index="1">
+  <Text>или</Text>
+  <Object index="n"/>
+</Loop>
+ 
+</Constraint>
+
+
+<Constraint xsi:type="Total" >
+ <Text>Kаждый</Text>
+<Object index="0" />
+<Text> является либо </Text>
+<Object index="1"  />
+<Loop index="1" >
+  <Text> или </Text>
+  <Object index="n" />
+</Loop>
+
+</Constraint>
+
+
+<Constraint xsi:type="Partition" >
+<Text>Each </Text>
+<Object index="0" />
+<Text> по крайней мере является одним из </Text>
+<Object index="1"  />
+<Loop index="1" >
+  <Text> или </Text>
+  <Object index="n" />
+</Loop>
+<Text>но не всеми сразу</Text>
+</Constraint>
+
+
+<Constraint xsi:type="Subset" >
+<Text>Если </Text>
+<Object  index="0" />
+<Role index="child"  />
+<Object index="child" />
+<Text>, то </Text>
+<Object index="0"  />
+<Role index="parent"  />
+<Object index="parent" />
+</Constraint>
+
+
+
+<Constraint xsi:type="Equality" >
+<Object index="0"  />
+<Role index="first"  />
+<Object index="first"  />
+<Text>если и только если</Text>
+<Text>этот </Text>
+<Object index="0" />
+<Role index="second"  />
+<Object index="second"  />
+<Text>, и наоборот</Text>
+</Constraint>
+
+
+<Constraint xsi:type="Equality FactType" >
+<Object index="0"  />
+<Role index="First"  />
+<Object index="First"  />
+<Text>если и только если</Text>
+<Text>этот </Text>
+<Object index="1"  />
+<Role index="Second"  />
+<Object index="Second"  />
+</Constraint>
+
+
+
+<Constraint xsi:type="Subset FactType" >
+<Text>Если  </Text>
+<Object  index="0" />
+<Role index="child"  />
+<Object index="child" />
+<Text>, то этот </Text>
+<Object index="1"  />
+<Role index="parent"  />
+<Text> тот </Text>
+<Object index="parent" />
+ 
+</Constraint>
+
+
+
+
+
+<Constraint xsi:type="Exclusion" >
+<Text>Не существует </Text>
+<Object index="0"  />
+<Text>, который </Text>
+<Role index="first"  />
+<Object index="first"  />
+<Text> и </Text>
+<Role index="second"  />
+<Object index="second"  />
+</Constraint>
+
+
+
+<Constraint xsi:type="Exclusion FactType" >
+<Text>Не существует </Text>
+<Object index="0"  />
+<Text>, который </Text>
+<Role index="first"  />
+<Object index="first"  />
+<Text>и</Text>
+<Role index="second"  />
+<Text>тот </Text>
+<Object index="second"  />
+ </Constraint>
+
+
+
+
+<Constraint xsi:type="Disjunctive Mandatory" >
+<Object index="0" />
+<Text>either</Text>
+<Role index="0"   />
+<Text>или</Text>
+<Object index="1" />
+<Loop index="1" >
+ <Text>или </Text>
+ <Role index="n"   />
+<Object index="n" />
+</Loop>
+ 
+</Constraint>
+
+
+<Constraint xsi:type="Reflexive" >
+<Text>Каждый</Text>
+<Object index="0"/>
+<Role index="0"/>
+<Text> </Text>
+</Constraint>
+
+<Constraint xsi:type="Irreflexive" >
+<Text>No</Text>
+<Object index="0"/>
+<Role index="0"/>
+<Text> самого себя</Text>
+</Constraint>
+
+
+
+
+<Constraint xsi:type="Symmetric"  >
+<Text>Если</Text>
+<Object index="0"/>
+<Text> x</Text>
+<Role index="0"/>
+<Object index="0"/>
+<Text> y</Text>
+<Text> то наоборот</Text>
+</Constraint>
+
+<Constraint xsi:type="Transitve"  >
+<Text>Если</Text>
+<Object index="0"/>
+<Text>x</Text>
+<Role index="0"/>
+<Object index="0"/>
+<Text>y и y</Text>
+<Role index="0"/>
+<Text> x то x</Text>
+<Role index="0"/>
+<Text>y</Text>
+</Constraint>
+
+
+
+<FactType xsi:type="FactType" >
+<Text>  - </Text>
+<Object index="0" />
+<Role index="0"  />
+<Text>/</Text>
+<Role index="1"  />
+<Object index="1" />
+</FactType>
+
+<Constraint xsi:type="Uniqueness" >
+<Text>Каждый</Text>
+<Object index="0" />
+<Role index="0"  />
+<Text> максимум один </Text>
+<Object index="1" />
+ </Constraint>
+
+ 
+<Constraint xsi:type="Many Uniqueness" >
+<Text>возможно, что</Text>
+<Object index="0" />
+<Role index="0"></Role>
+<Text> больше, чем один </Text>
+<Object index="1"  />
+<Text> и, что</Text>
+<Object index="1" />
+<Role index="1"></Role>
+<Text> больше, чем один </Text>
+<Object index="0"  />
+
+</Constraint>
+
+
+
+</ORMNLBody>
+</ORMSchema>

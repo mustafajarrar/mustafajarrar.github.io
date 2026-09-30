@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ORMSchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.starlab.vub.ac.be/staff/mustafa/ormml.v1.3.xsd" xmlns:dc="http://purl.org/dc/elements/1.1/" OntologyBase="jdbc:microsoft:sqlserver://localhost:1433;DatabaseName=DOGMA/Dogma" Context="Books">
+<ORMMeta>
+<Meta Name="DC.Creator" Content="Marijke Keet" />
+<Meta Name="DC.Title" Content="Satyagraha" />
+</ORMMeta>
+<ORMBody>
+<Object xsi:type="NOLOT" Name="Author"/>
+<Object xsi:type="NOLOT" Name="Written Material">
+	<Translation Language="English" Name="Written Material" Description="Written Material" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Book"/>
+<Subtype>
+	<Parent Object="Written Material" Role="isa"/>
+	<Child Object="Book" Role="types"/>
+</Subtype>
+<Predicate>
+	<Object_Role ID="Satyagraha_ref_257" Object="Author" Role="Writes"/>
+	<Object_Role ID="Satyagraha_ref_258" Object="Written Material" Role="Written-By"/>
+</Predicate>
+<Constraint xsi:type="Uniqueness">
+	<Object_Role>Satyagraha_ref_257</Object_Role>
+</Constraint>
+</ORMBody>
+</ORMSchema>

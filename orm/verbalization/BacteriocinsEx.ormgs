@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ORMSchema xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:noNamespaceSchemaLocation='http://starlab.vub.ac.be/ORMML/ormml.xsd' xmlns:dc='http://purl.org/dc/elements/1.1/'>
+<ORMBody>
+<Object Name='Bacteriocin' x='547' y='356' width='122' height='35' ColorRGB='-1'/>
+<Object Name='Bacterium' x='149' y='358' width='112' height='35' ColorRGB='-1'/>
+<Predicate FirstObjectRoleID='Bacts:260' SecondObjectRoleID='Bacts:259' x='304' y='411' width='203' height='35' ColorRGB='-1'/>
+<Predicate FirstObjectRoleID='Bacts:258' SecondObjectRoleID='Bacts:257' x='307' y='299' width='200' height='35' ColorRGB='-1'/>
+<ORConnector ObjectName='Bacteriocin' Object_RoleID='Bacts:259' PortType='Middleright' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Bacterium' Object_RoleID='Bacts:260' PortType='Middleleft' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Bacteriocin' Object_RoleID='Bacts:257' PortType='Middleright' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Bacterium' Object_RoleID='Bacts:258' PortType='Middleleft' ObjectCleoneID='-1'/>
+<Exclusion x='392' y='364'>
+	<First>
+		<Object_Role ID='Bacts:260' PortType='Topmiddle'/>
+		<Object_Role ID='Bacts:259' PortType='Topmiddle'/>
+	</First>
+	<Second>
+		<Object_Role ID='Bacts:258' PortType='Bottommiddle'/>
+		<Object_Role ID='Bacts:257' PortType='Bottommiddle'/>
+	</Second>
+</Exclusion>
+
+</ORMBody>
+</ORMSchema>

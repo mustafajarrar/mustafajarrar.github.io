@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ORMSchema xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:noNamespaceSchemaLocation='http://starlab.vub.ac.be/ORMML/ormml.xsd' xmlns:dc='http://purl.org/dc/elements/1.1/'>
+<ORMBody>
+<Object Name='Address' x='983' y='2063' width='245' height='93' ColorRGB='-1'/>
+<Object Name='Country' x='189' y='2624' width='105' height='35' ColorRGB='-1'/>
+<Object Name='County' x='185' y='2525' width='105' height='35' ColorRGB='-1'/>
+<Object Name='PostalCode' x='167' y='2471' width='140' height='36' ColorRGB='-1'/>
+<Object Name='Street' x='167' y='2366' width='133' height='35' ColorRGB='-1'/>
+<Object Name='Building Name' x='140' y='2215' width='192' height='35' ColorRGB='-1'/>
+<Object Name='Appartment Number' x='130' y='2170' width='206' height='35' ColorRGB='-1'/>
+<Object Name='Mailing Address' x='614' y='2338' width='175' height='91' ColorRGB='-1'/>
+<Object Name='City' x='170' y='2417' width='129' height='35' ColorRGB='-1'/>
+<Object Name='State' x='186' y='2577' width='105' height='35' ColorRGB='-1'/>
+<Object Name='PO Box' x='172' y='2317' width='135' height='35' ColorRGB='-1'/>
+<Object Name='Telephone' x='153' y='1950' width='160' height='35' ColorRGB='-1'/>
+<Object Name='eMail' x='154' y='1889' width='155' height='35' ColorRGB='-1'/>
+<Object Name='Web Site' x='134' y='1814' width='175' height='35' ColorRGB='-1'/>
+<Object Name='Fax' x='152' y='2025' width='147' height='35' ColorRGB='-1'/>
+<Object Name='Contact Details' x='1119' y='1830' width='211' height='46' ColorRGB='-1'/>
+<Object Name='Name' x='814' y='1767' width='105' height='35' ColorRGB='-1'/>
+<Object Name='Building Number' x='142' y='2270' width='186' height='35' ColorRGB='-1'/>
+<Object Name='Electronic Address' x='544' y='1894' width='179' height='85' ColorRGB='-1'/>
+<Predicate FirstObjectRoleID='Address:144' SecondObjectRoleID='Address:145' x='388' y='2625' width='105' height='35' ColorRGB='-1'/>
+<Predicate FirstObjectRoleID='Address:146' SecondObjectRoleID='Address:147' x='388' y='2578' width='105' height='35' ColorRGB='-1'/>
+<Predicate FirstObjectRoleID='Address:148' SecondObjectRoleID='Address:149' x='386' y='2526' width='105' height='35' ColorRGB='-1'/>
+<Predicate FirstObjectRoleID='Address:150' SecondObjectRoleID='Address:151' x='387' y='2472' width='105' height='35' ColorRGB='-1'/>
+<Predicate FirstObjectRoleID='Address:152' SecondObjectRoleID='Address:153' x='387' y='2418' width='105' height='35' ColorRGB='-1'/>
+<Predicate FirstObjectRoleID='Address:154' SecondObjectRoleID='Address:155' x='385' y='2367' width='105' height='35' ColorRGB='-1'/>
+<Predicate FirstObjectRoleID='Address:158' SecondObjectRoleID='Address:159' x='392' y='2318' width='105' height='35' ColorRGB='-1'/>
+<Predicate FirstObjectRoleID='Address:160' SecondObjectRoleID='Address:161' x='384' y='2171' width='105' height='35' ColorRGB='-1'/>
+<Predicate FirstObjectRoleID='Address:162' SecondObjectRoleID='Address:163' x='387' y='2216' width='105' height='35' ColorRGB='-1'/>
+<Predicate FirstObjectRoleID='Address:184' SecondObjectRoleID='Address:185' x='949' y='1768' width='105' height='35' ColorRGB='-1'/>
+<Predicate FirstObjectRoleID='Address:187' SecondObjectRoleID='Address:186' x='393' y='2271' width='105' height='35' ColorRGB='-1'/>
+<Predicate FirstObjectRoleID='Address:190' SecondObjectRoleID='Address:191' x='1065' y='1963' width='241' height='35' ColorRGB='-1'/>
+<ORConnector ObjectName='Mailing Address' Object_RoleID='Address:145' PortType='Middleright' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Country' Object_RoleID='Address:144' PortType='Middleleft' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Mailing Address' Object_RoleID='Address:147' PortType='Middleright' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='State' Object_RoleID='Address:146' PortType='Middleleft' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Mailing Address' Object_RoleID='Address:149' PortType='Middleright' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='County' Object_RoleID='Address:148' PortType='Middleleft' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Mailing Address' Object_RoleID='Address:151' PortType='Middleright' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='PostalCode' Object_RoleID='Address:150' PortType='Middleleft' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Mailing Address' Object_RoleID='Address:153' PortType='Middleright' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='City' Object_RoleID='Address:152' PortType='Middleleft' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Mailing Address' Object_RoleID='Address:155' PortType='Middleright' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Street' Object_RoleID='Address:154' PortType='Middleleft' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Mailing Address' Object_RoleID='Address:159' PortType='Middleright' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='PO Box' Object_RoleID='Address:158' PortType='Middleleft' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Mailing Address' Object_RoleID='Address:161' PortType='Middleright' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Appartment Number' Object_RoleID='Address:160' PortType='Middleleft' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Mailing Address' Object_RoleID='Address:163' PortType='Middleright' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Building Name' Object_RoleID='Address:162' PortType='Middleleft' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Contact Details' Object_RoleID='Address:185' PortType='Middleright' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Name' Object_RoleID='Address:184' PortType='Middleleft' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Building Number' Object_RoleID='Address:187' PortType='Middleleft' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Mailing Address' Object_RoleID='Address:186' PortType='Middleright' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Address' Object_RoleID='Address:190' PortType='Bottomleft' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Contact Details' Object_RoleID='Address:191' PortType='Topright' ObjectCleoneID='-1'/>
+<Subtype SourceObjectName='Electronic Address' TargetObjectName='Address' SourceObjectCloneID='-1' TargetObjectCloneID='-1'/>
+<Subtype SourceObjectName='eMail' TargetObjectName='Electronic Address' SourceObjectCloneID='-1' TargetObjectCloneID='-1'/>
+<Subtype SourceObjectName='Fax' TargetObjectName='Electronic Address' SourceObjectCloneID='-1' TargetObjectCloneID='-1'/>
+<Subtype SourceObjectName='Telephone' TargetObjectName='Electronic Address' SourceObjectCloneID='-1' TargetObjectCloneID='-1'/>
+<Subtype SourceObjectName='Web Site' TargetObjectName='Electronic Address' SourceObjectCloneID='-1' TargetObjectCloneID='-1'/>
+<Subtype SourceObjectName='Mailing Address' TargetObjectName='Address' SourceObjectCloneID='-1' TargetObjectCloneID='-1'/>
+<Total x='805' y='2132'>
+	<Supertype>Address</Supertype>
+	<Subtype>Mailing Address</Subtype>
+	<Subtype>Electronic Address</Subtype>
+</Total>
+
+<Exclusive x='364' y='1975'>
+	<Supertype>Electronic Address</Supertype>
+	<Subtype>eMail</Subtype>
+	<Subtype>Telephone</Subtype>
+	<Subtype>Fax</Subtype>
+	<Subtype>Web Site</Subtype>
+</Exclusive>
+
+<Exclusive x='761' y='2131'>
+	<Supertype>Address</Supertype>
+	<Subtype>Electronic Address</Subtype>
+	<Subtype>Mailing Address</Subtype>
+</Exclusive>
+
+</ORMBody>
+</ORMSchema>

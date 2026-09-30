@@ -1,0 +1,502 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ORMSchema xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:noNamespaceSchemaLocation='http://www.starlab.vub.ac.be/staff/mustafa/ormml.v1.3.xsd' xmlns:dc='http://purl.org/dc/elements/1.1/' OntologyBase="Dogma" Context="Customer Complaint">
+<ORMMeta>
+<Meta Name="DM.Creator" Content="Mustafa Jarrar" />
+<Meta Name="DM.Title" Content="Complaint Problems" />
+<Meta Name="DM.Contributor" Content="CCFORM partners" />
+<Meta Name="DM.Creation Date" Content="1/4/2003" />
+<Meta Name="DM.Rights" Content="the EU CCFORM Project" />
+<Meta Name="DM.Version" Content="V1.0" />
+<Meta Name="DM.Language" Content="English" />
+<Meta Name="DM.Specification Language" Content="ORM" />
+<Meta Name="DM.Genericity" Content="Application Axiomatization" />
+<Meta Name="DM.Development Status" Content="Final" />
+<Meta Name="DM.Domain subject" Content="Business Complaints" />
+<Meta Name="DM.Context" Content="customer complaints" />
+<Meta Name="DM.Description" Content="Formal classification of business complaints problems" />
+<import_ORMGS href='C:\Documents and Settings\mjarrar\My Documents\[Research]\DogmaModeler\Ontologies\CContology\Complaint_Problems.ormgs'/>
+</ORMMeta>
+<ORMBody>
+<Object xsi:type="NOLOT" Name="Problem" Datatype="String">
+	<Translation Language="English" Name="Problem" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Contract">
+	<Translation Language="English" Name="Contract" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Evidence">
+	<Translation Language="English" Name="Evidence" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Contract Problem">
+	<Translation Language="English" Name="Contract Problem" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Non-Contract Problem">
+	<Translation Language="English" Name="Non-Contract Problem" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Attachment">
+	<Translation Language="English" Name="Attachment" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Declaration">
+	<Translation Language="English" Name="Declaration" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Physical Delivery">
+	<Translation Language="English" Name="Physical Delivery" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Pre-purchase Phase Problem">
+	<Translation Language="English" Name="Pre-purchase Phase Problem" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Post-purchase Phase Problem">
+	<Translation Language="English" Name="Post-purchase Phase Problem" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Purchase Phase Problem">
+	<Translation Language="English" Name="Purchase Phase Problem" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Privacy Problem">
+	<Translation Language="English" Name="Privacy Problem" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Damage">
+	<Translation Language="English" Name="Damage" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Conduct">
+	<Translation Language="English" Name="Conduct" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Negotiation of Terms">
+	<Translation Language="English" Name="Negotiation of Terms" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Offer Problem">
+	<Translation Language="English" Name="Offer Problem" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Information Problem">
+	<Translation Language="English" Name="Information Problem" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Refusal Problem">
+	<Translation Language="English" Name="Refusal Problem" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Contract Terms Problem">
+	<Translation Language="English" Name="Contract Terms Problem" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Price Unfair">
+	<Translation Language="English" Name="Price Unfair" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="General Terms Problem">
+	<Translation Language="English" Name="General Terms Problem" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Product Problem">
+	<Translation Language="English" Name="Product Problem" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Product Quality Problem">
+	<Translation Language="English" Name="Product Quality Problem" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Documentation Problem">
+	<Translation Language="English" Name="Documentation Problem" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="After Sales Service Problem">
+	<Translation Language="English" Name="After Sales Service Problem" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Contract Termination Problem">
+	<Translation Language="English" Name="Contract Termination Problem" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Guarantee Problem">
+	<Translation Language="English" Name="Guarantee Problem" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Repair Problem">
+	<Translation Language="English" Name="Repair Problem" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Service Problem">
+	<Translation Language="English" Name="Service Problem" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Deposit withheld">
+	<Translation Language="English" Name="Deposit withheld" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Advance withheld">
+	<Translation Language="English" Name="Advance withheld" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Privacy Information">
+	<Translation Language="English" Name="Privacy Information" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Private Data Access">
+	<Translation Language="English" Name="Private Data Access" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Cancellation or withdrawal refused">
+	<Translation Language="English" Name="Cancellation or withdrawal refused" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Incorrect Marketing Practices">
+	<Translation Language="English" Name="Incorrect Marketing Practices" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Delivery and Installation Problem">
+	<Translation Language="English" Name="Delivery and Installation Problem" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Billing or Payment Problem">
+	<Translation Language="English" Name="Billing or Payment Problem" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Payment problem">
+	<Translation Language="English" Name="Payment problem" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Unexpected charge">
+	<Translation Language="English" Name="Unexpected charge" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Sales promotion">
+	<Translation Language="English" Name="Sales promotion" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Advertising">
+	<Translation Language="English" Name="Advertising" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Personal selling">
+	<Translation Language="English" Name="Personal selling" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Delivery problem">
+	<Translation Language="English" Name="Delivery problem" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Installation problem">
+	<Translation Language="English" Name="Installation problem" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Purpose and Permission">
+	<Translation Language="English" Name="Purpose and Permission" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Data Collection">
+	<Translation Language="English" Name="Data Collection" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Breach of contract">
+	<Translation Language="English" Name="Breach of contract" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Switching or Churning">
+	<Translation Language="English" Name="Switching or Churning" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Sales Methods">
+	<Translation Language="English" Name="Sales Methods" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Content">
+	<Translation Language="English" Name="Content" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Copyright">
+	<Translation Language="English" Name="Copyright" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Environmental damage">
+	<Translation Language="English" Name="Environmental damage" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Property damage">
+	<Translation Language="English" Name="Property damage" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Psychological damage">
+	<Translation Language="English" Name="Psychological damage" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Reputation damage">
+	<Translation Language="English" Name="Reputation damage" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Incorrect assessment of a damage">
+	<Translation Language="English" Name="Incorrect assessment of a damage" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Untruthfulness">
+	<Translation Language="English" Name="Untruthfulness" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Rudeness">
+	<Translation Language="English" Name="Rudeness" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Lewd or Immoral conduct">
+	<Translation Language="English" Name="Lewd or Immoral conduct" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Illegal Content">
+	<Translation Language="English" Name="Illegal Content" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Harmful Content">
+	<Translation Language="English" Name="Harmful Content" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="High pressure selling">
+	<Translation Language="English" Name="High pressure selling" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Unsolicited service">
+	<Translation Language="English" Name="Unsolicited service" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Unsolicited merchandise ">
+	<Translation Language="English" Name="Unsolicited merchandise " Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Unsolicited commercial communications">
+	<Translation Language="English" Name="Unsolicited commercial communications" Description="" Reference=""/>
+</Object>
+<Subtype>
+	<Parent Object="Problem" Role="Types"/>
+	<Child Object="Non-Contract Problem" Role="IsA"/>
+</Subtype>
+<Subtype>
+	<Parent Object="Problem" Role="Types"/>
+	<Child Object="Contract Problem" Role="IsA"/>
+</Subtype>
+<Subtype>
+	<Parent Object="Contract Problem" Role="Types"/>
+	<Child Object="Pre-purchase Phase Problem" Role=""/>
+</Subtype>
+<Subtype>
+	<Parent Object="Contract Problem" Role="Types"/>
+	<Child Object="Post-purchase Phase Problem" Role=""/>
+</Subtype>
+<Subtype>
+	<Parent Object="Contract Problem" Role="Types"/>
+	<Child Object="Purchase Phase Problem" Role=""/>
+</Subtype>
+<Subtype>
+	<Parent Object="Non-Contract Problem" Role="SubType"/>
+	<Child Object="Damage" Role=""/>
+</Subtype>
+<Subtype>
+	<Parent Object="Non-Contract Problem" Role="SubType"/>
+	<Child Object="Conduct" Role=""/>
+</Subtype>
+<Subtype>
+	<Parent Object="Pre-purchase Phase Problem" Role="Types"/>
+	<Child Object="Negotiation of Terms" Role=""/>
+</Subtype>
+<Subtype>
+	<Parent Object="Negotiation of Terms" Role="Types"/>
+	<Child Object="Offer Problem" Role=""/>
+</Subtype>
+<Subtype>
+	<Parent Object="Negotiation of Terms" Role="Types"/>
+	<Child Object="Information Problem" Role=""/>
+</Subtype>
+<Subtype>
+	<Parent Object="Negotiation of Terms" Role="Types"/>
+	<Child Object="Refusal Problem" Role=""/>
+</Subtype>
+<Subtype>
+	<Parent Object="Purchase Phase Problem" Role="types"/>
+	<Child Object="Contract Terms Problem" Role=""/>
+</Subtype>
+<Subtype>
+	<Parent Object="Contract Terms Problem" Role="Types"/>
+	<Child Object="Price Unfair" Role=""/>
+</Subtype>
+<Subtype>
+	<Parent Object="Contract Terms Problem" Role="SubType"/>
+	<Child Object="General Terms Problem" Role=""/>
+</Subtype>
+<Subtype>
+	<Parent Object="Post-purchase Phase Problem" Role="Types"/>
+	<Child Object="Product Problem" Role=""/>
+</Subtype>
+<Subtype>
+	<Parent Object="Product Problem" Role="SubType"/>
+	<Child Object="Product Quality Problem" Role=""/>
+</Subtype>
+<Subtype>
+	<Parent Object="Product Problem" Role="SubType"/>
+	<Child Object="Documentation Problem" Role=""/>
+</Subtype>
+<Subtype>
+	<Parent Object="Post-purchase Phase Problem" Role="Types"/>
+	<Child Object="After Sales Service Problem" Role=""/>
+</Subtype>
+<Subtype>
+	<Parent Object="Post-purchase Phase Problem" Role="SubType"/>
+	<Child Object="Contract Termination Problem" Role=""/>
+</Subtype>
+<Subtype>
+	<Parent Object="After Sales Service Problem" Role="SubType"/>
+	<Child Object="Guarantee Problem" Role=""/>
+</Subtype>
+<Subtype>
+	<Parent Object="After Sales Service Problem" Role="SubType"/>
+	<Child Object="Repair Problem" Role=""/>
+</Subtype>
+<Subtype>
+	<Parent Object="After Sales Service Problem" Role="SubType"/>
+	<Child Object="Service Problem" Role=""/>
+</Subtype>
+<Subtype>
+	<Parent Object="Contract Termination Problem" Role="SubType"/>
+	<Child Object="Deposit withheld" Role=""/>
+</Subtype>
+<Subtype>
+	<Parent Object="Contract Termination Problem" Role="SubType"/>
+	<Child Object="Advance withheld" Role=""/>
+</Subtype>
+<Subtype>
+	<Parent Object="Privacy Problem" Role="SubType"/>
+	<Child Object="Privacy Information" Role=""/>
+</Subtype>
+<Subtype>
+	<Parent Object="Privacy Problem" Role="SubType"/>
+	<Child Object="Private Data Access" Role=""/>
+</Subtype>
+<Subtype>
+	<Parent Object="Problem" Role="Types"/>
+	<Child Object="Privacy Problem" Role=""/>
+</Subtype>
+<Subtype>
+	<Parent Object="Contract Termination Problem" Role="SubType"/>
+	<Child Object="Cancellation or withdrawal refused" Role=""/>
+</Subtype>
+<Subtype>
+	<Parent Object="Pre-purchase Phase Problem" Role="Types"/>
+	<Child Object="Incorrect Marketing Practices" Role=""/>
+</Subtype>
+<Subtype>
+	<Parent Object="Purchase Phase Problem" Role="Types"/>
+	<Child Object="Delivery and Installation Problem" Role=""/>
+</Subtype>
+<Subtype>
+	<Parent Object="Purchase Phase Problem" Role="Types"/>
+	<Child Object="Billing or Payment Problem" Role=""/>
+</Subtype>
+<Subtype>
+	<Parent Object="Billing or Payment Problem" Role="Types"/>
+	<Child Object="Payment problem" Role="SubtypeOf"/>
+</Subtype>
+<Subtype>
+	<Parent Object="Billing or Payment Problem" Role="Types"/>
+	<Child Object="Unexpected charge" Role="SubtypeOf"/>
+</Subtype>
+<Subtype>
+	<Parent Object="Incorrect Marketing Practices" Role="Types"/>
+	<Child Object="Sales promotion" Role="SubtypeOf"/>
+</Subtype>
+<Subtype>
+	<Parent Object="Incorrect Marketing Practices" Role="Types"/>
+	<Child Object="Advertising" Role="SubtypeOf"/>
+</Subtype>
+<Subtype>
+	<Parent Object="Incorrect Marketing Practices" Role="Types"/>
+	<Child Object="Personal selling" Role="SubtypeOf"/>
+</Subtype>
+<Subtype>
+	<Parent Object="Delivery and Installation Problem" Role="Types"/>
+	<Child Object="Delivery problem" Role="SubtypeOf"/>
+</Subtype>
+<Subtype>
+	<Parent Object="Delivery and Installation Problem" Role="Types"/>
+	<Child Object="Installation problem" Role="SubtypeOf"/>
+</Subtype>
+<Subtype>
+	<Parent Object="Privacy Problem" Role="Types"/>
+	<Child Object="Purpose and Permission" Role="SubtypeOf"/>
+</Subtype>
+<Subtype>
+	<Parent Object="Privacy Problem" Role="Types"/>
+	<Child Object="Data Collection" Role="SubtypeOf"/>
+</Subtype>
+<Subtype>
+	<Parent Object="Contract Termination Problem" Role="Types"/>
+	<Child Object="Breach of contract" Role="SubtypeOf"/>
+</Subtype>
+<Subtype>
+	<Parent Object="Contract Termination Problem" Role="Types"/>
+	<Child Object="Switching or Churning" Role="SubtypeOf"/>
+</Subtype>
+<Subtype>
+	<Parent Object="Non-Contract Problem" Role="Types"/>
+	<Child Object="Sales Methods" Role="SubtypeOf"/>
+</Subtype>
+<Subtype>
+	<Parent Object="Non-Contract Problem" Role="Types"/>
+	<Child Object="Content" Role="SubtypeOf"/>
+</Subtype>
+<Subtype>
+	<Parent Object="Non-Contract Problem" Role="Types"/>
+	<Child Object="Copyright" Role="SubtypeOf"/>
+</Subtype>
+<Subtype>
+	<Parent Object="Damage" Role="Types"/>
+	<Child Object="Environmental damage" Role="SubtypeOf"/>
+</Subtype>
+<Subtype>
+	<Parent Object="Damage" Role="Types"/>
+	<Child Object="Property damage" Role="SubtypeOf"/>
+</Subtype>
+<Subtype>
+	<Parent Object="Damage" Role="Types"/>
+	<Child Object="Psychological damage" Role="SubtypeOf"/>
+</Subtype>
+<Subtype>
+	<Parent Object="Damage" Role="Types"/>
+	<Child Object="Reputation damage" Role="SubtypeOf"/>
+</Subtype>
+<Subtype>
+	<Parent Object="Damage" Role="Types"/>
+	<Child Object="Incorrect assessment of a damage" Role="SubtypeOf"/>
+</Subtype>
+<Subtype>
+	<Parent Object="Conduct" Role="Types"/>
+	<Child Object="Untruthfulness" Role="SubtypeOf"/>
+</Subtype>
+<Subtype>
+	<Parent Object="Conduct" Role="Types"/>
+	<Child Object="Rudeness" Role="SubtypeOf"/>
+</Subtype>
+<Subtype>
+	<Parent Object="Conduct" Role="Types"/>
+	<Child Object="Lewd or Immoral conduct" Role="SubtypeOf"/>
+</Subtype>
+<Subtype>
+	<Parent Object="Content" Role="Types"/>
+	<Child Object="Illegal Content" Role="SubtypeOf"/>
+</Subtype>
+<Subtype>
+	<Parent Object="Content" Role="Types"/>
+	<Child Object="Harmful Content" Role="SubtypeOf"/>
+</Subtype>
+<Subtype>
+	<Parent Object="Sales Methods" Role="Types"/>
+	<Child Object="High pressure selling" Role="SubtypeOf"/>
+</Subtype>
+<Subtype>
+	<Parent Object="Sales Methods" Role="Types"/>
+	<Child Object="Unsolicited service" Role="SubtypeOf"/>
+</Subtype>
+<Subtype>
+	<Parent Object="Sales Methods" Role="Types"/>
+	<Child Object="Unsolicited merchandise " Role="SubtypeOf"/>
+</Subtype>
+<Subtype>
+	<Parent Object="Sales Methods" Role="Types"/>
+	<Child Object="Unsolicited commercial communications" Role="SubtypeOf"/>
+</Subtype>
+<Predicate>
+	<Object_Role ID='Complaint Problems_ref_510' Object='Evidence' Role='is_of'/>
+	<Object_Role ID='Complaint Problems_ref_511' Object='Problem' Role='has'/>
+</Predicate>
+<Predicate>
+	<Object_Role ID='Complaint Problems_ref_512' Object='Evidence' Role='delivered_as'/>
+	<Object_Role ID='Complaint Problems_ref_513' Object='Physical Delivery' Role='delivers'/>
+</Predicate>
+<Predicate>
+	<Object_Role ID='Complaint Problems_ref_514' Object='Evidence' Role='delivered_as'/>
+	<Object_Role ID='Complaint Problems_ref_515' Object='Attachment' Role='delivers'/>
+</Predicate>
+<Predicate>
+	<Object_Role ID='Complaint Problems_ref_516' Object='Evidence' Role='identified_by'/>
+	<Object_Role ID='Complaint Problems_ref_517' Object='Declaration' Role='identifies'/>
+</Predicate>
+<Predicate>
+	<Object_Role ID='Complaint Problems_ref_518' Object='Contract' Role='refers_to'/>
+	<Object_Role ID='Complaint Problems_ref_519' Object='Purchase Phase Problem' Role='has'/>
+</Predicate>
+<Predicate>
+	<Object_Role ID='Complaint Problems_ref_520' Object='Contract' Role='refers_to'/>
+	<Object_Role ID='Complaint Problems_ref_521' Object='Post-purchase Phase Problem' Role='has'/>
+</Predicate>
+<Constraint xsi:type="Mandatory">
+	<Object_Role>Complaint Problems_ref_519</Object_Role>
+</Constraint>
+<Constraint xsi:type="Mandatory">
+	<Object_Role>Complaint Problems_ref_521</Object_Role>
+</Constraint>
+<Constraint xsi:type="Exclusive">
+	<Supertype>Problem</Supertype>
+	<Subtype>Contract Problem</Subtype>
+	<Subtype>Non-Contract Problem</Subtype>
+</Constraint>
+<Constraint xsi:type="Exclusive">
+	<Supertype>Contract Problem</Supertype>
+	<Subtype>Post-purchase Phase Problem</Subtype>
+	<Subtype>Pre-purchase Phase Problem</Subtype>
+</Constraint>
+<Constraint xsi:type="Uniqueness">
+	<Object_Role>Complaint Problems_ref_519</Object_Role>
+</Constraint>
+<Constraint xsi:type="Uniqueness">
+	<Object_Role>Complaint Problems_ref_521</Object_Role>
+</Constraint>
+<Constraint xsi:type="Value" Object="Problem">
+	<Value Datatype="String">a</Value>
+	<Value Datatype="String">b</Value>
+</Constraint>
+</ORMBody>
+</ORMSchema>

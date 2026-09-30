@@ -1,0 +1,115 @@
+
+RewriteOptions inherit
+
+RewriteEngine on
+
+# To set your custom php.ini, add the following line to this file:
+# suphp_configpath /home/yourusername/path/to/php.ini
+
+RewriteCond %{HTTP_HOST} ^jarrar.info$ [OR]
+RewriteCond %{HTTP_HOST} ^www.jarrar.info$
+RewriteRule ^Publications\/?(.*)$ "http\:\/\/www\.jarrar\.info\/publications\/$1" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^jarrar.info$ [OR]
+RewriteCond %{HTTP_HOST} ^www.jarrar.info$
+RewriteRule ^publications\/HRER2008_Final\.Ver11\.pdf$ "http\:\/\/www\.jarrar\.info\/publications\/HRER2008_Ver12\.pdf" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^jarrar.info$ [OR]
+RewriteCond %{HTTP_HOST} ^www.jarrar.info$
+RewriteRule ^publications\/mjarrar\-CCFORM\-chapter\.v08\.pdf$ "http\:\/\/www\.jarrar\.info\/publications\/mjarrar\-CCFORM\-chapter\.v09\.pdf" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^jarrar.info$ [OR]
+RewriteCond %{HTTP_HOST} ^www.jarrar.info$
+RewriteRule ^publications\/\[JH08\]\.pdf$ "http\:\/\/www\.jarrar\.info\/publications\/JH08\.pdf" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^jarrar.info$ [OR]
+RewriteCond %{HTTP_HOST} ^www.jarrar.info$
+RewriteRule ^publications\/\[JS06\]\-Jarrar\.Unsatisfiability\ Reasoning\ in\ ORM\ \.ICSNW06\-AfterPublished\.v08\.pdf$ "http\:\/\/www\.jarrar\.info\/publications\/JS06\.pdf\.htm" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^jarrar.info$ [OR]
+RewriteCond %{HTTP_HOST} ^www.jarrar.info$
+RewriteRule ^publications\/\[JKD06a\]\.pdf$ "http\:\/\/jarrar\.info\/publications\/JKD06a\.pdf" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^jarrar.info$ [OR]
+RewriteCond %{HTTP_HOST} ^www.jarrar.info$
+RewriteRule ^publications\/\[JDM03\]LNCS03_V1\-11\.pdf$ "http\:\/\/www\.jarrar\.info\/publications\/JDM03_V11\.pdf" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^jarrar.info$ [OR]
+RewriteCond %{HTTP_HOST} ^www.jarrar.info$
+RewriteRule ^publications\/\[JDM03\]\.WORM03\.OntoBasedCustComplaint\.v1\.1\.AfPublished\.pdf$ "http\:\/\/www\.jarrar\.info\/publications\/JVM03_V11\.pdf" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^jarrar.info$ [OR]
+RewriteCond %{HTTP_HOST} ^www.jarrar.info$
+RewriteRule ^publications\/\[JM02\]ODBase02_V1\-12\.pdf$ "http\:\/\/www\.jarrar\.info\/publications\/JM02_V12\.pdf" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^jarrar.info$ [OR]
+RewriteCond %{HTTP_HOST} ^www.jarrar.info$
+RewriteRule ^publications\/\%5BJKD06a\%5D\.pdf$ "http\:\/\/jarrar\.info\/publications\/JKD06a\.pdf" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^jarrar.info$ [OR]
+RewriteCond %{HTTP_HOST} ^www.jarrar.info$
+RewriteRule ^publications\/\%5BJM02\%5DODBase02_V1\-12\.pdf$ "http\:\/\/www\.jarrar\.info\/publications\/JM02_V12\.pdf" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^publications\/JD08\.pdf$ "http\:\/\/www\.jarrar\.info\/publications\/onisw10\-jarrar\.pdf\.htm" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^publications\/CLJS11\.pdf\.htm$ "http\:\/\/www\.jarrar\.info\/wwwj\/" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^publications\/CJ11\.pdf\.htm$ "http\:\/\/www\.jarrar\.info\/IJKLissue\/" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^Talks\/ORM\-DLR\.Tutorial\.Ver06\.pdf$ "http\:\/\/www\.jarrar\.info\/Talks\/ORM\-DLR\ Tutorial\.Ver05\-onlineVersion\.pdf" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^CContology\/CCglossary$ "http\:\/\/www\.jarrar\.info\/CContology\/CCglossary\.htm" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^CCcontact\.htm$ "http\:\/\/www\.jarrar\.info\/CContology\/CCcontext\.htm" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^jarrar\.info$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.jarrar\.info$
+RewriteRule ^phd\-thesis\/Jarrar\-PhDThesis\%20Ver0\.165\.AftPrinted\.pdf\â\€\Ž$ "http\:\/\/www\.jarrar\.info\/phd\-thesis\/JarrarPhDThesisV167\.pdf" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^jarrar\.info$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.jarrar\.info$
+RewriteRule ^orm\/verbalization\/german\/verbalization_deutsch_ver02\.pdf$ "http\:\/\/www\.jarrar\.info\/orm\/verbalization\/German\/verbalization_Deutsch_Ver02\.pdf" [R=301,L]
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^CContology$ "http\:\/\/www\.jarrar\.info\/CContology\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^publications\/mjarrar\-CCFORM\-chapter\.pdf\.htm$ "http\:\/\/www\.jarrar\.info\/publications\/mjarrar\-CCFORM\-chapter\.pdf" [R=301,L]
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^publications\/J06\.pdf\.htm$ "http\:\/\/www\.jarrar\.info\/publications\/J06\.pdf" [R=301,L]
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^publications\/EmanThesis\.pdf\.htm$ "http\:\/\/www\.jarrar\.info\/publications\/EmanThesis\.pdf" [R=301,L]
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^publications\/RamiThesis\.pdf\.htm$ "http\:\/\/www\.jarrar\.info\/publications\/RamiThesis\.pdf" [R=301,L]
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^courses\/AAI\/Jarrar\.LectureNotes\.ArabicOntology\.pdf$ "http\:\/\/www\.jarrar\.info\/courses\/Jarrar\.LectureNotes\.ArabicOntology\.pdf" [R=301,L]
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^courses\/AAI\/OldSlides\/Jarrar\.LectureNotes\.ArabicOntology\.pdf$ "http\:\/\/www\.jarrar\.info\/courses\/Jarrar\.LectureNotes\.ArabicOntology\.pdf" [R=301,L]
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^www\.jarrar\.info\/courses\/AI\/Jarrar\.LectureNotes\.ArabicOntology\.pdf$ "http\:\/\/www\.jarrar\.info\/courses\/Jarrar\.LectureNotes\.ArabicOntology\.pdf" [R=301,L]
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^courses\/AI\/OldSlides\/Jarrar\.LectureNotes\.ArabicOntology\.pdf$ "http\:\/\/www\.jarrar\.info\/courses\/Jarrar\.LectureNotes\.ArabicOntology\.pdf" [R=301,L]
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^courses\/AI\/Jarrar\.LectureNotes\.ArabicOntology\.pdf$ "http\:\/\/www\.jarrar\.info\/courses\/Jarrar\.LectureNotes\.ArabicOntology\.pdf" [R=301,L]
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^courses\/KnowledgeEngineering\/Jarrar\.LectureNotes\.ArabicOntology\.pdf$ "http\:\/\/www\.jarrar\.info\/courses\/Jarrar\.LectureNotes\.ArabicOntology\.pdf" [R=301,L]
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^courses\/KnowledgeEngineering\/OldSlides\/Jarrar\.LectureNotes\.ArabicOntology\.pdf$ "http\:\/\/www\.jarrar\.info\/courses\/Jarrar\.LectureNotes\.ArabicOntology\.pdf" [R=301,L]
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^courses\/KnowledgeEngineering\/OldSlides\/Jarrar\.LectureNotes\.WordNetAndGlobalWordNets\.pdf$ "http\:\/\/www\.jarrar\.info\/courses\/Jarrar\.LectureNotes\.WordnetBasics\.pdf" [R=301,L]
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^courses\/KnowledgeEngineering\/Jarrar\.LectureNotes\.WordNetAndGlobalWordNets\.pdf$ "http\:\/\/www\.jarrar\.info\/courses\/Jarrar\.LectureNotes\.WordnetBasics\.pdf" [R=301,L]
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^courses\/AI\/OldSlides\/Jarrar\.LectureNotes\.WordNetAndGlobalWordNets\.pdf$ "http\:\/\/www\.jarrar\.info\/courses\/Jarrar\.LectureNotes\.WordnetBasics\.pdf" [R=301,L]
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^courses\/AI\/OldSlides\/Jarrar\.LectureNotes\.WordNetAndGlobalWordNets\.pdf$ "http\:\/\/www\.jarrar\.info\/courses\/Jarrar\.LectureNotes\.WordnetBasics\.pdf" [R=301,L]
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^courses\/AI\/Jarrar\.LectureNotes\.WordNetAndGlobalWordNets\.pdf$ "http\:\/\/www\.jarrar\.info\/courses\/Jarrar\.LectureNotes\.WordnetBasics\.pdf" [R=301,L]
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^courses\/AAI\/OldSlides\/Jarrar\.LectureNotes\.WordNetAndGlobalWordNets\.pdf$ "http\:\/\/www\.jarrar\.info\/courses\/Jarrar\.LectureNotes\.WordnetBasics\.pdf" [R=301,L]
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^courses\/AAI\/Jarrar\.LectureNotes\.WordNetAndGlobalWordNets\.pdf$ "http\:\/\/www\.jarrar\.info\/courses\/Jarrar\.LectureNotes\.WordnetBasics\.pdf" [R=301,L]

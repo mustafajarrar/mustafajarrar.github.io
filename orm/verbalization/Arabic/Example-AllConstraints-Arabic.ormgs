@@ -1,0 +1,167 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ORMSchema xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:noNamespaceSchemaLocation='http://starlab.vub.ac.be/ORMML/ormml.xsd' xmlns:dc='http://purl.org/dc/elements/1.1/'>
+<ORMBody>
+<Object Name='رجل' x='536' y='657' width='97' height='52' ColorRGB='-1'/>
+<Object Name='إِنْسان' x='467' y='292' width='231' height='171' ColorRGB='-1'/>
+<Object Name='اِمْرَأَة' x='226' y='658' width='85' height='50' ColorRGB='-1'/>
+<Object Name='كِتاب' x='1055' y='332' width='117' height='56' ColorRGB='-1'/>
+<Object Name='شِرْكَة' x='1055' y='621' width='117' height='60' ColorRGB='-1'/>
+<Object Name='رخصة قِيَادَة' x='1030' y='428' width='142' height='45' ColorRGB='-1'/>
+<Object Name='حساب' x='917' y='810' width='105' height='48' ColorRGB='-1'/>
+<Object Name='مُدِير' x='678' y='673' width='90' height='69' ColorRGB='-1'/>
+<Object Name='سَيَّارَة' x='1034' y='500' width='137' height='44' ColorRGB='-1'/>
+<Object Name='مادَّة' x='1055' y='224' width='117' height='51' ColorRGB='-1'/>
+<Object Name='جامِعَة' x='1055' y='157' width='117' height='46' ColorRGB='-1'/>
+<Object Name=' رَقْم جَوَازُ سَفَر' x='156' y='412' width='112' height='35' ColorRGB='-1'/>
+<Object Name='تارخ مِيلاد' x='157' y='352' width='105' height='35' ColorRGB='-1'/>
+<Object Name='اِسْم' x='157' y='272' width='105' height='35' ColorRGB='-1'/>
+<Object Name='دَوْلَة' x='157' y='469' width='105' height='35' ColorRGB='-1'/>
+<Predicate FirstObjectRoleID='Example-AllConstraints-English:217' SecondObjectRoleID='Example-AllConstraints-English:218' x='332' y='666' width='181' height='35' ColorRGB='-1'/>
+<Predicate FirstObjectRoleID='Example-AllConstraints-English:219' SecondObjectRoleID='Example-AllConstraints-English:220' x='196' y='797' width='163' height='35' ColorRGB='-1'/>
+<Predicate FirstObjectRoleID='Example-AllConstraints-English:221' SecondObjectRoleID='Example-AllConstraints-English:222' x='364' y='212' width='163' height='35' ColorRGB='-1'/>
+<Predicate FirstObjectRoleID='Example-AllConstraints-English:223' SecondObjectRoleID='Example-AllConstraints-English:224' x='597' y='183' width='201' height='35' ColorRGB='-1'/>
+<Predicate FirstObjectRoleID='Example-AllConstraints-English:225' SecondObjectRoleID='Example-AllConstraints-English:226' x='457' y='118' width='193' height='35' ColorRGB='-1'/>
+<Predicate FirstObjectRoleID='Example-AllConstraints-English:227' SecondObjectRoleID='Example-AllConstraints-English:228' x='834' y='297' width='161' height='35' ColorRGB='-1'/>
+<Predicate FirstObjectRoleID='Example-AllConstraints-English:229' SecondObjectRoleID='Example-AllConstraints-English:230' x='825' y='377' width='168' height='35' ColorRGB='-1'/>
+<Predicate FirstObjectRoleID='Example-AllConstraints-English:231' SecondObjectRoleID='Example-AllConstraints-English:232' x='819' y='569' width='185' height='35' ColorRGB='-1'/>
+<Predicate FirstObjectRoleID='Example-AllConstraints-English:233' SecondObjectRoleID='Example-AllConstraints-English:234' x='822' y='634' width='182' height='35' ColorRGB='-1'/>
+<Predicate FirstObjectRoleID='Example-AllConstraints-English:235' SecondObjectRoleID='Example-AllConstraints-English:236' x='814' y='434' width='190' height='35' ColorRGB='-1'/>
+<Predicate FirstObjectRoleID='Example-AllConstraints-English:237' SecondObjectRoleID='Example-AllConstraints-English:238' x='647' y='817' width='164' height='35' ColorRGB='-1'/>
+<Predicate FirstObjectRoleID='Example-AllConstraints-English:239' SecondObjectRoleID='Example-AllConstraints-English:240' x='970' y='743' width='154' height='35' ColorRGB='-1'/>
+<Predicate FirstObjectRoleID='Example-AllConstraints-English:241' SecondObjectRoleID='Example-AllConstraints-English:242' x='824' y='691' width='178' height='35' ColorRGB='-1'/>
+<Predicate FirstObjectRoleID='Example-AllConstraints-English:244' SecondObjectRoleID='Example-AllConstraints-English:243' x='817' y='505' width='186' height='35' ColorRGB='-1'/>
+<Predicate FirstObjectRoleID='Example-AllConstraints-English:246' SecondObjectRoleID='Example-AllConstraints-English:245' x='844' y='233' width='169' height='35' ColorRGB='-1'/>
+<Predicate FirstObjectRoleID='Example-AllConstraints-English:248' SecondObjectRoleID='Example-AllConstraints-English:247' x='844' y='163' width='169' height='35' ColorRGB='-1'/>
+<Predicate FirstObjectRoleID='Example-AllConstraints-English:249' SecondObjectRoleID='Example-AllConstraints-English:250' x='283' y='413' width='105' height='35' ColorRGB='-1'/>
+<Predicate FirstObjectRoleID='Example-AllConstraints-English:251' SecondObjectRoleID='Example-AllConstraints-English:252' x='283' y='353' width='105' height='35' ColorRGB='-1'/>
+<Predicate FirstObjectRoleID='Example-AllConstraints-English:253' SecondObjectRoleID='Example-AllConstraints-English:254' x='282' y='273' width='105' height='35' ColorRGB='-1'/>
+<Predicate FirstObjectRoleID='Example-AllConstraints-English:255' SecondObjectRoleID='Example-AllConstraints-English:256' x='282' y='470' width='105' height='35' ColorRGB='-1'/>
+<ORConnector ObjectName='رجل' Object_RoleID='Example-AllConstraints-English:218' PortType='Middleright' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='اِمْرَأَة' Object_RoleID='Example-AllConstraints-English:217' PortType='Middleleft' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='اِمْرَأَة' Object_RoleID='Example-AllConstraints-English:220' PortType='Topright' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='اِمْرَأَة' Object_RoleID='Example-AllConstraints-English:219' PortType='Topleft' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='إِنْسان' Object_RoleID='Example-AllConstraints-English:222' PortType='Middleright' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='إِنْسان' Object_RoleID='Example-AllConstraints-English:221' PortType='Bottomleft' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='إِنْسان' Object_RoleID='Example-AllConstraints-English:224' PortType='Bottomright' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='إِنْسان' Object_RoleID='Example-AllConstraints-English:223' PortType='Bottomleft' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='إِنْسان' Object_RoleID='Example-AllConstraints-English:226' PortType='Bottomright' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='إِنْسان' Object_RoleID='Example-AllConstraints-English:225' PortType='Bottomleft' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='كِتاب' Object_RoleID='Example-AllConstraints-English:228' PortType='Middleright' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='إِنْسان' Object_RoleID='Example-AllConstraints-English:227' PortType='Middleleft' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='كِتاب' Object_RoleID='Example-AllConstraints-English:230' PortType='Middleright' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='إِنْسان' Object_RoleID='Example-AllConstraints-English:229' PortType='Middleleft' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='شِرْكَة' Object_RoleID='Example-AllConstraints-English:232' PortType='Middleright' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='إِنْسان' Object_RoleID='Example-AllConstraints-English:231' PortType='Middleleft' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='شِرْكَة' Object_RoleID='Example-AllConstraints-English:234' PortType='Middleright' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='إِنْسان' Object_RoleID='Example-AllConstraints-English:233' PortType='Middleleft' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='رخصة قِيَادَة' Object_RoleID='Example-AllConstraints-English:236' PortType='Middleright' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='إِنْسان' Object_RoleID='Example-AllConstraints-English:235' PortType='Middleleft' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='حساب' Object_RoleID='Example-AllConstraints-English:238' PortType='Middleright' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='إِنْسان' Object_RoleID='Example-AllConstraints-English:237' PortType='Topleft' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='شِرْكَة' Object_RoleID='Example-AllConstraints-English:240' PortType='Topright' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='حساب' Object_RoleID='Example-AllConstraints-English:239' PortType='Bottomleft' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='شِرْكَة' Object_RoleID='Example-AllConstraints-English:242' PortType='Middleright' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='مُدِير' Object_RoleID='Example-AllConstraints-English:241' PortType='Middleleft' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='سَيَّارَة' Object_RoleID='Example-AllConstraints-English:243' PortType='Middleright' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='إِنْسان' Object_RoleID='Example-AllConstraints-English:244' PortType='Middleleft' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='مادَّة' Object_RoleID='Example-AllConstraints-English:245' PortType='Middleright' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='إِنْسان' Object_RoleID='Example-AllConstraints-English:246' PortType='Middleleft' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='جامِعَة' Object_RoleID='Example-AllConstraints-English:247' PortType='Middleright' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='إِنْسان' Object_RoleID='Example-AllConstraints-English:248' PortType='Middleleft' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='إِنْسان' Object_RoleID='Example-AllConstraints-English:250' PortType='Middleright' ObjectCleoneID='-1'/>
+<ORConnector ObjectName=' رَقْم جَوَازُ سَفَر' Object_RoleID='Example-AllConstraints-English:249' PortType='Middleleft' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='إِنْسان' Object_RoleID='Example-AllConstraints-English:252' PortType='Middleright' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='تارخ مِيلاد' Object_RoleID='Example-AllConstraints-English:251' PortType='Middleleft' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='إِنْسان' Object_RoleID='Example-AllConstraints-English:254' PortType='Middleright' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='اِسْم' Object_RoleID='Example-AllConstraints-English:253' PortType='Middleleft' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='إِنْسان' Object_RoleID='Example-AllConstraints-English:256' PortType='Middleright' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='دَوْلَة' Object_RoleID='Example-AllConstraints-English:255' PortType='Middleleft' ObjectCleoneID='-1'/>
+<Subtype SourceObjectName='رجل' TargetObjectName='إِنْسان' SourceObjectCloneID='-1' TargetObjectCloneID='-1'/>
+<Subtype SourceObjectName='اِمْرَأَة' TargetObjectName='إِنْسان' SourceObjectCloneID='-1' TargetObjectCloneID='-1'/>
+<Subtype SourceObjectName='مُدِير' TargetObjectName='إِنْسان' SourceObjectCloneID='-1' TargetObjectCloneID='-1'/>
+<ExMandatory x='889' y='786'>
+	<Object_Role ID='Example-AllConstraints-English:238' PortType='Middleright'/>
+	<Object_Role ID='Example-AllConstraints-English:239' PortType='Bottomleft'/>
+</ExMandatory>
+
+<ExUniqueness x='245' y='318'>
+	<Object_Role ID='Example-AllConstraints-English:251' PortType='Middleleft'/>
+	<Object_Role ID='Example-AllConstraints-English:253' PortType='Middleleft'/>
+</ExUniqueness>
+
+<Exclusion x='916' y='343'>
+	<First>
+		<Object_Role ID='Example-AllConstraints-English:227' PortType='Bottommiddle'/>
+		<Object_Role ID='Example-AllConstraints-English:228' PortType='Bottommiddle'/>
+	</First>
+	<Second>
+		<Object_Role ID='Example-AllConstraints-English:229' PortType='Topmiddle'/>
+		<Object_Role ID='Example-AllConstraints-English:230' PortType='Topmiddle'/>
+	</Second>
+</Exclusion>
+
+<Exclusion x='840' y='759'>
+	<First>
+		<Object_Role ID='Example-AllConstraints-English:238' PortType='Topright'/>
+	</First>
+	<Second>
+		<Object_Role ID='Example-AllConstraints-English:239' PortType='Topleft'/>
+	</Second>
+</Exclusion>
+
+<Equality>
+	<First>
+		<Object_Role ID='Example-AllConstraints-English:246' PortType='Topleft'/>
+	</First>
+	<Second>
+		<Object_Role ID='Example-AllConstraints-English:248' PortType='Bottomleft'/>
+	</Second>
+</Equality>
+
+<Equality>
+	<First>
+		<Object_Role ID='Example-AllConstraints-English:233' PortType='Topmiddle'/>
+		<Object_Role ID='Example-AllConstraints-English:234' PortType='Topmiddle'/>
+	</First>
+	<Second>
+		<Object_Role ID='Example-AllConstraints-English:231' PortType='Bottommiddle'/>
+		<Object_Role ID='Example-AllConstraints-English:232' PortType='Bottommiddle'/>
+	</Second>
+</Equality>
+
+<Subset>
+	<Parent>
+		<Object_Role ID='Example-AllConstraints-English:235' PortType='Bottomleft'/>
+	</Parent>
+	<Child>
+		<Object_Role ID='Example-AllConstraints-English:244' PortType='Topleft'/>
+	</Child>
+</Subset>
+
+<Subset>
+	<Parent>
+		<Object_Role ID='Example-AllConstraints-English:233' PortType='Bottommiddle'/>
+		<Object_Role ID='Example-AllConstraints-English:234' PortType='Bottommiddle'/>
+	</Parent>
+	<Child>
+		<Object_Role ID='Example-AllConstraints-English:241' PortType='Topmiddle'/>
+		<Object_Role ID='Example-AllConstraints-English:242' PortType='Topmiddle'/>
+	</Child>
+</Subset>
+
+<Total x='485' y='522'>
+	<Supertype>إِنْسان</Supertype>
+	<Subtype>اِمْرَأَة</Subtype>
+	<Subtype>رجل</Subtype>
+</Total>
+
+<Exclusive x='491' y='492'>
+	<Supertype>إِنْسان</Supertype>
+	<Subtype>اِمْرَأَة</Subtype>
+	<Subtype>رجل</Subtype>
+</Exclusive>
+
+<Frequency x='799' y='207' RoleID='Example-AllConstraints-English:246' PortType='Middleleft'/>
+
+</ORMBody>
+</ORMSchema>

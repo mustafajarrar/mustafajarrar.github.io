@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ORMSchema xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:noNamespaceSchemaLocation='http://starlab.vub.ac.be/ORMML/ormml.xsd' xmlns:dc='http://purl.org/dc/elements/1.1/'>
+<ORMBody>
+<Object Name='Resolution' x='3551' y='1130' width='207' height='90' ColorRGB='-1'/>
+<Object Name='Information Correction Request' x='3887' y='1216' width='302' height='83' ColorRGB='-1'/>
+<Object Name='Economic Request' x='3881' y='966' width='194' height='74' ColorRGB='-1'/>
+<Object Name='Action Request' x='4182' y='819' width='186' height='66' ColorRGB='-1'/>
+<Object Name='Payment Request' x='4152' y='959' width='195' height='72' ColorRGB='-1'/>
+<Object Name='Symbolic Request' x='3883' y='1101' width='207' height='84' ColorRGB='-1'/>
+<Object Name='Privacy Request' x='4184' y='1169' width='176' height='63' ColorRGB='-1'/>
+<Object Name='Apologize' x='4175' y='1064' width='171' height='72' ColorRGB='-1'/>
+<Object Name='Stop Processing and transmission of privite data' x='4419' y='1251' width='439' height='40' ColorRGB='-1'/>
+<Object Name='Provide the necessary privacy information' x='4448' y='1196' width='385' height='49' ColorRGB='-1'/>
+<Object Name='Provide access to the data' x='4504' y='1148' width='281' height='42' ColorRGB='-1'/>
+<Object Name='Delete the unnecessary data' x='4465' y='1100' width='283' height='46' ColorRGB='-1'/>
+<Object Name='Delivery Request' x='4419' y='1020' width='195' height='45' ColorRGB='-1'/>
+<Object Name='Sales and contract Request' x='4425' y='966' width='267' height='46' ColorRGB='-1'/>
+<Object Name='Billing Request' x='4438' y='774' width='187' height='39' ColorRGB='-1'/>
+<Object Name='Money Request' x='4456' y='831' width='186' height='43' ColorRGB='-1'/>
+<Object Name='Damage Assessment' x='4449' y='878' width='212' height='46' ColorRGB='-1'/>
+<Subtype SourceObjectName='Information Correction Request' TargetObjectName='Resolution' SourceObjectCloneID='-1' TargetObjectCloneID='-1'/>
+<Subtype SourceObjectName='Economic Request' TargetObjectName='Resolution' SourceObjectCloneID='-1' TargetObjectCloneID='-1'/>
+<Subtype SourceObjectName='Action Request' TargetObjectName='Economic Request' SourceObjectCloneID='-1' TargetObjectCloneID='-1'/>
+<Subtype SourceObjectName='Payment Request' TargetObjectName='Economic Request' SourceObjectCloneID='-1' TargetObjectCloneID='-1'/>
+<Subtype SourceObjectName='Symbolic Request' TargetObjectName='Resolution' SourceObjectCloneID='-1' TargetObjectCloneID='-1'/>
+<Subtype SourceObjectName='Privacy Request' TargetObjectName='Symbolic Request' SourceObjectCloneID='-1' TargetObjectCloneID='-1'/>
+<Subtype SourceObjectName='Apologize' TargetObjectName='Symbolic Request' SourceObjectCloneID='-1' TargetObjectCloneID='-1'/>
+<Subtype SourceObjectName='Stop Processing and transmission of privite data' TargetObjectName='Privacy Request' SourceObjectCloneID='-1' TargetObjectCloneID='-1'/>
+<Subtype SourceObjectName='Provide the necessary privacy information' TargetObjectName='Privacy Request' SourceObjectCloneID='-1' TargetObjectCloneID='-1'/>
+<Subtype SourceObjectName='Provide access to the data' TargetObjectName='Privacy Request' SourceObjectCloneID='-1' TargetObjectCloneID='-1'/>
+<Subtype SourceObjectName='Delete the unnecessary data' TargetObjectName='Privacy Request' SourceObjectCloneID='-1' TargetObjectCloneID='-1'/>
+<Subtype SourceObjectName='Delivery Request' TargetObjectName='Payment Request' SourceObjectCloneID='-1' TargetObjectCloneID='-1'/>
+<Subtype SourceObjectName='Sales and contract Request' TargetObjectName='Payment Request' SourceObjectCloneID='-1' TargetObjectCloneID='-1'/>
+<Subtype SourceObjectName='Billing Request' TargetObjectName='Action Request' SourceObjectCloneID='-1' TargetObjectCloneID='-1'/>
+<Subtype SourceObjectName='Money Request' TargetObjectName='Action Request' SourceObjectCloneID='-1' TargetObjectCloneID='-1'/>
+<Subtype SourceObjectName='Damage Assessment' TargetObjectName='Action Request' SourceObjectCloneID='-1' TargetObjectCloneID='-1'/>
+<Text Content='Type Text Here' x='1576' y='3378' width='205' height='55'/>
+<Text Content='Type Text Here' x='1576' y='3378' width='205' height='55'/>
+</ORMBody>
+</ORMSchema>

@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ORMSchema xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:noNamespaceSchemaLocation='http://www.starlab.vub.ac.be/staff/mustafa/ormml.v1.3.xsd' xmlns:dc='http://purl.org/dc/elements/1.1/' OntologyBase="Dogma" Context="Customer Complaint">
+<ORMMeta>
+<Meta Name="DC.Title" Content="Recipient" />
+<Meta Name="DC.Language" Content="English" />
+<import_ORMGS href='C:\Documents and Settings\mjarrar\My Documents\[Research]\DogmaModeler\Ontologies\CContology\Recipient.ormgs'/>
+</ORMMeta>
+<ORMBody>
+<Object xsi:type="NOLOT" Name="Complaint Recipient">
+	<Translation Language="English" Name="Complaint Recipient" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Contact Details">
+	<Translation Language="English" Name="Contact Details" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Legal Person">
+	<Translation Language="English" Name="Legal Person" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="CCform Registration">
+	<Translation Language="English" Name="CCform Registration" Description="" Reference=""/>
+</Object>
+<Subtype>
+	<Parent Object="Legal Person" Role="Types"/>
+	<Child Object="Complaint Recipient" Role="SubTypeOf"/>
+</Subtype>
+<Predicate>
+	<Object_Role ID='Recipient_ref_466' Object='CCform Registration' Role='denotes'/>
+	<Object_Role ID='Recipient_ref_467' Object='Complaint Recipient' Role='denoted_by'/>
+</Predicate>
+<Predicate>
+	<Object_Role ID='Recipient_ref_468' Object='Contact Details' Role='denotes'/>
+	<Object_Role ID='Recipient_ref_469' Object='Complaint Recipient' Role='denoted_by'/>
+</Predicate>
+<Constraint xsi:type="Mandatory">
+	<Object_Role>Recipient_ref_467</Object_Role>
+	<Object_Role>Recipient_ref_469</Object_Role>
+</Constraint>
+</ORMBody>
+</ORMSchema>

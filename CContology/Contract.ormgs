@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ORMSchema xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:noNamespaceSchemaLocation='http://starlab.vub.ac.be/ORMML/ormml.xsd' xmlns:dc='http://purl.org/dc/elements/1.1/'>
+<ORMBody>
+<Object Name='Contract' x='3708' y='3031' width='171' height='95' ColorRGB='-1'/>
+<Object Name='Address' x='2663' y='2916' width='151' height='48' ColorRGB='-1'/>
+<Object Name='Delivery Address' x='2358' y='3094' width='169' height='31' ColorRGB='-1'/>
+<Object Name='Sales Office' x='3106' y='2882' width='255' height='46' ColorRGB='-1'/>
+<Object Name='Third Party' x='3125' y='3055' width='222' height='48' ColorRGB='-1'/>
+<Object Name='Reference to Contract' x='3091' y='2666' width='276' height='45' ColorRGB='-1'/>
+<Object Name='Terms and Conditions' x='3102' y='3273' width='262' height='51' ColorRGB='-1'/>
+<Object Name='Delivery' x='2697' y='3161' width='132' height='61' ColorRGB='-1'/>
+<Object Name='Schedule' x='2355' y='3159' width='152' height='35' ColorRGB='-1'/>
+<Object Name='Goods' x='2366' y='3221' width='121' height='35' ColorRGB='-1'/>
+<Object Name='Services' x='2368' y='3301' width='125' height='35' ColorRGB='-1'/>
+<Object Name='Total amount ASked' x='2585' y='3381' width='255' height='37' ColorRGB='-1'/>
+<Object Name='TotalAmounted Paid' x='2585' y='3457' width='249' height='43' ColorRGB='-1'/>
+<Object Name='Function' x='2717' y='3091' width='154' height='35' ColorRGB='-1'/>
+<Object Name='Third Party Name' x='2678' y='3023' width='204' height='43' ColorRGB='-1'/>
+<Object Name='Sales Contact Method' x='3091' y='2956' width='270' height='44' ColorRGB='-1'/>
+<Object Name='Contract Order Date' x='3102' y='2739' width='271' height='43' ColorRGB='-1'/>
+<Object Name='Contract Effective Date' x='3081' y='2813' width='290' height='49' ColorRGB='-1'/>
+<Object Name='Delivery Consideration' x='3129' y='3158' width='242' height='68' ColorRGB='-1'/>
+<Object Name='Payment Consideration' x='3100' y='3408' width='267' height='58' ColorRGB='-1'/>
+<Predicate FirstObjectRoleID='Contract:686' SecondObjectRoleID='Contract:687' x='2555' y='3094' width='109' height='39' ColorRGB='-1'/>
+<Predicate FirstObjectRoleID='Contract:688' SecondObjectRoleID='Contract:689' x='2532' y='3160' width='117' height='35' ColorRGB='-1'/>
+<Predicate FirstObjectRoleID='Contract:690' SecondObjectRoleID='Contract:691' x='3430' y='2888' width='156' height='35' ColorRGB='-1'/>
+<Predicate FirstObjectRoleID='Contract:692' SecondObjectRoleID='Contract:693' x='3379' y='3063' width='241' height='33' ColorRGB='-1'/>
+<Predicate FirstObjectRoleID='Contract:694' SecondObjectRoleID='Contract:695' x='2916' y='3027' width='112' height='35' ColorRGB='-1'/>
+<Predicate FirstObjectRoleID='Contract:696' SecondObjectRoleID='Contract:697' x='2916' y='3092' width='112' height='35' ColorRGB='-1'/>
+<Predicate FirstObjectRoleID='Contract:698' SecondObjectRoleID='Contract:699' x='2860' y='2888' width='169' height='35' ColorRGB='-1'/>
+<Predicate FirstObjectRoleID='Contract:700' SecondObjectRoleID='Contract:701' x='3427' y='2961' width='160' height='35' ColorRGB='-1'/>
+<Predicate FirstObjectRoleID='Contract:702' SecondObjectRoleID='Contract:703' x='2534' y='3222' width='115' height='35' ColorRGB='-1'/>
+<Predicate FirstObjectRoleID='Contract:704' SecondObjectRoleID='Contract:705' x='2531' y='3302' width='118' height='35' ColorRGB='-1'/>
+<Predicate FirstObjectRoleID='Contract:706' SecondObjectRoleID='Contract:707' x='3424' y='2672' width='156' height='35' ColorRGB='-1'/>
+<Predicate FirstObjectRoleID='Contract:708' SecondObjectRoleID='Contract:709' x='3455' y='3282' width='159' height='35' ColorRGB='-1'/>
+<Predicate FirstObjectRoleID='Contract:710' SecondObjectRoleID='Contract:711' x='2860' y='2947' width='169' height='35' ColorRGB='-1'/>
+<Predicate FirstObjectRoleID='Contract:712' SecondObjectRoleID='Contract:713' x='3428' y='2820' width='150' height='35' ColorRGB='-1'/>
+<Predicate FirstObjectRoleID='Contract:714' SecondObjectRoleID='Contract:715' x='3422' y='2744' width='156' height='35' ColorRGB='-1'/>
+<Predicate FirstObjectRoleID='Contract:716' SecondObjectRoleID='Contract:717' x='2845' y='3175' width='268' height='35' ColorRGB='-1'/>
+<Predicate FirstObjectRoleID='Contract:718' SecondObjectRoleID='Contract:719' x='3384' y='3175' width='246' height='35' ColorRGB='-1'/>
+<Predicate FirstObjectRoleID='Contract:720' SecondObjectRoleID='Contract:721' x='2925' y='3462' width='130' height='35' ColorRGB='-1'/>
+<Predicate FirstObjectRoleID='Contract:722' SecondObjectRoleID='Contract:723' x='2925' y='3383' width='132' height='35' ColorRGB='-1'/>
+<Predicate FirstObjectRoleID='Contract:724' SecondObjectRoleID='Contract:725' x='3384' y='3420' width='277' height='33' ColorRGB='-1'/>
+<ORConnector ObjectName='Delivery' Object_RoleID='Contract:687' PortType='Middleright' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Delivery Address' Object_RoleID='Contract:686' PortType='Middleleft' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Delivery' Object_RoleID='Contract:689' PortType='Middleright' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Schedule' Object_RoleID='Contract:688' PortType='Middleleft' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Contract' Object_RoleID='Contract:691' PortType='Middleright' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Sales Office' Object_RoleID='Contract:690' PortType='Middleleft' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Contract' Object_RoleID='Contract:693' PortType='Middleright' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Third Party' Object_RoleID='Contract:692' PortType='Middleleft' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Third Party' Object_RoleID='Contract:695' PortType='Middleright' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Third Party Name' Object_RoleID='Contract:694' PortType='Middleleft' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Third Party' Object_RoleID='Contract:697' PortType='Middleright' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Function' Object_RoleID='Contract:696' PortType='Middleleft' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Sales Office' Object_RoleID='Contract:699' PortType='Middleright' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Address' Object_RoleID='Contract:698' PortType='Middleleft' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Contract' Object_RoleID='Contract:701' PortType='Middleright' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Sales Contact Method' Object_RoleID='Contract:700' PortType='Middleleft' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Delivery' Object_RoleID='Contract:703' PortType='Middleright' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Goods' Object_RoleID='Contract:702' PortType='Middleleft' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Delivery' Object_RoleID='Contract:705' PortType='Middleright' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Services' Object_RoleID='Contract:704' PortType='Middleleft' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Contract' Object_RoleID='Contract:707' PortType='Middleright' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Reference to Contract' Object_RoleID='Contract:706' PortType='Middleleft' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Contract' Object_RoleID='Contract:709' PortType='Middleright' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Terms and Conditions' Object_RoleID='Contract:708' PortType='Middleleft' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Third Party' Object_RoleID='Contract:711' PortType='Middleright' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Address' Object_RoleID='Contract:710' PortType='Middleleft' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Contract' Object_RoleID='Contract:713' PortType='Middleright' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Contract Effective Date' Object_RoleID='Contract:712' PortType='Middleleft' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Contract' Object_RoleID='Contract:715' PortType='Middleright' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Contract Order Date' Object_RoleID='Contract:714' PortType='Middleleft' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Delivery Consideration' Object_RoleID='Contract:717' PortType='Middleright' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Delivery' Object_RoleID='Contract:716' PortType='Middleleft' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Contract' Object_RoleID='Contract:719' PortType='Middleright' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Delivery Consideration' Object_RoleID='Contract:718' PortType='Middleleft' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Payment Consideration' Object_RoleID='Contract:721' PortType='Middleright' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='TotalAmounted Paid' Object_RoleID='Contract:720' PortType='Middleleft' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Payment Consideration' Object_RoleID='Contract:723' PortType='Middleright' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Total amount ASked' Object_RoleID='Contract:722' PortType='Middleleft' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Contract' Object_RoleID='Contract:725' PortType='Middleright' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Payment Consideration' Object_RoleID='Contract:724' PortType='Middleleft' ObjectCleoneID='-1'/>
+<ExMandatory x='2616' y='3271'>
+	<Object_Role ID='Contract:705' PortType='Topright'/>
+	<Object_Role ID='Contract:703' PortType='Bottomright'/>
+</ExMandatory>
+
+</ORMBody>
+</ORMSchema>

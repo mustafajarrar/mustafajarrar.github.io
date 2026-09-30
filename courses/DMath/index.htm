@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+
+    <!--           Discrete Mathematics                  //-->
+    <!--                                                 //-->
+    <!--     http://www.jarrar.info/courses/DMath/       //-->
+    <!--                                                 //-->
+
+<html ng-app="app" lang="en"  id="ng-app">
+
+<head>   
+   <title>Discrete Mathematics Course</title>  
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+   <meta property="header" content="Discrete Mathematics" />
+   <meta property="og:url" content="http://www.jarrar.info/courses/DMath/index.htm" />
+   <meta property="og:title" content="Discrete Mathematics Online Course" />
+   <meta property="title" content="Discrete Mathematics Online Course" />
+   <meta property="og:image" content="http://www.jarrar.info/courses/DMath/DM2.jpg" />
+   <meta name="author" content="Mustafa Jarrar">
+		
+   
+<meta name="description" content="By Mustafa Jarrar: Applied Math, Problem Solving, Logical Thinking, Logic, Proofs, Set Theory, Number Theory, Mathematical Induction, Counting, Functions, Relations,  مساق الرياضيات المنفصلة لطلبة علوم الحاسوب، د. مصطفى جرار، جامعة بيرزيت، فلسطين"> 
+   <!-- <base href="http://www.jarrar.info">  -->
+   <link rel="stylesheet" type="text/css" href="../../main.css">    
+   <link rel="icon" href="../../favicon.ico">  
+
+ <meta name="keywords" content="Mustafa Jarrar, مصطفى جرار, Artificial Intelligence, Arabic NLP, Natural Language Processing, Computational Linguistics, Ontology Engineering, Semantic Web, Graph Databases, Arabic Ontology, SinaTools, Wojood NER, SinaLab, Hamad Bin Khalifa University, Birzeit University, Arabic Dialect Processing, Lexical Semantics, Digital Humanities, Knowledge Engineering, eGovernment">
+
+
+   <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-NHGQ7491PC"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-NHGQ7491PC');
+</script>
+
+
+<style>
+ 
+.CourseTitle{
+	font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
+	font-size: 17px;
+	font-style: normal;
+	font-variant: normal;
+	line-height: 15px;
+}
+		
+.LectureDiv{
+	font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
+	font-size: 17px;
+	font-style: normal;
+	font-variant: normal;
+	line-height: 18px;
+  margin-left: 40px;
+}
+
+.VidioIcon{
+  margin-right: 10px; 
+  height:25px;
+  width:25px;
+}
+
+.NormalText{
+	font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
+	font-size: 17px;
+	font-style: normal;
+	font-variant: normal;
+	line-height: 20px;
+}
+
+
+#ban {
+    table-layout:fixed;
+    min-width: 1000px;
+    
+}
+#ban1 {
+    table-layout:fixed;
+    min-width: 1000px;
+}
+
+#headertext{margin-top: 0px; margin-bottom: 10px;max-height: 56px;overflow: hidden;}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+#headertext{max-height: 53px;}
+ }
+
+@media screen and (max-width: 1000px) {
+  #ban {
+  /* background:red; */
+  }
+}
+    </style>
+   </head> 
+<body> 
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div style="min-width: 335px; padding-right:0px;">
+
+<div style="overflow: hidden; border:1px solid #dedede;  background:#f5f5f5;">
+
+  <div style="text-align: right; float: right;  padding-top:7px;">
+    <a href="https://scholar.google.com/citations?user=HiUpTkcAAAAJ&amp;hl=en"><img src="http://www.jarrar.info/images/GoogleScholar.png" style="padding-right:8px;" height="20" width="20" alt="My Google Scholar"></a>
+    <a href="https://www.researchgate.net/profile/Mustafa_Jarrar"><img src="http://www.jarrar.info/images/RG.jpg" style="padding-right:8px;" height="20" width="20" alt="My Research Gate"></a>
+    <a href="http://www.facebook.com/profile.php?id=100000636218726"><img src="http://www.jarrar.info/images/face.png" style="padding-right:8px;" height="20" width="20" alt="My  Faceboo profile"></a>
+    <a href="http://www.linkedin.com/in/jarrar"><img src="http://www.jarrar.info/images/lin.png"  style="padding-right:8px;" height="20" width="20" alt="My LinkedIn profile"></a>
+    <a href="https://twitter.com/#%21/mjarrar"><img src="http://www.jarrar.info/images/twit.png" style="padding-right:8px;" height="20" width="20" alt="My Twitter profile"></a>
+    <a href="http://www.slideshare.net/jarrar02/presentations"><img src="http://www.jarrar.info/images/slideshare.png"  style="padding-right:8px;" height="20" width="20" alt="My Slideshare profile"></a>
+    <a href="https://www.youtube.com/user/JarrarChannel/featured"><img src="http://www.jarrar.info/images/youtube.png"  style="padding-right:8px;" height="20" width="20" alt="My Youtube profile"></a>
+    <a href="https://orcid.org/0000-0003-4351-4207"><img src="http://www.jarrar.info/images/orcid.png" height="14"  alt="orcid"></a>
+   </div> 
+  <BR> 
+ 
+ <div class="topsection">
+
+ <img src="http://www.jarrar.info/Photos/photo.jpg" alt="MustafaPhotoe" style=" float:left;  height: 110px; width: 110px; border-radius: 50%; padding: 17px 7px 10px 3px"/>
+
+  
+  <div style="float:left;   text-align: left;"> 
+   <div style=" padding-top: 25px; font-size: 160%; font-weight: bold;"> Mustafa Jarrar </div>
+   <div style="padding-top: 10px;font-style: italic;">Full Professor</div>
+   <div style="padding-top: 3px;">Computer Science, Birzeit University</div>
+   <div style="padding-top: 15px; padding-bottom: 15px;">mjarrar(a)birzeit.edu</div>
+  </div>
+ </div>
+
+</div>
+
+
+<div id="navigation" >
+  <a href="http://www.jarrar.info/" style="">CV</a>
+  <a href="http://www.jarrar.info/publications/" style="">Publications</a>
+  <a href="http://www.jarrar.info/Talks/" style="">Talks</a>
+  <a href="http://www.jarrar.info/courses/" class="active">Courses</a>
+</div>
+
+
+   
+<div style="background-color: white;   min-width: 700px; box-shadow: 0px 0px 1px #888888; padding: 5px; border-left-style:  solid; border-left-width:10px; border-left-color:#D8D8D8; border-radius: 3px; ">
+
+
+<table>
+<tr>
+<td width="30"></td>
+<td valign="top">
+  <iframe width="300" height="200" src="https://www.youtube.com/embed/videoseries?si=JVBAAXC3iTtmJ-N1&amp;list=PLSu_tNkEO5Y1wTXgHehxtww53xRXOa0mC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</td>
+<td valign="top">
+<div style="font-size: 20px; font-weight:bold; margin-left:10px;">Discrete Mathematics</div>
+<span style="font-size:17px">
+<div class="NormalText" style="margin-left: 10px;">
+The goal of this course is to introduce students to ideas and techniques from discrete mathematics that are widely used in computer science. Ultimately, students are expected to understand and use (abstract) discrete structures that are the backbones of computer science. In particular, this class is meant to introduce logic, proofs, sets, functions, relations,  counting, graphs and trees and with an emphasis on applications in computer science.
+
+ <BR/> <BR/>
+ <a href="https://www.slideshare.net/jarrar02/discrete-mathematics-course-outline" target="_blank">
+Course Outline</a>
+ <BR/><BR/>
+ <div class="fb-share-button" data-href="http://www.jarrar.info/courses/DMath/index.htm" data-layout="button" data-size="small" data-mobile-iframe="true">
+<a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.jarrar.info%2Fcourses%2FDMath%2Findex.htm">
+Share</a>
+</div>
+
+
+ </div>
+</td>
+</tr></table>
+
+
+
+
+<BR/> <div class="CourseTitle" style="margin-left: 20px;"> <B> Chapter 2: propositional logic </B>  </div>
+
+<div class="LectureDiv">
+  <br>
+<img src="../../courses/vedio1.png" class="VidioIcon" alt="Watch lecture"/>
+2.1 Logical Form and Logical Equivalence 
+(<a href="Jarrar.LectureNotes.2.1LogicalStatements.pdf" target="_blank">Slides</a>)
+</div>
+
+<div class="LectureDiv">
+<img src="../../courses/vedio1.png" class="VidioIcon" alt="Watch lecture"/>
+2.2 Conditional Statements
+(<a href="Jarrar.LectureNotes.2.2 Conditional Statements.pdf" target="_blank">Slides</a>)
+</div>
+
+<div class="LectureDiv">
+<a href="https://www.youtube.com/watch?v=wEXMW-C361U&list=PLSu_tNkEO5Y0lZjlWYyut1PuLKNcK4nt9" target="_blank">
+  <img src="../../courses/vedio1.png" class="VidioIcon" alt="Watch lecture"/>
+  2.3 Inference in Propositional Logic</a> 
+(<a href="Jarrar.LectureNotes.2.3 PL Inference Rules.pdf" target="_blank">Slides</a>)
+</div>
+
+
+
+<BR/><div class="CourseTitle" style="margin-left: 20px;"><B>Chapter 3: First Order logic </B> </div>
+
+<div class="LectureDiv">
+  <br>
+<a href="https://www.youtube.com/watch?v=knpHHcdh8dg&list=PLSu_tNkEO5Y2vznFNUXURKMZMW-zYQlVf" target="_blank">
+<img src="../../courses/vedio1.png" class="VidioIcon" alt="Watch lecture"/>
+3.1 Introduction to First Order logic</a> 
+(<a href="Jarrar.LectureNotes.3.1 FOL Basics.pdf" target="_blank">Slides</a>) <BR/>
+</div>
+
+<div class="LectureDiv">
+<a href="https://www.youtube.com/watch?v=xb6YDv0hYU8&list=PLSu_tNkEO5Y1BST5im4xhpeO1hFzM_NUa" target="_blank">
+<img src="../../courses/vedio1.png" class="VidioIcon" alt="Watch lecture"/>
+3.2 Conditional Statements in First Order logic</a> 
+(<a href="Jarrar.LectureNotes.3.2 FOL Conditional Statements.pdf" target="_blank">Slides</a>) <BR/>
+</div>
+
+<div class="LectureDiv">
+<a href="https://www.youtube.com/watch?v=jGSqnnYNyCk&list=PLSu_tNkEO5Y1gWWNZha5trvwNibpAh6wP" target="_blank">
+<img src="../../courses/vedio1.png" class="VidioIcon" alt="Watch lecture"/>
+3.3 Multiple Quantifiers in First Order logic</a>
+(<a href="Jarrar.LectureNotes.3.3 FOL Multiple Quantifiers.pdf" target="_blank">Slides</a>) <BR/>
+</div>
+
+
+
+<BR/> <div class="CourseTitle" style="margin-left: 20px;"><B> Chapter 4: Number Theory</B> </div>
+
+<div class="LectureDiv">
+  <br>
+<a href="https://www.youtube.com/watch?v=ZZvWXa8-GDk&list=PLSu_tNkEO5Y1DVN88oCnh_x_Z1pBTIkLO" target="_blank">
+<img src="../../courses/vedio1.png" class="VidioIcon" alt="Watch lecture"/>
+4.1 Introduction</a> 
+(<a href="Jarrar.LectureNotes.4.1 NumberTheory.Introduction.pdf" target="_blank">Slides</a>) <BR/>
+</div>
+
+<div class="LectureDiv">
+<a href="https://www.youtube.com/watch?v=ni64iabubdo&list=PLSu_tNkEO5Y1DVN88oCnh_x_Z1pBTIkLO&index=2" target="_blank">
+<img src="../../courses/vedio1.png" class="VidioIcon" alt="Watch lecture"/>
+ 4.2 Rational Numbers </a> 
+ (<a href="Jarrar.LectureNotes.4.2 NumberTheory.RationalNumbers.pdf" target="_blank">Slides</a>) <BR/>
+</div>
+
+<div class="LectureDiv">
+<a href="https://www.youtube.com/watch?v=Nip4CzO0ceA&index=3&list=PLSu_tNkEO5Y1DVN88oCnh_x_Z1pBTIkLO" target="_blank">
+<img src="../../courses/vedio1.png" class="VidioIcon" alt="Watch lecture"/>
+4.3 Divisibility</a>
+(<a href="Jarrar.LectureNotes.4.3 NumberTheory.Divisibility.pdf" target="_blank">Slides</a>) <BR/>
+</div>
+
+<div class="LectureDiv">
+<a href="https://www.youtube.com/watch?v=xkjkec5ZnCs&list=PLSu_tNkEO5Y1DVN88oCnh_x_Z1pBTIkLO&index=5&t=0s" target="_blank">
+<img src="../../courses/vedio1.png" class="VidioIcon" alt="Watch lecture"/>
+4.4 Quotient-Remainder Theorem</a>
+(<a href="Jarrar.LectureNotes.4.4 NumberTheory.Quotient-Remainder.pdf" target="_blank">Slides</a>) <BR/>
+</div>
+
+
+
+<BR/>  <div class="CourseTitle" style="margin-left: 20px;"><B>Chapter 5: Sequences and Mathematical Induction</B></div>
+
+<div class="LectureDiv">
+  <br>
+<a href="https://www.youtube.com/watch?v=L-s_KYhGt98&t=200s&index=1&list=PLSu_tNkEO5Y0hHjBAsk7ZkYJXj0Y_x0qz" target="_blank">
+<img src="../../courses/vedio1.png" class="VidioIcon" alt="Watch lecture"/>
+5.1 Sequences</a> 
+(<a href="Jarrar.LectureNotes.5.1 Sequences.pdf" target="_blank">Slides</a>) <BR/>
+</div>
+
+<div class="LectureDiv">
+<a href="https://www.youtube.com/watch?v=qSI36p-JCRw&index=3&list=PLSu_tNkEO5Y0hHjBAsk7ZkYJXj0Y_x0qz" target="_blank">
+<img src="../../courses/vedio1.png" class="VidioIcon" alt="Watch lecture"/>
+ 5.2&3 Mathematical Induction </a> 
+ (<a href="Jarrar.LectureNotes.5.2_3 Induction.pdf" target="_blank">Slides</a>) <BR/>
+</div>
+
+<BR/> <div class="CourseTitle" style="margin-left: 20px;"><B> Chapter 6: Set Theory</B>  </div>
+
+<div class="LectureDiv">
+  <br>
+<a href="https://www.youtube.com/watch?v=5n_Ebhaavd4&t=820s&index=1&list=PLSu_tNkEO5Y2zUCLnvdRUeOShwBME09Ln" target="_blank">
+<img src="../../courses/vedio1.png" class="VidioIcon" alt="Watch lecture"/>
+6.1 Basics of Set Theory</a> 
+(<a href="Jarrar.LectureNotes.6.1 Set Basics.pdf" target="_blank">Slides</a>) <BR/>
+</div>
+
+<div class="LectureDiv">
+<a href="https://www.youtube.com/watch?v=MOz5sMp1NdI&list=PLSu_tNkEO5Y2zUCLnvdRUeOShwBME09Ln&index=3" target="_blank">
+<img src="../../courses/vedio1.png" class="VidioIcon" alt="Watch lecture"/>
+ 6.2 Properties of Sets</a> 
+ (<a href="Jarrar.LectureNotes.6.2 Properties of Sets.pdf" target="_blank">Slides</a>) <BR/>
+</div>
+
+<div class="LectureDiv">
+<a href="https://www.youtube.com/watch?v=NTjX4qQBfG8&index=5&list=PLSu_tNkEO5Y2zUCLnvdRUeOShwBME09Ln" target="_blank">
+<img src="../../courses/vedio1.png" class="VidioIcon" alt="Watch lecture"/>
+ 6.3 Algebric Proofs</a> 
+ (<a href="Jarrar.LectureNotes.6.3 Algebric Proofs.pdf" target="_blank">Slides</a>) <BR/>
+</div>
+
+<div class="LectureDiv">
+<a href="https://www.youtube.com/watch?v=iWBQtyuDWXk&list=PLSu_tNkEO5Y2zUCLnvdRUeOShwBME09Ln&index=6" target="_blank">
+<img src="../../courses/vedio1.png" class="VidioIcon" alt="Watch lecture"/>
+ 6.4 Boolean Algebra</a> 
+ (<a href="Jarrar.LectureNotes.6.4 Boolean Algebra.pdf" target="_blank">Slides</a>) <BR/>
+</div>
+
+
+<BR/> <div class="CourseTitle" style="margin-left: 20px;"><B> Chapter 7: Functions</B> </div>
+
+<div class="LectureDiv">
+  <br>
+<a href="https://www.youtube.com/watch?v=nttQGOQNb4A&list=PLSu_tNkEO5Y2moQk12v8C6qN8ogTATNuN&index=1" target="_blank">
+<img src="../../courses/vedio1.png" class="VidioIcon" alt="Watch lecture"/>
+7.1 Introduction to Functions</a> 
+(<a href="Jarrar.LectureNotes.7.1 Functions Introduction.pdf" target="_blank">Slides</a>) <BR/>
+</div>
+
+<div class="LectureDiv">
+<a href="https://www.youtube.com/watch?v=ISTlae2Zi5A&list=PLSu_tNkEO5Y2moQk12v8C6qN8ogTATNuN&index=2" target="_blank">
+<img src="../../courses/vedio1.png" class="VidioIcon" alt="Watch lecture"/>
+ 7.2 One-to-One, Onto, Inverse functions</a> 
+ (<a href="Jarrar.LectureNotes.7.2 Functions Properties.pdf" target="_blank">Slides</a>) <BR/>
+</div>
+
+<div class="LectureDiv">
+<a href="https://www.youtube.com/watch?v=17aSGxK229A&index=3&list=PLSu_tNkEO5Y2moQk12v8C6qN8ogTATNuN" target="_blank">
+<img src="../../courses/vedio1.png" class="VidioIcon" alt="Watch lecture"/>
+ 7.3 The Pigeonhole Principle </a> 
+ (<a href="Jarrar.LectureNotes.7.3 Pigeonhole Principle.pdf" target="_blank">Slides</a>) <BR/>
+</div>
+
+
+<BR/> <div class="CourseTitle" style="margin-left: 20px;"><B> Chapter 8: Relations</B> </div>
+
+<div class="LectureDiv">
+  <br>
+<a href="https://www.youtube.com/watch?v=9qp95CLFuLU&list=PLSu_tNkEO5Y1NfMydZ1YgdqIHfGy2Qr5U&index=1" target="_blank">
+<img src="../../courses/vedio1.png" class="VidioIcon" alt="Watch lecture"/>
+ 8.1. Introduction to Relations</a> 
+(<a href="Jarrar.LectureNotes.8.1 Relations Introductions.pdf" target="_blank">Slides</a>) <BR/>
+</div>
+
+<div class="LectureDiv">
+<a href="https://www.youtube.com/watch?v=ciIe73JI9Z4&list=PLSu_tNkEO5Y1NfMydZ1YgdqIHfGy2Qr5U&index=2" target="_blank">
+<img src="../../courses/vedio1.png" class="VidioIcon" alt="Watch lecture"/>
+ 8.2 Properties of Relations</a> 
+ (<a href="Jarrar.LectureNotes.8.2 Relations Properties.pdf" target="_blank">Slides</a>) <BR/>
+</div>
+
+<div class="LectureDiv">
+<a href="https://www.youtube.com/watch?v=DoXpnKb0PBI&index=3&list=PLSu_tNkEO5Y1NfMydZ1YgdqIHfGy2Qr5U" target="_blank">
+<img src="../../courses/vedio1.png" class="VidioIcon" alt="Watch lecture"/>
+ 8.3 Equivalence Relations</a> 
+ (<a href="Jarrar.LectureNotes.8.3 Equivalence Relations.pdf" target="_blank">Slides</a>) <BR/>
+</div>
+
+<BR/><div class="CourseTitle" style="margin-left: 20px;"><B> Chapter 9: Counting</B></div>  
+
+<div class="LectureDiv">
+  <br>
+<a href="https://www.youtube.com/playlist?list=PLSu_tNkEO5Y23vbd6wbpM3RVh2421_fw0" target="_blank">
+<img src="../../courses/vedio1.png" class="VidioIcon" alt="Watch lecture"/>
+ 9.1 Basics of Probability and Counting</a> 
+(<a href="Jarrar.LectureNotes.9.1 Counting Basics.pdf" target="_blank">Slides</a>) <BR/>
+</div>
+
+<div class="LectureDiv">
+<a href="https://www.youtube.com/watch?v=UTaR2y7b_o4&list=PLSu_tNkEO5Y23vbd6wbpM3RVh2421_fw0&index=1" target="_blank">
+<img src="../../courses/vedio1.png" class="VidioIcon" alt="Watch lecture"/>
+ 9.2 Possibility Trees and the Multiplication Rule</a> 
+ (<a href="Jarrar.LectureNotes.9.2 Possibility Trees and the Multiplication Rule.pdf" target="_blank">Slides</a>) <BR/>
+</div>
+
+<div class="LectureDiv">
+<a href="https://www.youtube.com/watch?v=ght8FER5UGc&list=PLSu_tNkEO5Y23vbd6wbpM3RVh2421_fw0&index=2" target="_blank">
+<img src="../../courses/vedio1.png" class="VidioIcon" alt="Watch lecture"/>
+ 9.3 Counting Elements of Disjoint Sets: Addition Rule</a> 
+ (<a href="Jarrar.LectureNotes.9.3 Counting Elements of Disjoint Sets Addition Rule.pdf" target="_blank">Slides</a>) <BR/>
+</div>
+
+<div class="LectureDiv">
+<a href="https://www.youtube.com/watch?v=LGkKE-e2pX8&list=PLSu_tNkEO5Y23vbd6wbpM3RVh2421_fw0&index=3" target="_blank">
+<img src="../../courses/vedio1.png" class="VidioIcon" alt="Watch lecture"/>
+ 9.5 Counting Subsets of a Set: Combinations</a> 
+ (<a href="Jarrar.LectureNotes.9.5 Counting Sets with Combations.pdf" target="_blank">Slides</a>) <BR/>
+</div>
+
+<div class="LectureDiv">
+<a href="https://www.youtube.com/watch?v=dCmeiACVNpk&list=PLSu_tNkEO5Y23vbd6wbpM3RVh2421_fw0&index=5" target="_blank">
+<img src="../../courses/vedio1.png" class="VidioIcon" alt="Watch lecture"/>
+ 9.6 r-Combinations with Repetition Allowed</a> 
+ (<a href="Jarrar.LectureNotes.9.6 rCombations With Repetition.pdf" target="_blank">Slides</a>) <BR/>
+</div>
+
+<BR/><div class="CourseTitle" style="margin-left: 20px;"><B>Chapter 10: Graphs and Trees</B></div>   
+
+<div class="LectureDiv">
+  <br>
+<img src="../../courses/vedio1.png" class="VidioIcon" alt="Watch lecture"/>
+ 10.1 Graphs
+(<a href="Jarrar.LectureNotes.10.1 Graphs.pdf" target="_blank">Slides</a>) <BR/>
+</div>
+
+<div class="LectureDiv">
+
+<img src="../../courses/vedio1.png" class="VidioIcon" alt="Watch lecture"/>
+ 10.2 Graphs and Trees
+ (<a href="Jarrar.LectureNotes.10.2 Trees.pdf" target="_blank">Slides</a>) <BR/>
+</div>
+
+
+<BR/><BR/><BR/>
+
+<div class="LectureDiv">
+<B>Textbook </B> <BR/> Susanna S. Epp:<a href="https://www.amazon.com/Discrete-Mathematics-Applications-Susanna-Epp/dp/0495391328"> Discrete Mathematics with Applications (4rd Edition) </a>. Brooks/Cole
+</div>
+
+<ul><B>Course Objectives:</B>
+<div style="margin-left: 20px;">
+By the end of the course the students will be able:
+<li>To apply logically valid forms of argument and avoid logical errors.</li>
+<li>To employ both direct and indirect arguments to derive new results from those already known to be true.</li>
+<li>To work with symbolic representations as if they were concrete objects.</li>
+<li>To recursively think about problems and validate them using mathematical induction.</li>
+<li>To count random and chance events and compute the likelihood of obtaining certain events in a sample space.</li>
+</div>
+</ul>
+
+<ul><B>Evaluation:</B> 
+<div style="margin-left: 20px;">
+<li>Midterm exam 30% </li>
+<li>Short Exams & Assignments 25%</li>
+<li>Participation* 5%</li>
+<li>Final Exam 40% </li>
+</div>
+</ul>
+<div style="margin-left: 40px;">*Participation includes class attendance, contributions during lectures, and answering questions.
+</div>
+
+<ul><B>Student Responsibilities:</B>
+<div style="margin-left: 20px;">
+<li><B>Office Hours:</B>Please check my office hours on Ritaj. If you wan to meet me outside my public office hours please request an appointment by email.</li>
+<li><B>Class participation and independent work:</B> Students are expected to actively participate in all classes and perform independent work.</li>
+<li><B>Attendance:</B> Attendance is mandatory. University regulations regarding this matter will be strictly enforced.</li>
+<li><B>Academic Honesty:</B> Individual work must be each student’s own work. Plagiarism or cheating will result in official University disciplinary review.</li>
+<li><B>Missed Exams:</B> There are no makeup exams.</li>
+<li><B>Class Etiquette:</B> Please keep all cell phones and other electronic devices turned off during class. If your activities during class are deemed disruptive, you will be asked to leave. Use of a personal computer during class is prohibited except for note taking with Instructor permission. </li>
+</div>
+</ul>
+</div>
+<BR/><BR/>
+</body>
+ </html>
+ 

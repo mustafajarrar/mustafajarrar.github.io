@@ -1,0 +1,181 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ORMSchema xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:noNamespaceSchemaLocation='http://www.starlab.vub.ac.be/staff/mustafa/ormml.v1.3.xsd' xmlns:dc='http://purl.org/dc/elements/1.1/' OntologyBase="Dogma" Context="Customer Complaint">
+<ORMMeta>
+<Meta Name="DC.Title" Content="Contract" />
+<Meta Name="DC.Language" Content="English" />
+<import_ORMGS href='C:\Documents and Settings\mjarrar\My Documents\[Research]\DogmaModeler\Ontologies\CContology\Contract.ormgs'/>
+</ORMMeta>
+<ORMBody>
+<Object xsi:type="NOLOT" Name="Contract">
+	<Translation Language="English" Name="Contract" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Address">
+	<Translation Language="English" Name="Address" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Delivery Address">
+	<Translation Language="English" Name="Delivery Address" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Sales Office">
+	<Translation Language="English" Name="Sales Office" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Third Party">
+	<Translation Language="English" Name="Third Party" Description="" Reference=""/>
+</Object>
+<Object xsi:type="LOT" Name="Reference to Contract">
+	<Translation Language="English" Name="Reference to Contract" Description="" Reference=""/>
+</Object>
+<Object xsi:type="LOT" Name="Terms and Conditions">
+	<Translation Language="English" Name="Terms and Conditions" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Delivery">
+	<Translation Language="English" Name="Delivery" Description="" Reference=""/>
+</Object>
+<Object xsi:type="LOT" Name="Schedule">
+	<Translation Language="English" Name="Schedule" Description="" Reference=""/>
+</Object>
+<Object xsi:type="LOT" Name="Goods">
+	<Translation Language="English" Name="Goods" Description="" Reference=""/>
+</Object>
+<Object xsi:type="LOT" Name="Services">
+	<Translation Language="English" Name="Services" Description="" Reference=""/>
+</Object>
+<Object xsi:type="LOT" Name="Total amount ASked">
+	<Translation Language="English" Name="Total amount ASked" Description="" Reference=""/>
+</Object>
+<Object xsi:type="LOT" Name="TotalAmounted Paid">
+	<Translation Language="English" Name="TotalAmounted Paid" Description="" Reference=""/>
+</Object>
+<Object xsi:type="LOT" Name="Function">
+	<Translation Language="English" Name="Function" Description="" Reference=""/>
+</Object>
+<Object xsi:type="LOT" Name="Third Party Name">
+	<Translation Language="English" Name="Third Party Name" Description="" Reference=""/>
+</Object>
+<Object xsi:type="LOT" Name="Sales Contact Method">
+	<Translation Language="English" Name="Sales Contact Method" Description="" Reference=""/>
+</Object>
+<Object xsi:type="LOT" Name="Contract Order Date">
+	<Translation Language="English" Name="Contract Order Date" Description="" Reference=""/>
+</Object>
+<Object xsi:type="LOT" Name="Contract Effective Date">
+	<Translation Language="English" Name="Contract Effective Date" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Delivery Consideration">
+	<Translation Language="English" Name="Delivery Consideration" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Payment Consideration">
+	<Translation Language="English" Name="Payment Consideration" Description="" Reference=""/>
+</Object>
+<Predicate>
+	<Object_Role ID='Contract_ref_686' Object='Delivery Address' Role='is_of'/>
+	<Object_Role ID='Contract_ref_687' Object='Delivery' Role='has'/>
+</Predicate>
+<Predicate>
+	<Object_Role ID='Contract_ref_688' Object='Schedule' Role='is_of'/>
+	<Object_Role ID='Contract_ref_689' Object='Delivery' Role='has'/>
+</Predicate>
+<Predicate>
+	<Object_Role ID='Contract_ref_690' Object='Sales Office' Role='is_of'/>
+	<Object_Role ID='Contract_ref_691' Object='Contract' Role='has'/>
+</Predicate>
+<Predicate>
+	<Object_Role ID='Contract_ref_692' Object='Third Party' Role='involved_in'/>
+	<Object_Role ID='Contract_ref_693' Object='Contract' Role='involves'/>
+</Predicate>
+<Predicate>
+	<Object_Role ID='Contract_ref_694' Object='Third Party Name' Role='is_of'/>
+	<Object_Role ID='Contract_ref_695' Object='Third Party' Role='has'/>
+</Predicate>
+<Predicate>
+	<Object_Role ID='Contract_ref_696' Object='Function' Role='is_of'/>
+	<Object_Role ID='Contract_ref_697' Object='Third Party' Role='has'/>
+</Predicate>
+<Predicate>
+	<Object_Role ID='Contract_ref_698' Object='Address' Role='is_of'/>
+	<Object_Role ID='Contract_ref_699' Object='Sales Office' Role='located_at'/>
+</Predicate>
+<Predicate>
+	<Object_Role ID='Contract_ref_700' Object='Sales Contact Method' Role='is_of'/>
+	<Object_Role ID='Contract_ref_701' Object='Contract' Role='has'/>
+</Predicate>
+<Predicate>
+	<Object_Role ID='Contract_ref_702' Object='Goods' Role='is_of'/>
+	<Object_Role ID='Contract_ref_703' Object='Delivery' Role='has'/>
+</Predicate>
+<Predicate>
+	<Object_Role ID='Contract_ref_704' Object='Services' Role='is_of'/>
+	<Object_Role ID='Contract_ref_705' Object='Delivery' Role='has'/>
+</Predicate>
+<Predicate>
+	<Object_Role ID='Contract_ref_706' Object='Reference to Contract' Role='is_of'/>
+	<Object_Role ID='Contract_ref_707' Object='Contract' Role='has'/>
+</Predicate>
+<Predicate>
+	<Object_Role ID='Contract_ref_708' Object='Terms and Conditions' Role='is_of'/>
+	<Object_Role ID='Contract_ref_709' Object='Contract' Role='has'/>
+</Predicate>
+<Predicate>
+	<Object_Role ID='Contract_ref_710' Object='Address' Role='is_of'/>
+	<Object_Role ID='Contract_ref_711' Object='Third Party' Role='located_at'/>
+</Predicate>
+<Predicate>
+	<Object_Role ID='Contract_ref_712' Object='Contract Effective Date' Role='is_of'/>
+	<Object_Role ID='Contract_ref_713' Object='Contract' Role='Has'/>
+</Predicate>
+<Predicate>
+	<Object_Role ID='Contract_ref_714' Object='Contract Order Date' Role='is_of'/>
+	<Object_Role ID='Contract_ref_715' Object='Contract' Role='Has'/>
+</Predicate>
+<Predicate>
+	<Object_Role ID='Contract_ref_716' Object='Delivery' Role='considered_by'/>
+	<Object_Role ID='Contract_ref_717' Object='Delivery Consideration' Role='considers'/>
+</Predicate>
+<Predicate>
+	<Object_Role ID='Contract_ref_718' Object='Delivery Consideration' Role='reported_by'/>
+	<Object_Role ID='Contract_ref_719' Object='Contract' Role='reports'/>
+</Predicate>
+<Predicate>
+	<Object_Role ID='Contract_ref_720' Object='TotalAmounted Paid' Role='is_of'/>
+	<Object_Role ID='Contract_ref_721' Object='Payment Consideration' Role='has'/>
+</Predicate>
+<Predicate>
+	<Object_Role ID='Contract_ref_722' Object='Total amount ASked' Role='is_of'/>
+	<Object_Role ID='Contract_ref_723' Object='Payment Consideration' Role='has'/>
+</Predicate>
+<Predicate>
+	<Object_Role ID='Contract_ref_724' Object='Payment Consideration' Role='reported_by'/>
+	<Object_Role ID='Contract_ref_725' Object='Contract' Role='reports'/>
+</Predicate>
+<Constraint xsi:type="Mandatory">
+	<Object_Role>Contract_ref_687</Object_Role>
+</Constraint>
+<Constraint xsi:type="Mandatory">
+	<Object_Role>Contract_ref_689</Object_Role>
+</Constraint>
+<Constraint xsi:type="Mandatory">
+	<Object_Role>Contract_ref_715</Object_Role>
+</Constraint>
+<Constraint xsi:type="Uniqueness">
+	<Object_Role>Contract_ref_691</Object_Role>
+</Constraint>
+<Constraint xsi:type="Mandatory">
+	<Object_Role>Contract_ref_705</Object_Role>
+	<Object_Role>Contract_ref_703</Object_Role>
+</Constraint>
+<Constraint xsi:type="Uniqueness">
+	<Object_Role>Contract_ref_702</Object_Role>
+</Constraint>
+<Constraint xsi:type="Uniqueness">
+	<Object_Role>Contract_ref_704</Object_Role>
+</Constraint>
+<Constraint xsi:type="Value" Object="Sales Contact Method">
+	<Value Datatype="String">"Shop"</Value>
+	<Value Datatype="String">"Direct Mail"</Value>
+	<Value Datatype="String">"eCommerce Web"</Value>
+	<Value Datatype="String">"eCommerce email"</Value>
+	<Value Datatype="String">"Sales Staff Location"</Value>
+	<Value Datatype="String">"Vending Machine"</Value>
+	<Value Datatype="String">"Door Step Sale"</Value>
+</Constraint>
+</ORMBody>
+</ORMSchema>

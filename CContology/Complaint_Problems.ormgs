@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ORMSchema xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:noNamespaceSchemaLocation='http://starlab.vub.ac.be/ORMML/ormml.xsd' xmlns:dc='http://purl.org/dc/elements/1.1/'>
+<ORMBody>
+<Object Name='Problem' x='3956' y='1968' width='203' height='176' ColorRGB='-1'/>
+<Object Name='Contract' x='3931' y='3062' width='171' height='95' ColorRGB='-1'/>
+<Object Name='Evidence' x='3928' y='1383' width='211' height='130' ColorRGB='-1'/>
+<Object Name='Contract Problem' x='4227' y='2384' width='220' height='159' ColorRGB='-1'/>
+<Object Name='Non-Contract Problem' x='4333' y='1744' width='274' height='139' ColorRGB='-1'/>
+<Object Name='Attachment' x='4503' y='1417' width='206' height='35' ColorRGB='-1'/>
+<Object Name='Declaration' x='4500' y='1479' width='189' height='35' ColorRGB='-1'/>
+<Object Name='Physical Delivery' x='4507' y='1352' width='212' height='41' ColorRGB='-1'/>
+<Object Name='Pre-purchase Phase Problem' x='4498' y='2236' width='335' height='89' ColorRGB='-1'/>
+<Object Name='Post-purchase Phase Problem' x='4449' y='2645' width='351' height='90' ColorRGB='-1'/>
+<Object Name='Purchase Phase Problem' x='4398' y='3149' width='331' height='79' ColorRGB='-1'/>
+<Object Name='Privacy Problem' x='3963' y='2481' width='207' height='139' ColorRGB='-1'/>
+<Object Name='Damage' x='4731' y='1637' width='209' height='93' ColorRGB='-1'/>
+<Object Name='Conduct' x='4717' y='1821' width='219' height='69' ColorRGB='-1'/>
+<Object Name='Negotiation of Terms' x='4904' y='2189' width='260' height='59' ColorRGB='-1'/>
+<Object Name='Offer Problem' x='5245' y='2118' width='219' height='56' ColorRGB='-1'/>
+<Object Name='Information Problem' x='5229' y='2180' width='235' height='57' ColorRGB='-1'/>
+<Object Name='Refusal Problem' x='5248' y='2240' width='209' height='44' ColorRGB='-1'/>
+<Object Name='Contract Terms Problem' x='4850' y='3235' width='265' height='55' ColorRGB='-1'/>
+<Object Name='Price Unfair' x='5234' y='3211' width='216' height='52' ColorRGB='-1'/>
+<Object Name='General Terms Problem' x='5217' y='3269' width='257' height='46' ColorRGB='-1'/>
+<Object Name='Product Problem' x='4887' y='2508' width='251' height='76' ColorRGB='-1'/>
+<Object Name='Product Quality Problem' x='5191' y='2474' width='271' height='61' ColorRGB='-1'/>
+<Object Name='Documentation Problem' x='5176' y='2540' width='286' height='58' ColorRGB='-1'/>
+<Object Name='After Sales Service Problem' x='4871' y='2666' width='316' height='69' ColorRGB='-1'/>
+<Object Name='Contract Termination Problem' x='4802' y='2870' width='342' height='72' ColorRGB='-1'/>
+<Object Name='Guarantee Problem' x='5230' y='2612' width='230' height='59' ColorRGB='-1'/>
+<Object Name='Repair Problem' x='5248' y='2674' width='202' height='58' ColorRGB='-1'/>
+<Object Name='Service Problem' x='5249' y='2735' width='201' height='58' ColorRGB='-1'/>
+<Object Name='Deposit withheld' x='5235' y='2810' width='215' height='41' ColorRGB='-1'/>
+<Object Name='Advance withheld' x='5234' y='2901' width='212' height='52' ColorRGB='-1'/>
+<Object Name='Privacy Information' x='3849' y='2699' width='201' height='57' ColorRGB='-1'/>
+<Object Name='Private Data Access' x='4122' y='2667' width='273' height='50' ColorRGB='-1'/>
+<Object Name='Cancellation or withdrawal refused' x='5118' y='3018' width='336' height='52' ColorRGB='-1'/>
+<Object Name='Incorrect Marketing Practices' x='4852' y='2338' width='334' height='55' ColorRGB='-1'/>
+<Object Name='Delivery and Installation Problem' x='4815' y='3117' width='381' height='62' ColorRGB='-1'/>
+<Object Name='Billing or Payment Problem' x='4817' y='3336' width='316' height='67' ColorRGB='-1'/>
+<Object Name='Payment problem' x='5223' y='3386' width='223' height='42' ColorRGB='-1'/>
+<Object Name='Unexpected charge' x='5224' y='3331' width='229' height='49' ColorRGB='-1'/>
+<Object Name='Sales promotion' x='5254' y='2339' width='188' height='54' ColorRGB='-1'/>
+<Object Name='Advertising' x='5251' y='2296' width='192' height='39' ColorRGB='-1'/>
+<Object Name='Personal selling' x='5246' y='2396' width='204' height='49' ColorRGB='-1'/>
+<Object Name='Delivery problem' x='5242' y='3146' width='221' height='45' ColorRGB='-1'/>
+<Object Name='Installation problem' x='5243' y='3097' width='220' height='46' ColorRGB='-1'/>
+<Object Name='Purpose and Permission' x='3906' y='2781' width='258' height='49' ColorRGB='-1'/>
+<Object Name='Data Collection' x='4052' y='2729' width='242' height='46' ColorRGB='-1'/>
+<Object Name='Breach of contract' x='5222' y='2959' width='231' height='52' ColorRGB='-1'/>
+<Object Name='Switching or Churning' x='5222' y='2854' width='240' height='43' ColorRGB='-1'/>
+<Object Name='Sales Methods' x='4761' y='1431' width='213' height='79' ColorRGB='-1'/>
+<Object Name='Content' x='4748' y='1991' width='206' height='53' ColorRGB='-1'/>
+<Object Name='Copyright' x='4752' y='1922' width='209' height='55' ColorRGB='-1'/>
+<Object Name='Environmental damage' x='5041' y='1611' width='324' height='43' ColorRGB='-1'/>
+<Object Name='Property damage' x='5026' y='1705' width='336' height='35' ColorRGB='-1'/>
+<Object Name='Psychological damage' x='5046' y='1557' width='307' height='49' ColorRGB='-1'/>
+<Object Name='Reputation damage' x='5046' y='1658' width='319' height='43' ColorRGB='-1'/>
+<Object Name='Incorrect assessment of a damage' x='5028' y='1747' width='338' height='50' ColorRGB='-1'/>
+<Object Name='Untruthfulness' x='5079' y='1808' width='228' height='35' ColorRGB='-1'/>
+<Object Name='Rudeness' x='5077' y='1845' width='228' height='45' ColorRGB='-1'/>
+<Object Name='Lewd or Immoral conduct' x='5044' y='1898' width='309' height='45' ColorRGB='-1'/>
+<Object Name='Illegal Content' x='5029' y='2011' width='217' height='35' ColorRGB='-1'/>
+<Object Name='Harmful Content' x='5019' y='1965' width='237' height='35' ColorRGB='-1'/>
+<Object Name='High pressure selling' x='5049' y='1484' width='304' height='40' ColorRGB='-1'/>
+<Object Name='Unsolicited service' x='5044' y='1437' width='281' height='39' ColorRGB='-1'/>
+<Object Name='Unsolicited merchandise ' x='5022' y='1326' width='267' height='49' ColorRGB='-1'/>
+<Object Name='Unsolicited commercial communications' x='5028' y='1384' width='399' height='47' ColorRGB='-1'/>
+<Predicate FirstObjectRoleID='Complaint Problems:510' SecondObjectRoleID='Complaint Problems:511' x='3973' y='1732' width='136' height='50' ColorRGB='-1'/>
+<Predicate FirstObjectRoleID='Complaint Problems:512' SecondObjectRoleID='Complaint Problems:513' x='4186' y='1349' width='266' height='50' ColorRGB='-1'/>
+<Predicate FirstObjectRoleID='Complaint Problems:514' SecondObjectRoleID='Complaint Problems:515' x='4186' y='1407' width='266' height='57' ColorRGB='-1'/>
+<Predicate FirstObjectRoleID='Complaint Problems:516' SecondObjectRoleID='Complaint Problems:517' x='4186' y='1473' width='266' height='50' ColorRGB='-1'/>
+<Predicate FirstObjectRoleID='Complaint Problems:518' SecondObjectRoleID='Complaint Problems:519' x='4144' y='3167' width='209' height='45' ColorRGB='-1'/>
+<Predicate FirstObjectRoleID='Complaint Problems:520' SecondObjectRoleID='Complaint Problems:521' x='4146' y='3033' width='207' height='48' ColorRGB='-1'/>
+<ORConnector ObjectName='Problem' Object_RoleID='Complaint Problems:511' PortType='Bottomright' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Evidence' Object_RoleID='Complaint Problems:510' PortType='Topleft' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Physical Delivery' Object_RoleID='Complaint Problems:513' PortType='Middleright' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Evidence' Object_RoleID='Complaint Problems:512' PortType='Middleleft' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Attachment' Object_RoleID='Complaint Problems:515' PortType='Middleright' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Evidence' Object_RoleID='Complaint Problems:514' PortType='Middleleft' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Declaration' Object_RoleID='Complaint Problems:517' PortType='Middleright' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Evidence' Object_RoleID='Complaint Problems:516' PortType='Middleleft' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Purchase Phase Problem' Object_RoleID='Complaint Problems:519' PortType='Middleright' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Contract' Object_RoleID='Complaint Problems:518' PortType='Middleleft' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Post-purchase Phase Problem' Object_RoleID='Complaint Problems:521' PortType='Middleright' ObjectCleoneID='-1'/>
+<ORConnector ObjectName='Contract' Object_RoleID='Complaint Problems:520' PortType='Middleleft' ObjectCleoneID='-1'/>
+<Subtype SourceObjectName='Non-Contract Problem' TargetObjectName='Problem' SourceObjectCloneID='-1' TargetObjectCloneID='-1'/>
+<Subtype SourceObjectName='Contract Problem' TargetObjectName='Problem' SourceObjectCloneID='-1' TargetObjectCloneID='-1'/>
+<Subtype SourceObjectName='Pre-purchase Phase Problem' TargetObjectName='Contract Problem' SourceObjectCloneID='-1' TargetObjectCloneID='-1'/>
+<Subtype SourceObjectName='Post-purchase Phase Problem' TargetObjectName='Contract Problem' SourceObjectCloneID='-1' TargetObjectCloneID='-1'/>
+<Subtype SourceObjectName='Purchase Phase Problem' TargetObjectName='Contract Problem' SourceObjectCloneID='-1' TargetObjectCloneID='-1'/>
+<Subtype SourceObjectName='Damage' TargetObjectName='Non-Contract Problem' SourceObjectCloneID='-1' TargetObjectCloneID='-1'/>
+<Subtype SourceObjectName='Conduct' TargetObjectName='Non-Contract Problem' SourceObjectCloneID='-1' TargetObjectCloneID='-1'/>
+<Subtype SourceObjectName='Negotiation of Terms' TargetObjectName='Pre-purchase Phase Problem' SourceObjectCloneID='-1' TargetObjectCloneID='-1'/>
+<Subtype SourceObjectName='Offer Problem' TargetObjectName='Negotiation of Terms' SourceObjectCloneID='-1' TargetObjectCloneID='-1'/>
+<Subtype SourceObjectName='Information Problem' TargetObjectName='Negotiation of Terms' SourceObjectCloneID='-1' TargetObjectCloneID='-1'/>
+<Subtype SourceObjectName='Refusal Problem' TargetObjectName='Negotiation of Terms' SourceObjectCloneID='-1' TargetObjectCloneID='-1'/>
+<Subtype SourceObjectName='Contract Terms Problem' TargetObjectName='Purchase Phase Problem' SourceObjectCloneID='-1' TargetObjectCloneID='-1'/>
+<Subtype SourceObjectName='Price Unfair' TargetObjectName='Contract Terms Problem' SourceObjectCloneID='-1' TargetObjectCloneID='-1'/>
+<Subtype SourceObjectName='General Terms Problem' TargetObjectName='Contract Terms Problem' SourceObjectCloneID='-1' TargetObjectCloneID='-1'/>
+<Subtype SourceObjectName='Product Problem' TargetObjectName='Post-purchase Phase Problem' SourceObjectCloneID='-1' TargetObjectCloneID='-1'/>
+<Subtype SourceObjectName='Product Quality Problem' TargetObjectName='Product Problem' SourceObjectCloneID='-1' TargetObjectCloneID='-1'/>
+<Subtype SourceObjectName='Documentation Problem' TargetObjectName='Product Problem' SourceObjectCloneID='-1' TargetObjectCloneID='-1'/>
+<Subtype SourceObjectName='After Sales Service Problem' TargetObjectName='Post-purchase Phase Problem' SourceObjectCloneID='-1' TargetObjectCloneID='-1'/>
+<Subtype SourceObjectName='Contract Termination Problem' TargetObjectName='Post-purchase Phase Problem' SourceObjectCloneID='-1' TargetObjectCloneID='-1'/>
+<Subtype SourceObjectName='Guarantee Problem' TargetObjectName='After Sales Service Problem' SourceObjectCloneID='-1' TargetObjectCloneID='-1'/>
+<Subtype SourceObjectName='Repair Problem' TargetObjectName='After Sales Service Problem' SourceObjectCloneID='-1' TargetObjectCloneID='-1'/>
+<Subtype SourceObjectName='Service Problem' TargetObjectName='After Sales Service Problem' SourceObjectCloneID='-1' TargetObjectCloneID='-1'/>
+<Subtype SourceObjectName='Deposit withheld' TargetObjectName='Contract Termination Problem' SourceObjectCloneID='-1' TargetObjectCloneID='-1'/>
+<Subtype SourceObjectName='Advance withheld' TargetObjectName='Contract Termination Problem' SourceObjectCloneID='-1' TargetObjectCloneID='-1'/>
+<Subtype SourceObjectName='Privacy Information' TargetObjectName='Privacy Problem' SourceObjectCloneID='-1' TargetObjectCloneID='-1'/>
+<Subtype SourceObjectName='Private Data Access' TargetObjectName='Privacy Problem' SourceObjectCloneID='-1' TargetObjectCloneID='-1'/>
+<Subtype SourceObjectName='Privacy Problem' TargetObjectName='Problem' SourceObjectCloneID='-1' TargetObjectCloneID='-1'/>
+<Subtype SourceObjectName='Cancellation or withdrawal refused' TargetObjectName='Contract Termination Problem' SourceObjectCloneID='-1' TargetObjectCloneID='-1'/>
+<Subtype SourceObjectName='Incorrect Marketing Practices' TargetObjectName='Pre-purchase Phase Problem' SourceObjectCloneID='-1' TargetObjectCloneID='-1'/>
+<Subtype SourceObjectName='Delivery and Installation Problem' TargetObjectName='Purchase Phase Problem' SourceObjectCloneID='-1' TargetObjectCloneID='-1'/>
+<Subtype SourceObjectName='Billing or Payment Problem' TargetObjectName='Purchase Phase Problem' SourceObjectCloneID='-1' TargetObjectCloneID='-1'/>
+<Subtype SourceObjectName='Payment problem' TargetObjectName='Billing or Payment Problem' SourceObjectCloneID='-1' TargetObjectCloneID='-1'/>
+<Subtype SourceObjectName='Unexpected charge' TargetObjectName='Billing or Payment Problem' SourceObjectCloneID='-1' TargetObjectCloneID='-1'/>
+<Subtype SourceObjectName='Sales promotion' TargetObjectName='Incorrect Marketing Practices' SourceObjectCloneID='-1' TargetObjectCloneID='-1'/>
+<Subtype SourceObjectName='Advertising' TargetObjectName='Incorrect Marketing Practices' SourceObjectCloneID='-1' TargetObjectCloneID='-1'/>
+<Subtype SourceObjectName='Personal selling' TargetObjectName='Incorrect Marketing Practices' SourceObjectCloneID='-1' TargetObjectCloneID='-1'/>
+<Subtype SourceObjectName='Delivery problem' TargetObjectName='Delivery and Installation Problem' SourceObjectCloneID='-1' TargetObjectCloneID='-1'/>
+<Subtype SourceObjectName='Installation problem' TargetObjectName='Delivery and Installation Problem' SourceObjectCloneID='-1' TargetObjectCloneID='-1'/>
+<Subtype SourceObjectName='Purpose and Permission' TargetObjectName='Privacy Problem' SourceObjectCloneID='-1' TargetObjectCloneID='-1'/>
+<Subtype SourceObjectName='Data Collection' TargetObjectName='Privacy Problem' SourceObjectCloneID='-1' TargetObjectCloneID='-1'/>
+<Subtype SourceObjectName='Breach of contract' TargetObjectName='Contract Termination Problem' SourceObjectCloneID='-1' TargetObjectCloneID='-1'/>
+<Subtype SourceObjectName='Switching or Churning' TargetObjectName='Contract Termination Problem' SourceObjectCloneID='-1' TargetObjectCloneID='-1'/>
+<Subtype SourceObjectName='Sales Methods' TargetObjectName='Non-Contract Problem' SourceObjectCloneID='-1' TargetObjectCloneID='-1'/>
+<Subtype SourceObjectName='Content' TargetObjectName='Non-Contract Problem' SourceObjectCloneID='-1' TargetObjectCloneID='-1'/>
+<Subtype SourceObjectName='Copyright' TargetObjectName='Non-Contract Problem' SourceObjectCloneID='-1' TargetObjectCloneID='-1'/>
+<Subtype SourceObjectName='Environmental damage' TargetObjectName='Damage' SourceObjectCloneID='-1' TargetObjectCloneID='-1'/>
+<Subtype SourceObjectName='Property damage' TargetObjectName='Damage' SourceObjectCloneID='-1' TargetObjectCloneID='-1'/>
+<Subtype SourceObjectName='Psychological damage' TargetObjectName='Damage' SourceObjectCloneID='-1' TargetObjectCloneID='-1'/>
+<Subtype SourceObjectName='Reputation damage' TargetObjectName='Damage' SourceObjectCloneID='-1' TargetObjectCloneID='-1'/>
+<Subtype SourceObjectName='Incorrect assessment of a damage' TargetObjectName='Damage' SourceObjectCloneID='-1' TargetObjectCloneID='-1'/>
+<Subtype SourceObjectName='Untruthfulness' TargetObjectName='Conduct' SourceObjectCloneID='-1' TargetObjectCloneID='-1'/>
+<Subtype SourceObjectName='Rudeness' TargetObjectName='Conduct' SourceObjectCloneID='-1' TargetObjectCloneID='-1'/>
+<Subtype SourceObjectName='Lewd or Immoral conduct' TargetObjectName='Conduct' SourceObjectCloneID='-1' TargetObjectCloneID='-1'/>
+<Subtype SourceObjectName='Illegal Content' TargetObjectName='Content' SourceObjectCloneID='-1' TargetObjectCloneID='-1'/>
+<Subtype SourceObjectName='Harmful Content' TargetObjectName='Content' SourceObjectCloneID='-1' TargetObjectCloneID='-1'/>
+<Subtype SourceObjectName='High pressure selling' TargetObjectName='Sales Methods' SourceObjectCloneID='-1' TargetObjectCloneID='-1'/>
+<Subtype SourceObjectName='Unsolicited service' TargetObjectName='Sales Methods' SourceObjectCloneID='-1' TargetObjectCloneID='-1'/>
+<Subtype SourceObjectName='Unsolicited merchandise ' TargetObjectName='Sales Methods' SourceObjectCloneID='-1' TargetObjectCloneID='-1'/>
+<Subtype SourceObjectName='Unsolicited commercial communications' TargetObjectName='Sales Methods' SourceObjectCloneID='-1' TargetObjectCloneID='-1'/>
+<Text Content='Type Text Here' x='4672' y='3266' width='205' height='55'/>
+<Text Content='Type Text Here' x='4672' y='3266' width='205' height='55'/>
+<Exclusive x='4215' y='2104'>
+	<Supertype>Problem</Supertype>
+	<Subtype>Contract Problem</Subtype>
+	<Subtype>Non-Contract Problem</Subtype>
+</Exclusive>
+
+<Exclusive x='4446' y='2453'>
+	<Supertype>Contract Problem</Supertype>
+	<Subtype>Post-purchase Phase Problem</Subtype>
+	<Subtype>Pre-purchase Phase Problem</Subtype>
+</Exclusive>
+
+</ORMBody>
+</ORMSchema>

@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ORMSchema xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:noNamespaceSchemaLocation='http://www.starlab.vub.ac.be/staff/mustafa/ormml.v1.3.xsd' xmlns:dc='http://purl.org/dc/elements/1.1/' OntologyBase="Dogma" Context="Customer Complaint">
+<ORMMeta>
+<Meta Name="DC.Title" Content="Complainant" />
+<Meta Name="DC.Language" Content="English" />
+<import_ORMGS href='C:\Documents and Settings\mjarrar\My Documents\[Research]\DogmaModeler\Ontologies\CContology\Complainant.ormgs'/>
+</ORMMeta>
+<ORMBody>
+<Object xsi:type="NOLOT" Name="Complainant">
+	<Translation Language="English" Name="Complainant" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="CCForm Registration">
+	<Translation Language="English" Name="CCForm Registration" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Contact Details">
+	<Translation Language="English" Name="Contact Details" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Legal Person">
+	<Translation Language="English" Name="Legal Person" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Natural Person Complainant">
+	<Translation Language="English" Name="Natural Person Complainant" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Non-Natural Person Complainant">
+	<Translation Language="English" Name="Non-Natural Person Complainant" Description="" Reference=""/>
+</Object>
+<Subtype>
+	<Parent Object="Legal Person" Role="Types"/>
+	<Child Object="Complainant" Role="SubtypeOf"/>
+</Subtype>
+<Subtype>
+	<Parent Object="Complainant" Role="Types"/>
+	<Child Object="Natural Person Complainant" Role="SubtypeOf"/>
+</Subtype>
+<Subtype>
+	<Parent Object="Complainant" Role="Types"/>
+	<Child Object="Non-Natural Person Complainant" Role="SubtypeOf"/>
+</Subtype>
+<Predicate>
+	<Object_Role ID='Complainant_ref_144' Object='CCForm Registration' Role='denotes'/>
+	<Object_Role ID='Complainant_ref_145' Object='Natural Person Complainant' Role='denoted_by'/>
+</Predicate>
+<Predicate>
+	<Object_Role ID='Complainant_ref_146' Object='Contact Details' Role='denotes'/>
+	<Object_Role ID='Complainant_ref_147' Object='Non-Natural Person Complainant' Role='denoted_by'/>
+</Predicate>
+<Constraint xsi:type="Mandatory">
+	<Object_Role>Complainant_ref_145</Object_Role>
+</Constraint>
+<Constraint xsi:type="Mandatory">
+	<Object_Role>Complainant_ref_147</Object_Role>
+</Constraint>
+<Constraint xsi:type="Uniqueness">
+	<Object_Role>Complainant_ref_145</Object_Role>
+</Constraint>
+<Constraint xsi:type="Uniqueness">
+	<Object_Role>Complainant_ref_144</Object_Role>
+</Constraint>
+<Constraint xsi:type="Total">
+	<Supertype>Complainant</Supertype>
+	<Subtype>Natural Person Complainant</Subtype>
+	<Subtype>Non-Natural Person Complainant</Subtype>
+</Constraint>
+<Constraint xsi:type="Exclusive">
+	<Supertype>Complainant</Supertype>
+	<Subtype>Natural Person Complainant</Subtype>
+	<Subtype>Non-Natural Person Complainant</Subtype>
+</Constraint>
+</ORMBody>
+</ORMSchema>

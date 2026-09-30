@@ -1,0 +1,185 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ORMSchema xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:noNamespaceSchemaLocation='http://www.starlab.vub.ac.be/staff/mustafa/ormml.v1.3.xsd' xmlns:dc='http://purl.org/dc/elements/1.1/' OntologyBase="Dogma" Context="Customer Complaint">
+<ORMMeta>
+<Meta Name="DC.Title" Content="Address" />
+<Meta Name="DC.Language" Content="English" />
+<import_ORMGS href='C:\Documents and Settings\mjarrar\My Documents\[Research]\DogmaModeler\Ontologies\CContology\Address.ormgs'/>
+</ORMMeta>
+<ORMBody>
+<Object xsi:type="NOLOT" Name="Address">
+	<Translation Language="English" Name="Address" Description="" Reference=""/>
+</Object>
+<Object xsi:type="LOT" Name="Country">
+	<Translation Language="English" Name="Country" Description="" Reference=""/>
+</Object>
+<Object xsi:type="LOT" Name="County">
+	<Translation Language="English" Name="County" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="PostalCode">
+	<Translation Language="English" Name="PostalCode" Description="" Reference=""/>
+</Object>
+<Object xsi:type="LOT" Name="Street">
+	<Translation Language="English" Name="Street" Description="" Reference=""/>
+</Object>
+<Object xsi:type="LOT" Name="Building Name">
+	<Translation Language="English" Name="Building Name" Description="" Reference=""/>
+</Object>
+<Object xsi:type="LOT" Name="Appartment Number">
+	<Translation Language="English" Name="Appartment Number" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Mailing Address">
+	<Translation Language="English" Name="Mailing Address" Description="" Reference=""/>
+</Object>
+<Object xsi:type="LOT" Name="City">
+	<Translation Language="English" Name="City" Description="" Reference=""/>
+</Object>
+<Object xsi:type="LOT" Name="State">
+	<Translation Language="English" Name="State" Description="" Reference=""/>
+</Object>
+<Object xsi:type="LOT" Name="PO Box">
+	<Translation Language="English" Name="PO Box" Description="" Reference=""/>
+</Object>
+<Object xsi:type="LOT" Name="Telephone">
+	<Translation Language="English" Name="Telephone" Description="" Reference=""/>
+</Object>
+<Object xsi:type="LOT" Name="eMail">
+	<Translation Language="English" Name="eMail" Description="" Reference=""/>
+</Object>
+<Object xsi:type="LOT" Name="Web Site">
+	<Translation Language="English" Name="Web Site" Description="" Reference=""/>
+</Object>
+<Object xsi:type="LOT" Name="Fax">
+	<Translation Language="English" Name="Fax" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Contact Details">
+	<Translation Language="English" Name="Contact Details" Description="" Reference=""/>
+</Object>
+<Object xsi:type="LOT" Name="Name">
+	<Translation Language="English" Name="Name" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Building Number">
+	<Translation Language="English" Name="Building Number" Description="" Reference=""/>
+</Object>
+<Object xsi:type="NOLOT" Name="Electronic Address">
+	<Translation Language="English" Name="Electronic Address" Description="" Reference=""/>
+</Object>
+<Subtype>
+	<Parent Object="Address" Role="Types"/>
+	<Child Object="Electronic Address" Role="Subtype-Of"/>
+</Subtype>
+<Subtype>
+	<Parent Object="Electronic Address" Role="Types"/>
+	<Child Object="eMail" Role="Subtype-Of"/>
+</Subtype>
+<Subtype>
+	<Parent Object="Electronic Address" Role="Types"/>
+	<Child Object="Fax" Role="Subtype-Of"/>
+</Subtype>
+<Subtype>
+	<Parent Object="Electronic Address" Role="Types"/>
+	<Child Object="Telephone" Role="Subtype-Of"/>
+</Subtype>
+<Subtype>
+	<Parent Object="Electronic Address" Role="Types"/>
+	<Child Object="Web Site" Role="Subtype-Of"/>
+</Subtype>
+<Subtype>
+	<Parent Object="Address" Role="Types"/>
+	<Child Object="Mailing Address" Role="Subtype-Of"/>
+</Subtype>
+<Predicate>
+	<Object_Role ID='Address_ref_144' Object='Country' Role='is_of'/>
+	<Object_Role ID='Address_ref_145' Object='Mailing Address' Role='has'/>
+</Predicate>
+<Predicate>
+	<Object_Role ID='Address_ref_146' Object='State' Role='is_of'/>
+	<Object_Role ID='Address_ref_147' Object='Mailing Address' Role='has'/>
+</Predicate>
+<Predicate>
+	<Object_Role ID='Address_ref_148' Object='County' Role='is_of'/>
+	<Object_Role ID='Address_ref_149' Object='Mailing Address' Role='has'/>
+</Predicate>
+<Predicate>
+	<Object_Role ID='Address_ref_150' Object='PostalCode' Role='is_of'/>
+	<Object_Role ID='Address_ref_151' Object='Mailing Address' Role='has'/>
+</Predicate>
+<Predicate>
+	<Object_Role ID='Address_ref_152' Object='City' Role='is_of'/>
+	<Object_Role ID='Address_ref_153' Object='Mailing Address' Role='has'/>
+</Predicate>
+<Predicate>
+	<Object_Role ID='Address_ref_154' Object='Street' Role='is_of'/>
+	<Object_Role ID='Address_ref_155' Object='Mailing Address' Role='has'/>
+</Predicate>
+<Predicate>
+	<Object_Role ID='Address_ref_158' Object='PO Box' Role='is_of'/>
+	<Object_Role ID='Address_ref_159' Object='Mailing Address' Role='has'/>
+</Predicate>
+<Predicate>
+	<Object_Role ID='Address_ref_160' Object='Appartment Number' Role='is_of'/>
+	<Object_Role ID='Address_ref_161' Object='Mailing Address' Role='has'/>
+</Predicate>
+<Predicate>
+	<Object_Role ID='Address_ref_162' Object='Building Name' Role='is_of'/>
+	<Object_Role ID='Address_ref_163' Object='Mailing Address' Role='has'/>
+</Predicate>
+<Predicate>
+	<Object_Role ID='Address_ref_184' Object='Name' Role='is_of'/>
+	<Object_Role ID='Address_ref_185' Object='Contact Details' Role='has'/>
+</Predicate>
+<Predicate>
+	<Object_Role ID='Address_ref_187' Object='Building Number' Role='is-of'/>
+	<Object_Role ID='Address_ref_186' Object='Mailing Address' Role='Has'/>
+</Predicate>
+<Predicate>
+	<Object_Role ID='Address_ref_190' Object='Address' Role='comprises'/>
+	<Object_Role ID='Address_ref_191' Object='Contact Details' Role='comprised_of'/>
+</Predicate>
+<Constraint xsi:type="Mandatory">
+	<Object_Role>Address_ref_145</Object_Role>
+</Constraint>
+<Constraint xsi:type="Uniqueness">
+	<Object_Role>Address_ref_145</Object_Role>
+</Constraint>
+<Constraint xsi:type="Exclusive">
+	<Supertype>Electronic Address</Supertype>
+	<Subtype>eMail</Subtype>
+	<Subtype>Telephone</Subtype>
+	<Subtype>Fax</Subtype>
+	<Subtype>Web Site</Subtype>
+</Constraint>
+<Constraint xsi:type="Total">
+	<Supertype>Address</Supertype>
+	<Subtype>Mailing Address</Subtype>
+	<Subtype>Electronic Address</Subtype>
+</Constraint>
+<Constraint xsi:type="Exclusive">
+	<Supertype>Address</Supertype>
+	<Subtype>Electronic Address</Subtype>
+	<Subtype>Mailing Address</Subtype>
+</Constraint>
+<Constraint xsi:type="Value" Object="Country">
+	<Value Datatype="String">"Austria"</Value>
+	<Value Datatype="String">"Belgium"</Value>
+	<Value Datatype="String">"Canada"</Value>
+	<Value Datatype="String">"Denmark"</Value>
+	<Value Datatype="String">"Finland"</Value>
+	<Value Datatype="String">"France"</Value>
+	<Value Datatype="String">"Germany"</Value>
+	<Value Datatype="String">"Greece"</Value>
+	<Value Datatype="String">"Ireland"</Value>
+	<Value Datatype="String">"Italy"</Value>
+	<Value Datatype="String">"Japan"</Value>
+	<Value Datatype="String">"Luxemburg"</Value>
+	<Value Datatype="String">"Netherlands"</Value>
+	<Value Datatype="String">"Norway"</Value>
+	<Value Datatype="String">"Portugal"</Value>
+	<Value Datatype="String">"Spain"</Value>
+	<Value Datatype="String">"Sweden"</Value>
+	<Value Datatype="String">"Switzerland"</Value>
+	<Value Datatype="String">"UK"</Value>
+	<Value Datatype="String">"USA"</Value>
+	<Value Datatype="String">"Other"</Value>
+</Constraint>
+</ORMBody>
+</ORMSchema>

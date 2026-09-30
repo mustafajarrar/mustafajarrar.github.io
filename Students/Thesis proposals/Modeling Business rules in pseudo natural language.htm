@@ -1,0 +1,199 @@
+<!DOCTYPE HTML SYSTEM>
+<html lang="en">
+<head>
+<title><font size="+3">Modeling Business rules in pseudo natural language </font>, Thesis/Internship proposal.</title>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1256">
+<meta name="description" content="Mustafa Jarrar">
+<meta name="keywords" content=" application modeling, application ontology, Applied Ontology, axiomatization, business rules, CCFORM, commercenet, Commitment, Complaint, Conceptual modeling, Conceptual data modeling, conceptual queries, Conceptualization, Consumer Complaints, Context, Core Ontology, CRM, Customer Complaint Management, Customer Complaint Ontology, Data integration, description Logic, digital business, digital commerce, Digital library, DOGMA, DOgmaModeler, domain level, domain modeling, domain ontology, Domain-specific ontologies, DTD, dynamics, e-business, EER, electronic commerce, Engineer, Enterprise integration, Entity relationship, e-services, Factual meaning, Formal ontologies, Formal ontologies for information systems, foundational ontology, Generic Task, Grid computing, heterogeneity, Innovanet, innovation management, interaction problem, Internet commerce, intrinsic properties, IrisWeb, Jarrar, Knowledge discovery lifecycle, Knowledge Engineering, knowledge level, Knowledge Management, knowledge representation, Knowledge Web, legal Ontologies, lexical semantics, linguist, M. Jarrar, Modelling, Modularization, Modularization, Multilingual Representation, Multilingualism, Mustafa Jarrar, Natural Language Semantics, NIAM, Object Role Modelling, Online complaint form,  ontological Commitment, ontology, Ontology composition, ontology engineering, ontology evaluation, ontology evolution, ontology integration, Ontology layering, ontology level, Ontology Modularization, Ontology Multilingualism, Ontology Reusability, Ontology tools, Ontology Usability, ontology-based, Ontology-driven, Ontology-driven web forms, Ontology-driven Xforms, OntoWebNamic, ORM, ORM business rules, ORM consistency, ORM into description Logic, ORM into OWL, ORM Markup language, ORM Object Role Modeling, ORMML ORM-ML, Meersman, Palestine, philosopher, Philosophical foundations, Philosophical ontology, POLARIS, Regulatory Ontologies, representation, Requirements engineering, reusability, scalability, Scalability Reusability, schema, Semantic mediator, Semantic portal, Semantic web, semantics, STARLab, task ontology, top-level ontology, UML, upper-level ontology, usability, usability perspectives, web automation, Web services, WordNet, XML, xml.org, ontology.org, Jarrar M., data semantics,  Journal, semantic web services, gloss, ontological account, formal account, informal account, Meersman, knowledge engineering,  database design,  information retrieval,  natural language processing">
+<meta name="author" content="Mustafa Jarrar">
+<link rel="stylesheet" type="text/css" href="main.css"/>
+</head>
+<body>
+  Thesis/Internship proposal <br>
+<font size="+3">Modeling Business rules in pseudo natural language </font><br>
+  <br>
+  Contact: <a href="http://www.jarrar.info/">Dr. Mustafa Jarrar</a> <br>
+  <br>
+<b>Description: </b> 
+<p style="margin-bottom: 0in">Modeling <a href="#Business Rules:">Business rules</a> 
+  is not an easy task, and mostly requires the business modeler to be an IT professional 
+  and domain expert at the same time. <a href="http://www.orm.net/pdf/dppd.pdf" target="_blank">ORM</a> 
+  offers great capabilities and expressiveness in modeling business rules graphically, 
+  and in a way similar to natural language. In this way, business modelers can 
+  then see the verbalizations of their models. Such verbalized models are easy 
+  to be checked and corrected by non IT experts. see <a href="#Example:">example</a> 
+  , see <a href="http://www.starlab.vub.ac.be/staff/mustafa/orm/verbalization/default.htm">multilingual 
+  verbalization or ORM Schemes</a>.</p>
+<p style="margin-bottom: 0in">The idea in this proposal, is to build an editor 
+  that helps for modeling the business rules in pseudo natural language (i.e fixed 
+  syntax statements) see the <a href="#Example:">example</a>, and then convert 
+  them into ORM. The student will not start from scratch, but will use the tool 
+  and the verbalization system that we have built already (at STAR Lab). For storing 
+  ORM rules in this system we've developed a conceptual markup language called 
+  <a href="http://www.starlab.vub.ac.be/staff/mustafa/phd-thesis/#ch5" target="_blank">ORM-ML</a>.</p>
+<p style="margin-bottom: 0in">Once the editor is finished, the user should be 
+  able to create some concepts, and to write ORM-ML rules in the form of pseudo 
+  NL sentences, according to some fixed syntax. For instance: EACH &lt;concept&gt; 
+  &lt;role&gt; AT LEAST ONE &lt;concept&gt;, which is mandatory constraint. This 
+  is comparable to the Authorete tool from Haley (see <a href="http://www.haley.com/" target="_blank">http://www.haley.com</a> 
+  ).</p>
+<p style="margin-bottom: 0in">This idea could be extended in a thesis, in which 
+  the you allow many modeling templates (e.g. sentence analysis), or you may explore 
+  the need for maybe other constraints for modeling commitments to ontologies, 
+  than those defined in ORM-ML.</p>
+      
+<p><br>
+  <b>Research issues</b> (only for thesis): sentence analyses, decision tables, 
+  modalities, business rules.<br>
+  <strong>Skills</strong>: Java, ORM-ML.<br>
+  <strong>See: </strong> <a href="http://www.starlab.vub.ac.be/staff/mustafa/#Students">Related 
+  proposals.</a> </p>
+<h3 align="left"><a name="Example:">Example:</a></h3>
+<p align="left">Given the following business model, represented graphically in 
+  ORM, a pseudo natural language verbalization is possible, see below.</p>
+<h3 align="left"><img border="0" src="../Figures/ORM-verb.JPG" width="370" height="191"></h3>
+<p align="left">Verbalization :</p>
+<p align="left">The Verbalization are two separated parts, one is the elementary 
+  facts as in table1, and the second is the constraints (we refer to them as business 
+  rules or domain rules), see table 2.</p>
+<table border="1" cellpadding="0" cellspacing="0" style="border-collapse: collapse; border-right-width: 0; border-top-width: 0; border-bottom-width: 0" bordercolor="#111111" width="83%" id="AutoNumber1">
+  <tr> 
+    <td width="42%" style="border-top-color: #111111; border-top-width: 1" colspan="3"> 
+      Table 1: Elementary Facts</td>
+    <td width="6%" style="border-top-style: none; border-top-width: medium; border-bottom-style: none; border-bottom-width: medium">&nbsp;</td>
+    <td width="98%" style="border-left-style: solid; border-left-width: 1; border-right-style: solid; border-right-width: 1; border-top-color: #111111; border-bottom-style: solid; border-bottom-width: 1" dir="rtl"> 
+      <p align="left" dir="ltr">&nbsp;Table 2: domain Rules</td>
+  </tr>
+  <tr> 
+    <td width="14%"><span style="color: #FF0063"><font size="2">&nbsp;Employee</font></span></td>
+    <td width="12%"><span style="color: #FF0063"><font size="2">&nbsp;Has</font></span></td>
+    <td width="16%" style="border-style: solid; border-width: 1"> <span style="color: #FF0063"><font size="2">&nbsp;Name</font></span></td>
+    <td width="6%" style="border-top-style: none; border-top-width: medium; border-bottom-style: none; border-bottom-width: medium">&nbsp;</td>
+    <td width="98%" style="border-left-style: solid; border-left-width: 1; border-right-style: solid; border-right-width: 1; border-top-color: #111111; border-bottom-style: solid; border-bottom-width: 1"> 
+      <B><font size="2" FACE="Arial" COLOR="#4c3300">&nbsp;Each </font><font size="2"><FONT FACE="Arial" COLOR="#ff0066"><U> 
+      Employee</U></FONT><FONT FACE="Arial" COLOR="#4c3300"> </FONT><FONT FACE="Arial" COLOR="#ff0066"><U> 
+      Has</U></FONT><FONT FACE="Arial" COLOR="#4c3300"> at most one </FONT><FONT FACE="Arial" COLOR="#ff0066"><U>Name</U></FONT></font><font size="2" FACE="Arial" COLOR="#4c3300"> 
+      </font></B></td>
+  </tr>
+  <tr> 
+    <td width="14%"><span style="color: #FF0063"><font size="2">&nbsp;Employee</font></span></td>
+    <td width="12%"><span style="color: #FF0063"><font size="2">&nbsp;Works For</font></span></td>
+    <td width="16%" style="border-style: solid; border-width: 1"> <span style="color: #FF0063"><font size="2">&nbsp;Company</font></span></td>
+    <td width="6%" style="border-top-style: none; border-top-width: medium; border-bottom-style: none; border-bottom-width: medium">&nbsp;</td>
+    <td width="98%" style="border-style: solid; border-width: 1"> <B><font size="2" FACE="Arial" COLOR="#4c3300">&nbsp;Each 
+      </font><font size="2"><FONT FACE="Arial" COLOR="#ff0066"><U> Employee</U></FONT><FONT FACE="Arial" COLOR="#4c3300"> 
+      </FONT><FONT FACE="Arial" COLOR="#ff0066"><U> Works For</U></FONT><FONT FACE="Arial" COLOR="#4c3300"> 
+      at most one </FONT><FONT FACE="Arial" COLOR="#ff0066"><U>Company</U></FONT></font><font size="2" FACE="Arial" COLOR="#4c3300"> 
+      </font></B></td>
+  </tr>
+  <tr> 
+    <td width="14%"><span style="color: #FF0063"><font size="2">&nbsp;Manager</font></span></td>
+    <td width="12%"><span style="color: #FF0063"><font size="2">&nbsp;Is a</font></span></td>
+    <td width="16%" style="border-style: solid; border-width: 1"> <span style="color: #FF0063"><font size="2">&nbsp;Employee</font></span></td>
+    <td width="6%" style="border-top-style: none; border-top-width: medium; border-bottom-style: none; border-bottom-width: medium">&nbsp;</td>
+    <td width="98%" style="border-style: solid; border-width: 1"><font size="2">&nbsp;</font><B><font size="2"><FONT FACE="Arial" COLOR="#4c3300">Each 
+      </FONT><FONT FACE="Arial" COLOR="#ff0066"><U> Employee</U></FONT><FONT FACE="Arial" COLOR="#4c3300"> 
+      </FONT><FONT FACE="Arial" COLOR="#ff0066"><U> Works For</U></FONT><FONT FACE="Arial" COLOR="#4c3300"> 
+      at most one </FONT><FONT FACE="Arial" COLOR="#ff0066"><U>Company</U></FONT></font><font size="2" FACE="Arial" COLOR="#4c3300"> 
+      </font></B></td>
+  </tr>
+  <tr> 
+    <td width="14%"><span style="color: #FF0063"><font size="2">&nbsp;Manager</font></span></td>
+    <td width="12%"><span style="color: #FF0063"><font size="2">&nbsp;Heads</font></span></td>
+    <td width="16%" style="border-style: solid; border-width: 1"> <span style="color: #FF0063"><font size="2">&nbsp;Company</font></span></td>
+    <td width="6%" style="border-top-style: none; border-top-width: medium; border-bottom-style: none; border-bottom-width: medium">&nbsp;</td>
+    <td width="98%" style="border-style: solid; border-width: 1"> <B><font size="2" FACE="Arial" COLOR="#4c3300">&nbsp;Each 
+      </font><font size="2"><FONT FACE="Arial" COLOR="#ff0066"><U>Employee</U></FONT><FONT FACE="Arial" COLOR="#4c3300"> 
+      </FONT><FONT FACE="Arial" COLOR="#ff0066"><U>Has</U></FONT><FONT FACE="Arial" COLOR="#4c3300"> 
+      at least one </FONT><FONT FACE="Arial" COLOR="#ff0066"><U>Name</U></FONT></font><font size="2" FACE="Arial" COLOR="#4c3300"> 
+      </font></B></td>
+  </tr>
+  <tr> 
+    <td width="14%"><span style="color: #FF0063"><font size="2">&nbsp;Company</font></span></td>
+    <td width="12%"><span style="color: #FF0063"><font size="2">&nbsp;Has</font></span></td>
+    <td width="16%" style="border-style: solid; border-width: 1"> <span style="color: #FF0063"><font size="2">&nbsp;Name</font></span></td>
+    <td width="6%" style="border-top-style: none; border-top-width: medium; border-bottom-style: none; border-bottom-width: medium">&nbsp;</td>
+    <td width="98%" style="border-style: solid; border-width: 1"> <B><font size="2" FACE="Arial" COLOR="#4c3300">&nbsp;Each 
+      </font><font size="2"><FONT FACE="Arial" COLOR="#ff0066"><U>Company</U></FONT><FONT FACE="Arial" COLOR="#4c3300"> 
+      </FONT><FONT FACE="Arial" COLOR="#ff0066"><U>Has</U></FONT><FONT FACE="Arial" COLOR="#4c3300"> 
+      at most one </FONT><FONT FACE="Arial" COLOR="#ff0066"><U>Name</U></FONT></font><font size="2" FACE="Arial" COLOR="#4c3300"> 
+      </font></B></td>
+  </tr>
+  <tr> 
+    <td width="14%"><span style="color: #FF0063"><font size="2">&nbsp;Company</font></span></td>
+    <td width="12%"><span style="color: #FF0063"><font size="2">&nbsp;Managed 
+      By</font></span></td>
+    <td width="16%" style="border-style: solid; border-width: 1"> <span style="color: #FF0063"><font size="2">&nbsp;Manager</font></span></td>
+    <td width="6%" style="border-top-style: none; border-top-width: medium; border-bottom-style: none; border-bottom-width: medium">&nbsp;</td>
+    <td width="98%" style="border-style: solid; border-width: 1"> <B><font size="2" FACE="Arial" COLOR="#4c3300">&nbsp;Each 
+      </font><font size="2"><FONT FACE="Arial" COLOR="#ff0066"><U>Company</U></FONT><FONT FACE="Arial" COLOR="#4c3300"> 
+      </FONT><FONT FACE="Arial" COLOR="#ff0066"><U>Has</U></FONT><FONT FACE="Arial" COLOR="#4c3300"> 
+      at least one </FONT><FONT FACE="Arial" COLOR="#ff0066"><U>Name</U></FONT></font><font size="2" FACE="Arial" COLOR="#4c3300"> 
+      </font></B></td>
+  </tr>
+  <tr> 
+    <td width="14%"><span style="color: #FF0063"><font size="2">&nbsp;Company</font></span></td>
+    <td width="12%"><span style="color: #FF0063"><font size="2">&nbsp;Employees</font></span></td>
+    <td width="16%" style="border-style: solid; border-width: 1"> <span style="color: #FF0063"><font size="2">&nbsp;Employee</font></span></td>
+    <td width="6%" style="border-top-style: none; border-top-width: medium; border-bottom-style: none; border-bottom-width: medium">&nbsp;</td>
+    <td width="98%" style="border-style: solid; border-width: 1"> <B><font size="2" FACE="Arial" COLOR="#4c3300">&nbsp;Each 
+      </font><font size="2"><FONT FACE="Arial" COLOR="#ff0066"><U>Company</U></FONT><FONT FACE="Arial" COLOR="#4c3300"> 
+      </FONT><FONT FACE="Arial" COLOR="#ff0066"><U>Employees</U></FONT><FONT FACE="Arial" COLOR="#4c3300"> 
+      at least one </FONT><FONT FACE="Arial" COLOR="#ff0066"><U>Employee</U></FONT></font><font size="2" FACE="Arial" COLOR="#4c3300"> 
+      </font></B></td>
+  </tr>
+  <tr> 
+    <td width="14%"><span style="color: #FF0063"><font size="2">&nbsp;Company</font></span></td>
+    <td width="12%"><span style="color: #FF0063"><font size="2">&nbsp;Synonym 
+      Of</font></span></td>
+    <td width="16%" style="border-style: solid; border-width: 1"> <span style="color: #FF0063"><font size="2">&nbsp;Business 
+      Party</font></span></td>
+    <td width="6%" style="border-top-style: none; border-top-width: medium; border-bottom-style: none; border-bottom-width: medium">&nbsp;</td>
+    <td width="98%" style="border-style: solid; border-width: 1"> <B><font size="2" FACE="Arial" COLOR="#4c3300">&nbsp;Each 
+      </font><font size="2"><FONT FACE="Arial" COLOR="#ff0066"><U>Company</U></FONT><FONT FACE="Arial" COLOR="#4c3300"> 
+      </FONT><FONT FACE="Arial" COLOR="#ff0066"><U>Managed By</U></FONT><FONT FACE="Arial" COLOR="#4c3300"> 
+      at least one </FONT> </font><U><font size="2" FACE="Arial" COLOR="#ff0066">Manager</font></U></B></td>
+  </tr>
+  <tr> 
+    <td width="14%"><span style="color: #FF0063"><font size="2">&nbsp;Business 
+      Party</font></span></td>
+    <td width="12%"><span style="color: #FF0063"><font size="2">&nbsp;Synonym 
+      Of</font></span></td>
+    <td width="16%" style="border-style: solid; border-width: 1"> <span style="color: #FF0063"><font size="2">&nbsp;Company</font></span></td>
+    <td width="6%" style="border-top-style: none; border-top-width: medium; border-bottom-style: none; border-bottom-width: medium">&nbsp;</td>
+    <td width="98%" style="border-style: solid; border-width: 1"> <B><font size="2" FACE="Arial" COLOR="#4c3300">&nbsp;Each 
+      </font><font size="2"><FONT FACE="Arial" COLOR="#ff0066"><U>Company</U></FONT><FONT FACE="Arial" COLOR="#4c3300"> 
+      </FONT><FONT FACE="Arial" COLOR="#ff0066"><U>Managed By</U></FONT><FONT FACE="Arial" COLOR="#4c3300"> 
+      at least one </FONT> </font><U><font size="2" FACE="Arial" COLOR="#ff0066">Manager</font></U></B></td>
+  </tr>
+  <tr> 
+    <td width="14%"><span style="color: #FF0063"><font size="2">&nbsp;Name</font></span></td>
+    <td width="12%"><span style="color: #FF0063"><font size="2">&nbsp;Is Of</font></span></td>
+    <td width="16%" style="border-style: solid; border-width: 1"> <span style="color: #FF0063"><font size="2">&nbsp;Company</font></span></td>
+    <td width="6%" style="border-top-style: none; border-top-width: medium; border-bottom-style: none; border-bottom-width: medium">&nbsp;</td>
+    <td width="98%" style="border-style: solid; border-width: 1"> <B><FONT FACE="Arial" COLOR="#4c3300"><font size="2">&nbsp;Each 
+      </font> </FONT> <font size="2"><FONT FACE="Arial" COLOR="#ff0066"><U>Manager</U></FONT><FONT FACE="Arial" COLOR="#4c3300"> 
+      who </FONT><FONT FACE="Arial" COLOR="#ff0066"><U>Heads</U></FONT><FONT FACE="Arial" COLOR="#4c3300"> 
+      a </FONT><FONT FACE="Arial" COLOR="#ff0066"><U>Company</U></FONT><FONT FACE="Arial" COLOR="#4c3300"> 
+      must also </FONT><FONT FACE="Arial" COLOR="#ff0066"><U>Works For</U></FONT><FONT FACE="Arial" COLOR="#4c3300"> 
+      that </FONT> </font><FONT FACE="Arial" COLOR="#ff0066"><U><font size="2">Company</font></U></FONT></B></td>
+  </tr>
+  <tr> 
+    <td width="14%"><span style="color: #FF0063"><font size="2">&nbsp;Name</font></span></td>
+    <td width="12%"><span style="color: #FF0063"><font size="2">&nbsp;Is Of </font></span></td>
+    <td width="16%" style="border-style: solid; border-width: 1"> <span style="color: #FF0063"><font size="2">&nbsp;Employee</font></span></td>
+    <td width="6%" style="border-top-style: none; border-top-width: medium; border-bottom-style: none; border-bottom-width: medium">&nbsp;</td>
+    <td width="98%" style="border-style: solid; border-width: 1">&nbsp;</td>
+  </tr>
+</table>
+<p:colorscheme colors="#B2B2B2,#3333FF,#808080,#660066,#00CC99,#3333CC,#0000CC,#990099" /> 
+<p align="left">------------------------------------------------------</p>
+<p align="left"><span style="font-size: 11.0pt; font-family: Times New Roman"> 
+  <b><a name="Business Rules:">Business Rules:</a></b> are used to represent certain 
+  aspects of a business domain (static rules) or business policy (dynamic rules). 
+  Business rules are defined in [FR95] as “statements that define or constrain 
+  some business aspects. They are intended to assert business or to control or 
+  influence its behavior”. </span></p>
+
+</body>
+</html>

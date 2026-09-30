@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+
+<html ng-app="app" lang="en"  id="ng-app">
+
+<head>   
+   <title>Knowledge Engineering Course</title>  
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+   <meta property="header" content="Knowledge Engineering" />
+   <meta property="og:url" content="http://www.jarrar.info/courses/KnowledgeEngineering/index.htm" />
+   <meta property="og:title" content="Knowledge Engineering Course" />
+   <meta property="title" content="Knowledge Engineering Course" />
+   <meta property="og:image" content="http://www.jarrar.info/courses/KnowledgeEngineering/KE.png" />
+   <meta name="author" content="Mustafa Jarrar">
+		
+  
+   
+   <meta name="description" content="by Mustafa Jarrar: conceptual modeling, business rules, Semantic Web technologies, ontology engineering, modern knowledge-based web applications, and data governance, مصطفى جرار، هندسة المعرفة، تقنيات اللوب الدلالي، الانطولوجيا، حوكمة البيانات"> 
+
+    <meta name="keywords" content="Mustafa Jarrar, مصطفى جرار, Artificial Intelligence, Arabic NLP, Natural Language Processing, Computational Linguistics, Ontology Engineering, Semantic Web, Graph Databases, Arabic Ontology, SinaTools, Wojood NER, SinaLab, Hamad Bin Khalifa University, Birzeit University, Arabic Dialect Processing, Lexical Semantics, Digital Humanities, Knowledge Engineering, eGovernment">
+
+    
+   <!-- <base href="http://www.jarrar.info">  -->
+   <link rel="stylesheet" type="text/css" href="../../main.css">    
+   <link rel="icon" href="favicon.ico">  
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-NHGQ7491PC"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-NHGQ7491PC');
+</script>
+
+
+<style>
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+.collapse{
+  cursor: pointer;
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-variant: normal;
+  line-height: 15px;
+  color:#8A0000;
+
+}
+.collapse + input{
+  display: none; /* hide the checkboxes */
+}
+.collapse + input + div{
+  display:none;
+}
+.collapse + input:checked + div{
+  display:block;
+}
+ 
+ .Lecture { 
+      background: #aaa;
+      padding-left: 15px;
+	  padding-right: 10px;
+	  padding-top: 5px;;
+	  padding-bottom:5px;
+	  font-size:16px;
+	  text-align:justify;
+	  border:  5px solid #aaa;
+	  font-family:Arial, Helvetica, sans-serif; 
+	  border-radius: 6px; 
+    }
+    
+.CourseTitle{
+	font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
+	font-size: 17px;
+	font-style: normal;
+	font-variant: normal;
+	line-height: 15px;
+}
+		
+      
+.LectureTitle{
+	font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
+	font-size: 17px;
+	font-style: normal;
+	font-variant: normal;
+	line-height: 30px;
+	vertical-align: 5px;
+}
+		
+.VedioIcon{ 
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 10px;
+    width: 25px;
+  }
+		
+.NormalText{
+	font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
+	font-size: 17px;
+	font-style: normal;
+	font-variant: normal;
+	line-height: 20px;
+}
+
+
+#ban {
+    table-layout:fixed;
+    min-width: 1000px;
+    
+}
+#ban1 {
+    table-layout:fixed;
+    min-width: 1000px;
+}
+
+#headertext{margin-top: 0px; margin-bottom: 10px;max-height: 56px;overflow: hidden;}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+#headertext{max-height: 53px;}
+ }
+
+@media screen and (max-width: 1000px) {
+  #ban {
+  /* background:red; */
+  }
+}
+    </style>
+   </head> 
+<body> 
+
+<div id="fb-root"></div>
+<script>
+(function(d, s, id) 
+{
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
+  fjs.parentNode.insertBefore(js, fjs);
+}
+(document, 'script', 'facebook-jssdk'));
+
+
+function openCity(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+</script>
+
+
+
+
+</script>
+<body>
+<div style="min-width: 335px; padding-right:0px;">
+
+<div style="overflow: hidden; border:1px solid #dedede;  background:#f5f5f5;">
+
+  <div style="text-align: right; float: right;  padding-top:7px;">
+    <a href="https://scholar.google.com/citations?user=HiUpTkcAAAAJ&amp;hl=en"><img src="http://www.jarrar.info/images/GoogleScholar.png" style="padding-right:8px;" height="20" width="20" alt="My Google Scholar"></a>
+    <a href="https://www.researchgate.net/profile/Mustafa_Jarrar"><img src="http://www.jarrar.info/images/RG.jpg" style="padding-right:8px;" height="20" width="20" alt="My Research Gate"></a>
+    <a href="http://www.facebook.com/profile.php?id=100000636218726"><img src="http://www.jarrar.info/images/face.png" style="padding-right:8px;" height="20" width="20" alt="My  Faceboo profile"></a>
+    <a href="http://www.linkedin.com/in/jarrar"><img src="http://www.jarrar.info/images/lin.png"  style="padding-right:8px;" height="20" width="20" alt="My LinkedIn profile"></a>
+    <a href="https://twitter.com/#%21/mjarrar"><img src="http://www.jarrar.info/images/twit.png" style="padding-right:8px;" height="20" width="20" alt="My Twitter profile"></a>
+    <a href="http://www.slideshare.net/jarrar02/presentations"><img src="http://www.jarrar.info/images/slideshare.png"  style="padding-right:8px;" height="20" width="20" alt="My Slideshare profile"></a>
+    <a href="https://www.youtube.com/user/JarrarChannel/featured"><img src="http://www.jarrar.info/images/youtube.png"  style="padding-right:8px;" height="20" width="20" alt="My Youtube profile"></a>
+    <a href="https://orcid.org/0000-0003-4351-4207"><img src="http://www.jarrar.info/images/orcid.png" height="14"  alt="orcid"></a>
+   </div> 
+  <BR> 
+ 
+ <div class="topsection">
+
+ <img src="http://www.jarrar.info/Photos/photo.jpg" alt="MustafaPhotoe" style=" float:left;  height: 110px; width: 110px; border-radius: 50%; padding: 17px 7px 10px 3px"/>
+
+  
+  <div style="float:left;   text-align: left;"> 
+   <div style=" padding-top: 25px; font-size: 160%; font-weight: bold;"> Mustafa Jarrar </div>
+   <div style="padding-top: 10px;font-style: italic;">Full Professor</div>
+   <div style="padding-top: 3px;">Computer Science, Birzeit University</div>
+   <div style="padding-top: 15px; padding-bottom: 15px;">mjarrar(a)birzeit.edu</div>
+  </div>
+  
+ </div>
+
+</div>
+
+
+<div id="navigation" >
+  <a href="http://www.jarrar.info/" style="">CV</a>
+  <a href="http://www.jarrar.info/publications/" style="">Publications</a>
+  <a href="http://www.jarrar.info/Talks/" style="">Talks</a>
+  <a href="http://www.jarrar.info/courses/" class="active">Courses</a>
+</div>
+
+<div style="background-color: white;   min-width: 700px; box-shadow: 0px 0px 1px #888888; padding: 5px; border-left-style:  solid; border-left-width:10px; border-left-color:#D8D8D8; border-radius: 3px; ">
+
+
+<table>
+<tr>
+<td width="30"></td>
+<td valign="top">
+
+  <iframe width="300" height="200" src="https://www.youtube.com/embed/videoseries?si=87a7Um7q6XsnPSGw&amp;list=PLSu_tNkEO5Y080E3dB7PgInVTiyZAZUgY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+</td>
+<td valign="top">
+<div style="font-size: 20px; font-weight: bold; margin-left: 10px;">Knowledge Engineering</div>
+<span style="font-size:17px">
+<div class="NormalText" style="margin-left: 10px;">
+
+<BR>This course aims to enrich students with theoretical and practical skills in conceptual modeling, 
+knowledge representation and management, Semantic Web technologies, ontology engineering, modern knowledge-based web applications, and data governance. 
+<BR>
+</span>
+ 
+  <BR/>
+ <a href="Jarrar.LectureNotes.KnowledgeEngineering.Outline.pdf" target="_blank">
+Course Outline </a>
+ <BR/>
+ 
+ <div class="fb-share-button" data-href="http://www.jarrar.info/courses/KnowledgeEngineering/" data-layout="button_count" data-size="small" data-mobile-iframe="true">
+ <a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.jarrar.info%2Fcourses%2FKnowledgeEngineering%2F&amp;src=sdkpreparse">Share</a>
+ </div>
+ 
+ 
+</td>
+</tr></table>
+<BR>
+<div class="CourseTitle" style="margin-left: 20px;"><B>Part I : Conceptual Data Modeling using ORM: </B></div> 
+
+
+<div class="CourseTitle" style="margin-left: 40px;">
+  <br>
+<img src="../../courses/vedio1.png" hight="25" width="25" alt="Vedio lecture"/>&nbsp;&nbsp;&nbsp;
+<a href="https://www.youtube.com/watch?v=NkFBaL7o7ko">
+Introduction to Conceptual Data Modeling</a>
+(<a href="http://www.jarrar.info/courses/ORM/Jarrar.LectureNotes.IntroductionToConceptualModeling.pdf" target="_blank">Slides</a>) 
+<BR/>
+</div>
+
+<div class="CourseTitle" style="margin-left: 40px;">
+<img src="../../courses/vedio1.png" hight="25" width="25" alt="Vedio lecture"/>&nbsp;&nbsp;&nbsp;
+<a href="https://www.youtube.com/watch?v=0NtHJJuBOFQ">
+Conceptual Analyses and Design Steps</a>
+(<a href="http://www.jarrar.info/courses/ORM/Jarrar.LectureNotes.ConceptualAnalyses.pdf" target="_blank">Slides</a>) 
+<BR/>
+</div>
+
+<div class="CourseTitle" style="margin-left: 40px;">
+<img src="../../courses/vedio1.png" hight="25" width="25" alt="Vedio lecture"/>&nbsp;&nbsp;&nbsp;
+<a href="https://www.youtube.com/watch?v=l9hCUmigPOk&list=PLSu_tNkEO5Y0rlU6TDceAxfywMTcxn4Qg">
+Uniqueness and Identity Business Rules</a>
+(<a href="http://www.jarrar.info/courses/ORM/Jarrar.LectureNotes.UniquenessANDIdentityRulesInORM.pdf" target="_blank">Slides</a>) 
+<BR/>
+</div>
+
+<div class="CourseTitle" style="margin-left: 40px;">
+<img src="../../courses/vedio1.png" hight="25" width="25" alt="Vedio lecture"/>&nbsp;&nbsp;&nbsp;
+<a href="https://www.youtube.com/watch?v=os-DTeQroMg">
+Mandatory Business Rules </a>
+(<a href="http://www.jarrar.info/courses/ORM/Jarrar.LectureNotes.MandatoryRules.pdf" target="_blank">Slides</a>) 
+<BR/>
+</div>
+
+<div class="CourseTitle" style="margin-left: 40px;">
+<img src="../../courses/vedio1.png" hight="25" width="25" alt="Vedio lecture"/>&nbsp;&nbsp;&nbsp;
+<a href=https://www.youtube.com/watch?v=GYmI37-0b5k">
+Other Constraints Part I: </a>
+(Slides: <a href="http://www.jarrar.info/courses/ORM/Jarrar.LectureNotes.MathBachground.pdf" target="_blank">Math Background</a>, <a href="http://www.jarrar.info/courses/ORM/Jarrar.LectureNotes.ValueRules.pdf" target="_blank">Value Rules </a>,  <a href="http://www.jarrar.info/courses/ORM/Jarrar.LectureNotes.SubsetEqualityExclusionRules.pdf" target="_blank"> Set Rules </a>) 
+<BR/>
+</div>
+
+<div class="CourseTitle" style="margin-left: 40px;">
+<img src="../../courses/vedio1.png" hight="25" width="25" alt="Vedio lecture"/>&nbsp;&nbsp;&nbsp;
+<a href="https://www.youtube.com/watch?v=uHw_rkgwLqk">
+Other Constraints Part II: </a>
+(Slides: <a href="http://www.jarrar.info/courses/ORM/Jarrar.LectureNotes.Subtypes.pdf" target="_blank">Subtypes</a>, <a href="http://www.jarrar.info/courses/ORM/Jarrar.LectureNotes.FrequencyRules.pdf" target="_blank"> Frequency Rules</a>) 
+<BR/>
+</div>
+
+<div class="CourseTitle" style="margin-left: 40px;">
+<img src="../../courses/vedio1.png" hight="25" width="25" alt="Vedio lecture"/>&nbsp;&nbsp;&nbsp;
+<a href="https://www.youtube.com/watch?v=9WV_kIVz_TQ">
+  Final Check Schema Engineering: </a>
+  (Slides: <a href="http://www.jarrar.info/courses/ORM/Jarrar.LectureNotes.RulesImplications.pdf" target="_blank"> Rules Implications</a>, <a href="http://www.jarrar.info/courses/ORM/Jarrar.LectureNotes.RulesContradiction.pdf" target="_blank">Rules Contradiction </a>, <a href="http://www.jarrar.info/courses/ORM/Jarrar.LectureNotes.ModelingTips.pdf" target="_blank"> Modeling Tips</a>) 
+<BR/>
+</div>
+
+<div class="CourseTitle" style="margin-left: 40px;">
+<img src="../../courses/vedio1.png" hight="25" width="25" alt="Vedio lecture"/>&nbsp;&nbsp;&nbsp;
+<a href="https://www.youtube.com/watch?v=m5SLpq_sXaw">
+   Verbalization of Business Rules</a>
+  (<a href="http://www.jarrar.info/courses/ORM/Jarrar.LectureNotes.RuleVerbalization.pdf" target="_blank"> Slides</a>)
+  <BR/>
+</div>
+
+<div class="CourseTitle" style="margin-left: 40px;">
+<img src="../../courses/vedio1.png" hight="25" width="25" alt="Vedio lecture"/>&nbsp;&nbsp;&nbsp;
+<a href="https://www.youtube.com/watch?v=s7fxl1tJPik">
+   Schema Equivalence and Optimization</a>
+  (<a href="http://www.jarrar.info/courses/ORM/Jarrar.LectureNotes.SchemaOptimization.pdf" target="_blank"> Slides</a>)
+  <BR/>
+</div>
+
+<div class="CourseTitle" style="margin-left: 40px;">
+<img src="../../courses/vedio1.png" hight="25" width="25" alt="Vedio lecture"/>&nbsp;&nbsp;&nbsp;
+<a href="https://www.youtube.com/watch?v=FmDMSZ99VAY">
+   Schema Modularization and Business Rules</a>
+  (<a href="http://www.jarrar.info/courses/ORM/Jarrar.LectureNotes.Modularization.pdf" target="_blank"> Slides</a>)
+  <BR/>
+</div>
+
+
+
+<div class="CourseTitle" style="margin-left: 40px;">
+<img src="../../courses/vedio1.png" hight="25" width="25" alt="Vedio lecture"/>&nbsp;&nbsp;&nbsp;
+<a href="http://jarrar-courses.blogspot.com/2011/11/orm-in-description-logic.html">
+  Representing ORM in Description Logic</a>
+  (<a href="http://www.jarrar.info/courses/ORM/Jarrar.LectureNotes.ORMinDescriptionLogic.pdf" target="_blank">Slides</a>) 
+
+<BR/>
+</div>
+
+<div class="CourseTitle" style="margin-left: 40px;">
+<img src="../../courses/vedio1.png" hight="25" width="25" alt="Vedio lecture"/>&nbsp;&nbsp;&nbsp;
+<a href="http://jarrar-courses.blogspot.com/2014/03/jarrar-description-logic-practical.html">
+  ORM and Description Logic Practical Session </a>
+<BR/>
+</div>
+
+
+
+
+<BR/>
+<div class="CourseTitle" style="margin-left: 20px;"> <B>Part II : Semantic Web Technologies </B></div>
+
+<div>
+
+  <img src="../../courses/vedio1.png" class="VedioIcon" alt="Vedio lecture"/>
+  <span class="LectureTitle">
+    <a href="https://www.youtube.com/watch?v=mrbvjAdhSHM&t=5s&list=PLSu_tNkEO5Y1Jqt3xcke3Jj7oEt3YXJA2&index=1">
+     RDF Graph Data Model</a>
+   (<a href="http://www.jarrar.info/courses/KnowledgeEngineering/Jarrar.LectureNotes.RDF.pdf" target="_blank">Slides</a>) 
+  </span>
+</div>
+
+<div >
+<img src="../../courses/vedio1.png" class="VedioIcon" alt="Vedio lecture"/>
+<span class="LectureTitle">
+ <a href="https://www.youtube.com/watch?v=-vSFKHKx2ms&list=PLSu_tNkEO5Y0bIR91J_w6sCIV8TI-UwoM">
+  RDFs - RDF Schema</a>
+  (<a href="http://www.jarrar.info/courses/KnowledgeEngineering/Jarrar.LectureNotes.RDFS.pdf" target="_blank">Slides</a>) 
+ </span>
+</div>
+
+<div>
+<img src="../../courses/vedio1.png" class="VedioIcon" alt="Vedio lecture"/>
+<span class="LectureTitle">
+<a href="https://www.youtube.com/watch?v=5Kr4JzqDO_w&list=PLSu_tNkEO5Y34TcUj-4EWs5AtTGUdBZT9">
+  OWL - Ontology Web Language </a>
+(<a href="http://www.jarrar.info/courses/KnowledgeEngineering/Jarrar.LectureNotes.OWL.pdf" target="_blank">Slides</a>)
+</span>
+</div>
+
+<div>
+<img src="../../courses/vedio1.png" class="VedioIcon" alt="Vedio lecture"/>
+<span class="LectureTitle">
+<a href="https://www.youtube.com/watch?v=SFbGTzhPy1A">
+  Linked Open Data </a>
+  (<a href="http://www.jarrar.info/courses/WebData/Jarrar.LectureNotes.LinkedOpenData.pdf" target="_blank">Slides</a>) 
+</span> 
+</div>
+
+<div>
+<img src="../../courses/vedio1.png" class="VedioIcon" alt="Vedio lecture"/>
+  <span class="LectureTitle">
+<a href="https://www.youtube.com/watch?v=rrMnJo3m6EE&list=PLSu_tNkEO5Y295vV9Tyvec62dyKnGulqw">
+ RDFa  </a>
+ (<a href="http://www.jarrar.info/courses/WebData/Jarrar.LectureNotes.RDFa.pdf" target="_blank">Slides</a>) 
+ </span> 
+ <br>
+</div>
+<br>
+<div class="CourseTitle" style="margin-left: 20px;"> <B>Part III : Ontology Engineering and Lexical Semantics </B></div> <BR/>
+
+<div class="CourseTitle" style="margin-left: 40px;">
+
+<img src="../../courses/vedio1.png" hight="25" width="25" alt="Vedio lecture"/>&nbsp;&nbsp;&nbsp;
+<a href="http://jarrar-courses.blogspot.com/2011/12/introduction-to-ontology-in-knowledge.html">
+  Introduction to Ontology </a>
+  (<a href="" target="_blank">Slides</a>) 
+(<a href="" target="_blank">PDF</a>)
+<BR/>
+</div>
+
+<div class="CourseTitle" style="margin-left: 40px;">
+<img src="../../courses/vedio1.png" hight="25" width="25" alt="Vedio lecture"/>&nbsp;&nbsp;&nbsp;
+<a href="http://jarrar-courses.blogspot.com/2011/12/ontology-engineering-and-double.html">
+  Ontology Engineering and Double Articulation </a>
+  (<a href="" target="_blank">Slides</a>) 
+(<a href="" target="_blank">PDF</a>)
+<BR/>
+</div>
+
+<div class="CourseTitle" style="margin-left: 40px;">
+<img src="../../courses/vedio1.png" hight="25" width="25" alt="Vedio lecture"/>&nbsp;&nbsp;&nbsp;
+<a href="http://jarrar-courses.blogspot.com/2011/12/palestinian-egovernment.html">
+  Zinnar: The Palestinian e-Government Interoperability Framework </a>
+(<a href="" target="_blank">PDF</a>)
+<BR/>
+</div>
+
+
+<div class="CourseTitle" style="margin-left: 40px;">
+<img src="../../courses/vedio1.png" hight="25" width="25" alt="Vedio lecture"/>&nbsp;&nbsp;&nbsp;
+<a href="https://www.youtube.com/watch?v=CsRfeALtM2c&list=PLSu_tNkEO5Y080E3dB7PgInVTiyZAZUgY&index=35&t=6s">
+  Lexical Semantics and Multilingualism </a>
+(<a href="https://www.jarrar.info/courses/nlp/lexical_semantics.pdf" target="_blank">PDF</a>)
+<BR/>
+</div>
+
+
+<div class="CourseTitle" style="margin-left: 40px;">
+<img src="../../courses/vedio1.png" hight="25" width="25" alt="Vedio lecture"/>&nbsp;&nbsp;&nbsp;
+<a href="https://www.youtube.com/watch?v=pgmQUMVAcAo&list=PLSu_tNkEO5Y080E3dB7PgInVTiyZAZUgY&index=42">
+  WordNet and Global WordNet </a>
+(<a href="https://www.jarrar.info/courses/nlp/wordnets.pdf" target="_blank">PDF</a>)
+<BR/>
+</div>
+
+<div class="CourseTitle" style="margin-left: 40px;">
+<img src="../../courses/vedio1.png" hight="25" width="25" alt="Vedio lecture"/>&nbsp;&nbsp;&nbsp;
+<a href="https://www.youtube.com/watch?v=PmquKrr49_4&list=PLSu_tNkEO5Y080E3dB7PgInVTiyZAZUgY&index=48">
+  Arabic Ontology </a>
+(<a href="https://www.jarrar.info/courses/nlp/arabic_ontology.pdf" target="_blank">PDF</a>)
+<BR/>
+</div>
+<br>
+
+<div class="CourseTitle" style="margin-left: 20px;"> <B> Part IV : Modern Knowledge-based Applications</B>   <br> </div> <BR/>
+
+Each student is expected to write a synthesis paper and deliver a presentation about one of the listed topics. The paper should answer a question like “why and how ontologies are used in Data Integration”, “why and how ontologies are in e-government and e-municipality” – from your own view point. Students are expected to read and cite (at least 5 refereed papers) to support their viewpoints. Citing websites and Wikis is allowed but should be limited; the extreme majority of the references should be recent research papers. Again, the paper should NOT be a summary of others’ papers, but rather, it should represent your (own) opinion -and your opinion should reflect the state-of-art in research and possible applications related to the selected topic.  The highest mark will be given to students who (i) cite the most important research and applications related to the topic, (ii) give better criticism and comparison on these paper, and present innovative ideas and solutions, and (iii) his/her English and writing style is perfect. The paper should be written in this template: 
+<BR/><a href ="https://dl.dropbox.com/u/7531499/KnowEng12.SynthesisPaper.YourName.v1..doc">https://dl.dropbox.com/u/7531499/KnowEng12.SynthesisPaper.YourName.v1..doc</a>
+
+<BR/>Students are expected to give a seminar presentation in the class (20 minutes only) about their paper.
+
+<BR/>Deadlines:<BR/>
+3/12/2012 First draft of the presentations should be delivered in PowerPoint format – so to get general comments.7/12/2012 First draft of the Synthesis Paper will be presented in the class – so to get general comments.7/12/2012 Final PowerPoint Presentation: Each student will be given 20 minutes only to present her/his topic in the class.20/12/2012 final Synthesis Paper in PDF format. 
+
+<BR/>Topics<BR/>
+
+Heba Qadah, Loay Mustafa and Nour Shayeb: <a href="http://www.jarrar.info/Students/studentpapers/role-ontology.pdf" class="ArticleTitle"> Classifying the Occupation Concepts in The Modern Arabic Lexicon </a>. Technical Report. Birzeit University. 2018 <BR/>
+
+Mohammad A. ZeinEddin, Wafaa K. Radwan: Web 3.0 -Semantic Web, RDFa, Linked data, Facebook Open Graph. (Paper, Presentation)<BR/>
+Ahmad Zeidan, Diyam Fuad Akra: SPARQL and RDF Stores. (Paper, Presentation)<BR/>
+Bashar Hammouri, Haneen Droubi: Semantic Search and Ontology-based Multilingual Search engines. (Paper, Presentation)<BR/>
+Salam Turkman: Semantic Web Services and Ontology-based GIS applications and reasoning. (Paper, Presentation)<BR/>
+Ali A. Al Jadaa, Basel A. Midani: Ontology-Based Data Integration, e-government and e-municipality. (Paper, Presentation)<BR/>
+Malak Shtawi, Samar Khudruj: Bioinformatics and life-science ontologies. (Paper, Presentation)<BR/>
+
+<div>
+<BR><BR>
+<BR><BR>
+Old <a href="http://jarrar-courses.blogspot.com/2011/09/knowledgeengineering-fall2011.html"> webpage<a/>
+
+<BR><BR>
+</div>
+
+
+
+</div>
+
+
+</body>
+ </html>
+ 
