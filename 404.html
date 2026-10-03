@@ -211,6 +211,11 @@ var REDIRECTS = {
  "/publications/kweb-d1.3.6-0021.pdf": "/publications/kweb-D1.3.6-0021.pdf",
  "/publications/%20http://www.alecso.org.tn": "/publications/J11.pdf"
 };
+// Removed duplicate folders: any path under the old prefix maps to the same path under OOA/
+var PREFIXES = {
+ "/Dogmamodeler/OOA/": "/OOA/",
+ "/Photos/OOA/": "/OOA/"
+};
 (function () {
   var lower = {};
   for (var k in REDIRECTS) lower[k.toLowerCase()] = REDIRECTS[k];
@@ -222,6 +227,9 @@ var REDIRECTS = {
   while (hops < 5 && (next = find(target || path))) { target = next; hops++; }
   // Pages were renamed from .htm to .html
   if (!target && /\.htm$/i.test(path)) target = path + "l";
+  if (!target) for (var pre in PREFIXES) {
+    if (path.toLowerCase().indexOf(pre.toLowerCase()) === 0) { target = PREFIXES[pre] + path.slice(pre.length); break; }
+  }
   if (target) location.replace(target + location.search + location.hash);
 })();
 </script>
