@@ -30,6 +30,8 @@ body {
 .SectionTitle {
     font-size:170%;
     font-weight:bold;
+    line-height: 1.2;
+    text-align: left;
     color: #333;
     margin-block-start: 0.20em;
     margin-block-end: 0.20em;
