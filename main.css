@@ -407,3 +407,10 @@ p .initcap {
 		background: #ffffff;
 	}
 }
+/* Course pages: on narrow screens, stack the intro video above the description */
+@media (max-width: 700px) {
+  .CourseIntro, .CourseIntro tbody, .CourseIntro tr, .CourseIntro td { display: block; width: auto; }
+  .CourseIntro td[width="30"] { display: none; }
+  .CourseIntro iframe { width: 100%; height: auto; aspect-ratio: 3 / 2; }
+  a { overflow-wrap: anywhere; }   /* let long URLs wrap instead of widening the page */
+}
