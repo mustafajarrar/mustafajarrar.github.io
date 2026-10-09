@@ -2,7 +2,3 @@ User-agent: *
 Allow: /
 
 Sitemap: https://jarrar.info/sitemap.xml
-Sitemap: https://jarrar.info/sitemapActivities.xml
-Sitemap: https://jarrar.info/sitemapCourses.xml
-Sitemap: https://jarrar.info/sitemapPublications.xml
-Sitemap: https://jarrar.info/sitemapTalks.xml

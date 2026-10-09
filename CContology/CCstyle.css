@@ -88,3 +88,6 @@ BODY {
 	BACKGROUND-IMAGE: url(CC_slider.gif);
 }
 
+
+/* Project name shown above each module title (same look as the h1 it replaced) */
+p.cc-title { font: 170% sans-serif; color: #171E6B; background: white; margin: 0.67em 0; text-align: left; }

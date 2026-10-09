@@ -1,0 +1,11 @@
+/* Phone-only fixes for the older project and workshop pages.
+   Desktop layouts are not affected (rules apply only below 700px). */
+@media (max-width: 700px) {
+  img, iframe, video { max-width: 100% !important; height: auto !important; }
+  table { max-width: 100% !important; width: auto !important; }
+  td, th { width: auto !important; overflow-wrap: break-word; }
+  pre { white-space: pre-wrap; }
+  #photo, #photo2 { margin-left: 0 !important; }   /* student proposal photos */
+  .nobreak { white-space: normal !important; }      /* let long CContology titles wrap */
+  table.general { display: block !important; overflow-x: auto; max-width: calc(100vw - 100px) !important; }  /* big CContology data tables scroll sideways inside themselves */
+}
