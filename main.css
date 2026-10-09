@@ -414,3 +414,9 @@ p .initcap {
   .CourseIntro iframe { width: 100%; height: auto; aspect-ratio: 3 / 2; }
   a { overflow-wrap: anywhere; }   /* let long URLs wrap instead of widening the page */
 }
+
+/* Site name in the header of inner pages (looks like the old h1; the page topic is the real h1) */
+.SiteName { display: block; margin: 0.67em 0; }
+
+/* Text for search engines and screen readers only, not shown on screen */
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
