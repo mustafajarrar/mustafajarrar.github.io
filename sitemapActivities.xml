@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://jarrar.info/</loc><lastmod>2026-10-07</lastmod></url>
-  <url><loc>https://jarrar.info/calendar.html</loc><lastmod>2026-10-06</lastmod></url>
-  <url><loc>https://jarrar.info/phd-thesis/</loc><lastmod>2026-10-09</lastmod></url>
-  <url><loc>https://jarrar.info/IJKLissue/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://jarrar.info/Dogmamodeler/</loc><lastmod>2026-10-09</lastmod></url>
+  <url><loc>https://jarrar.info/IJKLissue/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://jarrar.info/OMAC.html</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://jarrar.info/OnToContent06.html</loc><lastmod>2026-10-06</lastmod></url>
   <url><loc>https://jarrar.info/OnToContent07.html</loc><lastmod>2026-10-06</lastmod></url>
-  <url><loc>https://jarrar.info/OOA/OOA-HR-RoadMap.html</loc><lastmod>2026-10-05</lastmod></url>
   <url><loc>https://jarrar.info/OOA/OOA-HR_workshop.html</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://jarrar.info/orm/verbalization/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://jarrar.info/Students/Thesis%20proposals/BZU/Proposal1.html</loc><lastmod>2026-10-09</lastmod></url>
@@ -16,10 +13,28 @@
   <url><loc>https://jarrar.info/Students/Thesis%20proposals/BZU/Proposal3.html</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://jarrar.info/Students/Thesis%20proposals/BZU/Proposal4.html</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://jarrar.info/Students/Thesis%20proposals/BZU/Proposal5.html</loc><lastmod>2026-10-09</lastmod></url>
+  <url><loc>https://jarrar.info/WORM/2004/WORM04_AcceptedPapers.html</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://jarrar.info/WORM03_AcceptedPapers.html</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://jarrar.info/WORM03_Photos.html</loc><lastmod>2026-10-06</lastmod></url>
   <url><loc>https://jarrar.info/WORM_2004.html</loc><lastmod>2026-10-06</lastmod></url>
   <url><loc>https://jarrar.info/WORM_2005.html</loc><lastmod>2026-10-06</lastmod></url>
   <url><loc>https://jarrar.info/WORM_CoRE_2003.html</loc><lastmod>2026-10-06</lastmod></url>
-  <url><loc>https://jarrar.info/WORM03_AcceptedPapers.html</loc><lastmod>2026-10-06</lastmod></url>
-  <url><loc>https://jarrar.info/WORM03_Photos.html</loc><lastmod>2026-10-06</lastmod></url>
-  <url><loc>https://jarrar.info/WORM/2004/WORM04_AcceptedPapers.html</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://jarrar.info/ontocontent06/aschmidt_HRDOntology_OntoContent06.pdf</loc><lastmod>2026-09-22</lastmod></url>
+  <url><loc>https://jarrar.info/OOA/Presentations/Ravet.ePortfolio.pdf</loc><lastmod>2026-09-22</lastmod></url>
+  <url><loc>https://jarrar.info/OOA/Presentations/Roche%20Ontology%20in%20HR.pdf</loc><lastmod>2026-09-22</lastmod></url>
+  <url><loc>https://jarrar.info/orm/verbalization/Arabic/verbalization_Arabic_Ver02.pdf</loc><lastmod>2026-09-22</lastmod></url>
+  <url><loc>https://jarrar.info/orm/verbalization/Catalan/verbalization_Catalan_Ver02.pdf</loc><lastmod>2026-09-22</lastmod></url>
+  <url><loc>https://jarrar.info/orm/verbalization/Dutch/verbalization_Dutch_Ver02.pdf</loc><lastmod>2026-09-22</lastmod></url>
+  <url><loc>https://jarrar.info/orm/verbalization/English/verbalization_English_Ver02.pdf</loc><lastmod>2026-09-22</lastmod></url>
+  <url><loc>https://jarrar.info/orm/verbalization/German/verbalization_Deutsch_Ver02.pdf</loc><lastmod>2026-09-22</lastmod></url>
+  <url><loc>https://jarrar.info/orm/verbalization/German/verbalization_German_Ver02.pdf</loc><lastmod>2026-09-22</lastmod></url>
+  <url><loc>https://jarrar.info/orm/verbalization/German/verbalization_German_Ver02_old.pdf</loc><lastmod>2026-09-22</lastmod></url>
+  <url><loc>https://jarrar.info/orm/verbalization/Italian/verbalization_Italian_Ver02.pdf</loc><lastmod>2026-09-22</lastmod></url>
+  <url><loc>https://jarrar.info/orm/verbalization/Italian/verbalization_Italiano_Ver02.pdf</loc><lastmod>2026-09-22</lastmod></url>
+  <url><loc>https://jarrar.info/orm/verbalization/Lithuanian/verbalization_Lithuanian_Ver02.pdf</loc><lastmod>2026-09-22</lastmod></url>
+  <url><loc>https://jarrar.info/orm/verbalization/Lithuanian/verbalization_LithuanianLithuanian_Ver02.pdf</loc><lastmod>2026-09-22</lastmod></url>
+  <url><loc>https://jarrar.info/orm/verbalization/Russian/verbalization_Russian_Ver02.pdf</loc><lastmod>2026-09-22</lastmod></url>
+  <url><loc>https://jarrar.info/orm/verbalization/Spanish/verbalization_Spanish_Ver02.pdf</loc><lastmod>2026-09-22</lastmod></url>
+  <url><loc>https://jarrar.info/PalestinianBigDataInitiativemeeting.pdf</loc><lastmod>2022-06-06</lastmod></url>
+  <url><loc>https://jarrar.info/Students/studentpapers/role-ontology.pdf</loc><lastmod>2026-09-22</lastmod></url>
 </urlset>

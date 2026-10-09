@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <sitemap><loc>https://jarrar.info/sitemapActivities.xml</loc><lastmod>2026-10-07</lastmod></sitemap>
-  <sitemap><loc>https://jarrar.info/CContology.xml</loc><lastmod>2026-10-09</lastmod></sitemap>
-  <sitemap><loc>https://jarrar.info/sitemapCourses.xml</loc><lastmod>2026-10-09</lastmod></sitemap>
   <sitemap><loc>https://jarrar.info/sitemapPublications.xml</loc><lastmod>2026-10-09</lastmod></sitemap>
   <sitemap><loc>https://jarrar.info/sitemapTalks.xml</loc><lastmod>2026-10-09</lastmod></sitemap>
+  <sitemap><loc>https://jarrar.info/sitemapCourses.xml</loc><lastmod>2026-10-09</lastmod></sitemap>
+  <sitemap><loc>https://jarrar.info/CContology.xml</loc><lastmod>2026-10-09</lastmod></sitemap>
+  <sitemap><loc>https://jarrar.info/sitemapActivities.xml</loc><lastmod>2026-10-09</lastmod></sitemap>
 </sitemapindex>
